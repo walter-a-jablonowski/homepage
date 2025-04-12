@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initBackToTop();
   initContactForm();
   initCookieConsent();
+  initResponsiveAdjustments();
   
   // Add animation classes to elements
   document.querySelectorAll('.fade-in').forEach((element, index) => {
@@ -26,6 +27,7 @@ function initNavigation() {
   const menuToggle = document.querySelector('.menu-toggle');
   const navMenu = document.querySelector('.nav-menu');
   const navLinks = document.querySelectorAll('.nav-link');
+  const body = document.body;
   
   // Handle scroll events for header styling
   window.addEventListener('scroll', () => {
@@ -44,6 +46,13 @@ function initNavigation() {
     navMenu.classList.toggle('active');
     menuToggle.querySelector('i').classList.toggle('fa-bars');
     menuToggle.querySelector('i').classList.toggle('fa-times');
+    
+    // Prevent body scrolling when menu is open
+    if (navMenu.classList.contains('active')) {
+      body.style.overflow = 'hidden';
+    } else {
+      body.style.overflow = '';
+    }
   });
   
   // Close mobile menu when clicking a link
@@ -52,7 +61,20 @@ function initNavigation() {
       navMenu.classList.remove('active');
       menuToggle.querySelector('i').classList.add('fa-bars');
       menuToggle.querySelector('i').classList.remove('fa-times');
+      body.style.overflow = '';
     });
+  });
+  
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (navMenu.classList.contains('active') && 
+        !navMenu.contains(e.target) && 
+        !menuToggle.contains(e.target)) {
+      navMenu.classList.remove('active');
+      menuToggle.querySelector('i').classList.add('fa-bars');
+      menuToggle.querySelector('i').classList.remove('fa-times');
+      body.style.overflow = '';
+    }
   });
   
   // Update active nav link based on scroll position
@@ -215,5 +237,39 @@ function initCookieConsent() {
   declineButton.addEventListener('click', () => {
     localStorage.setItem('cookieConsent', 'declined');
     cookieBanner.style.display = 'none';
+  });
+}
+
+/**
+ * Responsive adjustments
+ */
+function initResponsiveAdjustments() {
+  // Adjust viewport height for mobile browsers
+  function setVhProperty() {
+    // First we get the viewport height and multiply it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+  
+  // Set the --vh value initially
+  setVhProperty();
+  
+  // Update the --vh value on resize and orientation change
+  window.addEventListener('resize', setVhProperty);
+  window.addEventListener('orientationchange', setVhProperty);
+  
+  // Fix for iOS Safari 100vh issue
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  if (isIOS) {
+    document.documentElement.classList.add('ios');
+  }
+  
+  // Adjust touch targets for better mobile experience
+  const touchTargets = document.querySelectorAll('a, button, .nav-link, .btn');
+  touchTargets.forEach(target => {
+    if (window.getComputedStyle(target).getPropertyValue('padding') === '0px') {
+      target.style.padding = '8px';
+    }
   });
 }
