@@ -13,10 +13,10 @@
   --secondary-light: #D44D3D;
   --secondary-dark: #A42619;
   --dark: #1A1A1A; /* Almost black */
-  --dark-gray: #333333;
-  --medium-gray: #555555;
+  --dark-gray: #2A2A2A;
+  --medium-gray: #444444;
   --light-gray: #888888;
-  --lighter-gray: #DDDDDD;
+  --lighter-gray: #EEEEEE;
   --white: #FFFFFF;
   
   /* Typography */
@@ -437,7 +437,7 @@ section {
 
 /* ===== About Section ===== */
 .about {
-  background-color: var(--white);
+  background-color: var(--lighter-gray);
 }
 
 .about-content {
@@ -516,6 +516,7 @@ section {
   padding: var(--spacing-lg);
   transition: transform var(--transition-normal);
   height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .service-card:hover {
@@ -534,13 +535,26 @@ section {
 
 /* ===== Skills Section ===== */
 .skills {
-  background-color: var(--white);
+  background-color: var(--lighter-gray);
 }
 
 .skills-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--spacing-xl);
+}
+
+.skill-category {
+  background-color: var(--white);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform var(--transition-normal);
+}
+
+.skill-category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .skill-category h3 {
@@ -615,6 +629,7 @@ section {
   padding: var(--spacing-lg);
   transition: transform var(--transition-normal);
   height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .interest-card:hover {
@@ -723,7 +738,7 @@ section {
 
 /* ===== Contact Section ===== */
 .contact {
-  background-color: var(--white);
+  background-color: var(--lighter-gray);
 }
 
 .contact-content {
@@ -740,12 +755,13 @@ section {
 }
 
 .contact-card {
-  background-color: var(--lighter-gray);
+  background-color: var(--white);
   color: var(--dark);
   padding: var(--spacing-lg);
   border-radius: var(--border-radius-md);
   text-align: center;
   transition: transform var(--transition-normal);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .contact-card:hover {
@@ -772,9 +788,10 @@ section {
 }
 
 .contact-form-container {
-  background-color: var(--lighter-gray);
+  background-color: var(--white);
   padding: var(--spacing-lg);
   border-radius: var(--border-radius-md);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .contact-form {
@@ -883,20 +900,6 @@ section {
   .developer-illustration {
     max-width: 80%;
     margin: 0 auto;
-  }
-  
-  /* Hide tech-stack on smartphones */
-  .tech-stack {
-    display: none;
-  }
-  
-  /* Adjust about-content when tech-stack is hidden */
-  .about-content {
-    display: block;
-  }
-  
-  .about-text {
-    width: 100%;
   }
 }
 
