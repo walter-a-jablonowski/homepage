@@ -812,28 +812,203 @@ section {
 }
 
 @media (max-width: 768px) {
-  .contact-content {
+  .menu-toggle {
+    display: block;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: var(--dark);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right var(--transition-normal);
+    z-index: 1001;
+  }
+  
+  .nav-menu.active {
+    right: 0;
+  }
+  
+  .nav-menu li {
+    margin: var(--spacing-md) 0;
+    margin-left: 0;
+  }
+  
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-text {
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-cta {
+    justify-content: center;
+  }
+  
+  .services-grid,
+  .skills-content,
+  .interest-cards,
+  .contact-info {
     grid-template-columns: 1fr;
   }
   
-  .contact-info {
-    grid-template-columns: repeat(2, 1fr);
+  .cookie-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cookie-content p {
+    margin-bottom: var(--spacing-md);
+    padding-right: 0;
+  }
+  
+  .tech-radar {
+    transform: scale(0.8);
+    margin: 0 auto;
+  }
+  
+  .developer-illustration {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Hide tech-stack on smartphones */
+  .tech-stack {
+    display: none;
+  }
+  
+  /* Adjust about-content when tech-stack is hidden */
+  .about-content {
+    display: block;
+  }
+  
+  .about-text {
+    width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  .contact-info {
-    grid-template-columns: 1fr;
+  html {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    width: 100%;
+  }
+  
+  .hero-cta .btn {
+    width: 100%;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    width: 100%;
+  }
+  
+  .cta-buttons .btn {
+    width: 100%;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    text-align: center;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  .footer-links {
+    justify-content: center;
   }
   
   .contact-card {
     padding: var(--spacing-md);
   }
   
-  .form-group input,
-  .form-group textarea {
-    padding: 0.6rem;
+  .contact-form-container {
+    padding: var(--spacing-md);
   }
+  
+  .tech-radar {
+    transform: scale(0.7);
+    margin: 0 auto;
+  }
+  
+  .back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 13px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .section-header {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .tech-radar {
+    transform: scale(0.6);
+  }
+}
+
+/* iOS specific fixes */
+.ios .hero {
+  min-height: -webkit-fill-available;
+}
+
+.ios .nav-menu.active {
+  height: -webkit-fill-available;
 }
 
 /* Map container */
@@ -1155,116 +1330,4 @@ footer {
     max-width: 80%;
     margin: 0 auto;
   }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 14px;
-  }
-  
-  h1 {
-    font-size: 2.2rem;
-  }
-  
-  h2 {
-    font-size: 1.8rem;
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-  }
-  
-  .container {
-    padding: 0 var(--spacing-md);
-  }
-  
-  .hero-cta {
-    flex-direction: column;
-    gap: var(--spacing-sm);
-    width: 100%;
-  }
-  
-  .hero-cta .btn {
-    width: 100%;
-  }
-  
-  .cta-buttons {
-    flex-direction: column;
-    gap: var(--spacing-sm);
-    width: 100%;
-  }
-  
-  .cta-buttons .btn {
-    width: 100%;
-  }
-  
-  .footer-content {
-    flex-direction: column;
-    gap: var(--spacing-lg);
-    text-align: center;
-  }
-  
-  .footer-social {
-    justify-content: center;
-  }
-  
-  .footer-links {
-    justify-content: center;
-  }
-  
-  .contact-card {
-    padding: var(--spacing-md);
-  }
-  
-  .contact-form-container {
-    padding: var(--spacing-md);
-  }
-  
-  .tech-radar {
-    transform: scale(0.7);
-    margin: 0 auto;
-  }
-  
-  .back-to-top {
-    bottom: 1rem;
-    right: 1rem;
-    width: 40px;
-    height: 40px;
-  }
-}
-
-/* Additional responsive fixes */
-@media (max-width: 360px) {
-  html {
-    font-size: 13px;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  h2 {
-    font-size: 1.6rem;
-  }
-  
-  .container {
-    padding: 0 var(--spacing-sm);
-  }
-  
-  .section-header {
-    margin-bottom: var(--spacing-lg);
-  }
-  
-  .tech-radar {
-    transform: scale(0.6);
-  }
-}
-
-/* iOS specific fixes */
-.ios .hero {
-  min-height: -webkit-fill-available;
-}
-
-.ios .nav-menu.active {
-  height: -webkit-fill-available;
 }
