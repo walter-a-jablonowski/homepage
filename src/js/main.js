@@ -266,7 +266,7 @@ function initResponsiveAdjustments() {
   }
   
   // Adjust touch targets for better mobile experience
-  const touchTargets = document.querySelectorAll('a, button, .nav-link, .btn');
+  const touchTargets = document.querySelectorAll('a:not(.logo a), button:not(.logo button), .nav-link, .btn');
   touchTargets.forEach(target => {
     if (window.getComputedStyle(target).getPropertyValue('padding') === '0px') {
       target.style.padding = '8px';
