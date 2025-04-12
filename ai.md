@@ -10,8 +10,8 @@ This is my personal homepage that I use as a developer for getting jobs and acqu
 General design:
 
 - My personal "theme" for the design is: "cool developer"
-- Preferred colors: black, white, orange-gold, red-tinged colors, appealing greys, maybe yellow if needed
-- Maybe use (if needed): yellow
+- Preferred colors: black, white, orange-gold, red-tinged colors, appealing greys
+- Maybe use: yellow
 - Colors to avoid: blue, green, purple, pink, brown
 - You have full creative freedom with the layout, styling, and structure
 - To make the site stand out and support my sales efforts, feel free to use:

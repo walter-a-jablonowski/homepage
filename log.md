@@ -8,6 +8,10 @@ best  try 2:  windsurf  claude          improved prompt             nice: logo <
 
       try 3:  windsurf  claude          prompt improved by chatgpt  nice: console effect, code sample, font choice, hover effects
     ~~try 4:  windsurf  grok            slightly changed prompt~~
-    ~~try 5:  brwoser   OpenAI          looked ugly~~
+    ~~try 5:  brwoser   OpenAI                                      looked ugly~~
+      try 4:  windsurf  gemini          slightly improved prompt    nice: font
+      try 5:  windsurf  claude think    slightly improved prompt    nice: btn grdient, header bg, progress bar
 
-or make a new try with claude (misc ais failed 2504)
+        alternative, less stuff in header,  add elems from design 2
+
+     (misc ais failed 2504)
