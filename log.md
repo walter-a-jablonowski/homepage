@@ -14,6 +14,6 @@
 
           alternative, less stuff in header,  add elems from design 2
 
-* maybe run claude again
+* maybe run claude again (modify prompt based on last result)
 
 (misc ais failed 2504)
