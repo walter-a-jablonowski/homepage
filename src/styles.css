@@ -594,6 +594,24 @@ section {
   margin-bottom: var(--spacing-xs);
 }
 
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+.badge-new {
+  background-color: #FFD700;
+  color: var(--dark);
+}
+
 .skill-bar {
   height: 8px;
   background-color: var(--lighter-gray);
