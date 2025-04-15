@@ -389,6 +389,9 @@ nav {
 
 .arrow {
   margin-top: var(--spacing-sm);
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .arrow span {
@@ -398,7 +401,7 @@ nav {
   border-bottom: 2px solid var(--white);
   border-right: 2px solid var(--white);
   transform: rotate(45deg);
-  margin: -5px;
+  margin: 0 auto;
   animation: arrow 2s infinite;
 }
 
