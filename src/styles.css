@@ -478,6 +478,13 @@ section {
   color: var(--primary);
   margin-right: var(--spacing-sm);
   font-size: 1.25rem;
+  width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.feature-list li span {
+  margin-left: var(--spacing-sm);
 }
 
 .cta-buttons {
