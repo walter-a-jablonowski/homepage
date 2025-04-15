@@ -261,6 +261,29 @@ nav {
   color: var(--white);
   font-size: 1.5rem;
   cursor: pointer;
+  z-index: 1002; /* Ensure it's above the menu */
+  position: relative;
+}
+
+/* Add a background to menu toggle for better visibility on white sections */
+.menu-toggle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--dark);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+/* Show background when header is over white sections */
+header.over-white .menu-toggle::before {
+  opacity: 1;
 }
 
 /* ===== Hero Section ===== */
@@ -1125,10 +1148,13 @@ footer {
     justify-content: center;
     transition: right var(--transition-normal);
     z-index: 1001;
+    overflow-y: auto; /* Allow scrolling if menu is taller than viewport */
+    padding: 4rem 0 2rem; /* Add padding to avoid content being hidden under header */
   }
   
   .nav-menu.active {
     right: 0;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
   }
   
   .nav-menu li {

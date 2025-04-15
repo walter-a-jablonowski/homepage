@@ -47,6 +47,9 @@ class WebsiteController
       document.querySelectorAll('.fade-in').forEach( (element, index) => {
         element.classList.add(`delay-${index % 3 + 1}`);
       });
+      
+      // Initial check for header background
+      this.checkHeaderBackground();
     });
   }
   
@@ -64,6 +67,9 @@ class WebsiteController
       
       // Update active nav link based on scroll position
       this.updateActiveNavLink();
+      
+      // Check if header is over white sections
+      this.checkHeaderBackground();
     });
     
     // Mobile menu toggle
@@ -74,6 +80,12 @@ class WebsiteController
       
       // Prevent body scrolling when menu is open
       this.body.style.overflow = this.navMenu.classList.contains('active') ? 'hidden' : '';
+      
+      // Ensure menu is properly positioned when opened
+      if( this.navMenu.classList.contains('active') ) {
+        // Set menu height to viewport height
+        this.navMenu.style.height = `${window.innerHeight}px`;
+      }
     });
     
     // Close mobile menu when clicking a link
@@ -269,8 +281,28 @@ class WebsiteController
     this.setVhProperty();
     
     // Update the --vh value on resize and orientation change
-    window.addEventListener('resize', () => this.setVhProperty());
-    window.addEventListener('orientationchange', () => this.setVhProperty());
+    window.addEventListener('resize', () => {
+      this.setVhProperty();
+      
+      // Update menu height if it's open
+      if( this.navMenu.classList.contains('active') ) {
+        this.navMenu.style.height = `${window.innerHeight}px`;
+      }
+      
+      // Check header background on resize
+      this.checkHeaderBackground();
+    });
+    window.addEventListener('orientationchange', () => {
+      this.setVhProperty();
+      
+      // Small delay to ensure correct calculations after orientation change
+      setTimeout(() => {
+        if( this.navMenu.classList.contains('active') ) {
+          this.navMenu.style.height = `${window.innerHeight}px`;
+        }
+        this.checkHeaderBackground();
+      }, 100);
+    });
     
     // Fix for iOS Safari 100vh issue
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -370,5 +402,42 @@ class WebsiteController
         });
       }
     });
+  }
+  
+  /**
+   * Check if header is over white or light sections
+   */
+  checkHeaderBackground()
+  {
+    // Only run this check on mobile devices
+    if( window.innerWidth > 768 ) {
+      this.header.classList.remove('over-white');
+      return;
+    }
+    
+    const headerRect = this.header.getBoundingClientRect();
+    const headerBottom = headerRect.bottom;
+    const headerTop = headerRect.top;
+    
+    // Get all sections that could be white or light colored
+    const lightSections = document.querySelectorAll('.about, .skills, section[style*="background-color: var(--white)"], section[style*="background-color: var(--lighter-gray)"], section[style*="background-color: #FFFFFF"], section[style*="background-color: #EEEEEE"]');
+    
+    let isOverWhite = false;
+    
+    lightSections.forEach( section => {
+      const sectionRect = section.getBoundingClientRect();
+      
+      // Check if header overlaps with this section
+      if( headerBottom > sectionRect.top && headerTop < sectionRect.bottom ) {
+        isOverWhite = true;
+      }
+    });
+    
+    // Add or remove over-white class
+    if( isOverWhite ) {
+      this.header.classList.add('over-white');
+    } else {
+      this.header.classList.remove('over-white');
+    }
   }
 }
