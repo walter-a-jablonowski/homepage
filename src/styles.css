@@ -930,6 +930,8 @@ section {
   font-weight: normal;
   line-height: 1.5;
   text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: normal;
 }
 
 .info-icon.active::before {
