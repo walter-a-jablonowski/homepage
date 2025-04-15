@@ -21,6 +21,7 @@ class WebsiteController
     this.declineCookieButton = document.getElementById('decline-cookies');
     this.tabLinks = document.querySelectorAll('.tab-link');
     this.tabContents = document.querySelectorAll('.tab-content');
+    this.infoIcons = document.querySelectorAll('.info-icon');
     
     // Initialize the website
     this.init();
@@ -40,6 +41,7 @@ class WebsiteController
       this.initCookieConsent();
       this.initResponsiveAdjustments();
       this.initTabNavigation();
+      this.initInfoIcons();
       
       // Add animation classes to elements
       document.querySelectorAll('.fade-in').forEach( (element, index) => {
@@ -327,5 +329,46 @@ class WebsiteController
         });
       });
     }
+  }
+  
+  /**
+   * Initialize info icons with popover functionality
+   */
+  initInfoIcons()
+  {
+    if( ! this.infoIcons.length ) return;
+    
+    // Add click event to each info icon
+    this.infoIcons.forEach( icon => {
+      icon.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent click from propagating
+        
+        // Close any open popovers first
+        this.infoIcons.forEach( i => {
+          if( i !== icon ) {
+            i.classList.remove('active');
+          }
+        });
+        
+        // Toggle active class on the clicked icon
+        icon.classList.toggle('active');
+      });
+    });
+    
+    // Close popovers when clicking elsewhere on the page
+    document.addEventListener('click', () => {
+      this.infoIcons.forEach( icon => {
+        icon.classList.remove('active');
+      });
+    });
+    
+    // Close popovers when pressing escape
+    document.addEventListener('keydown', (e) => {
+      if( e.key === 'Escape' ) {
+        this.infoIcons.forEach( icon => {
+          icon.classList.remove('active');
+        });
+      }
+    });
   }
 }
