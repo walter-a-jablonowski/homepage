@@ -42,7 +42,7 @@ class WebsiteController
       this.initTabNavigation();
       
       // Add animation classes to elements
-      document.querySelectorAll('.fade-in').forEach((element, index) => {
+      document.querySelectorAll('.fade-in').forEach( (element, index) => {
         element.classList.add(`delay-${index % 3 + 1}`);
       });
     });
@@ -55,11 +55,10 @@ class WebsiteController
   {
     // Handle scroll events for header styling
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
+      if( window.scrollY > 50 )
         this.header.classList.add('scrolled');
-      } else {
+      else
         this.header.classList.remove('scrolled');
-      }
       
       // Update active nav link based on scroll position
       this.updateActiveNavLink();
@@ -76,7 +75,7 @@ class WebsiteController
     });
     
     // Close mobile menu when clicking a link
-    this.navLinks.forEach(link => {
+    this.navLinks.forEach( link => {
       link.addEventListener('click', () => {
         this.navMenu.classList.remove('active');
         this.menuToggle.querySelector('i').classList.add('fa-bars');
@@ -87,9 +86,9 @@ class WebsiteController
     
     // Close mobile menu when clicking outside
     document.addEventListener('click', (e) => {
-      if (this.navMenu.classList.contains('active') && 
-          !this.navMenu.contains(e.target) && 
-          !this.menuToggle.contains(e.target)) {
+      if( this.navMenu.classList.contains('active') && 
+          ! this.navMenu.contains(e.target) && 
+          ! this.menuToggle.contains(e.target)) {
         this.navMenu.classList.remove('active');
         this.menuToggle.querySelector('i').classList.add('fa-bars');
         this.menuToggle.querySelector('i').classList.remove('fa-times');
@@ -106,17 +105,16 @@ class WebsiteController
     const sections = document.querySelectorAll('section');
     const scrollPosition = window.scrollY + 200;
     
-    sections.forEach(section => {
+    sections.forEach( section => {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.offsetHeight;
       const sectionId = section.getAttribute('id');
       
-      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-        this.navLinks.forEach(link => {
+      if( scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        this.navLinks.forEach( link => {
           link.classList.remove('active');
-          if (link.getAttribute('href') === `#${sectionId}`) {
+          if( link.getAttribute('href') === `#${sectionId}`)
             link.classList.add('active');
-          }
         });
       }
     });
@@ -131,15 +129,15 @@ class WebsiteController
     const animatedElements = document.querySelectorAll('.service-card, .skill-category, .interest-card, .timeline-item');
     
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
+      entries.forEach( entry => {
+        if( entry.isIntersecting ) {
           entry.target.classList.add('fade-in');
           observer.unobserve(entry.target);
         }
       });
     }, { threshold: 0.1 });
     
-    animatedElements.forEach(element => {
+    animatedElements.forEach( element => {
       observer.observe(element);
     });
     
@@ -147,8 +145,8 @@ class WebsiteController
     const skillBars = document.querySelectorAll('.skill-level');
     
     const skillObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
+      entries.forEach( entry => {
+        if( entry.isIntersecting ) {
           const width = entry.target.style.width;
           entry.target.style.width = '0';
           setTimeout(() => {
@@ -159,7 +157,7 @@ class WebsiteController
       });
     }, { threshold: 0.1 });
     
-    skillBars.forEach(bar => {
+    skillBars.forEach( bar => {
       skillObserver.observe(bar);
     });
   }
@@ -170,11 +168,10 @@ class WebsiteController
   initBackToTop()
   {
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 500) {
+      if( window.scrollY > 500)
         this.backToTopButton.classList.add('show');
-      } else {
+      else
         this.backToTopButton.classList.remove('show');
-      }
     });
     
     this.backToTopButton.addEventListener('click', () => {
@@ -190,7 +187,7 @@ class WebsiteController
    */
   initContactForm()
   {
-    if (this.contactForm) {
+    if( this.contactForm ) {
       this.contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
         
@@ -201,7 +198,7 @@ class WebsiteController
         const message = document.getElementById('message').value;
         
         // Validate form (simple validation)
-        if (!name || !email || !subject || !message) {
+        if( ! name || ! email || ! subject || ! message ) {
           alert('Please fill in all fields');
           return;
         }
@@ -214,7 +211,7 @@ class WebsiteController
     }
     
     // CV request button
-    if (this.requestCvButton) {
+    if( this.requestCvButton ) {
       this.requestCvButton.addEventListener('click', (e) => {
         e.preventDefault();
         
@@ -223,9 +220,8 @@ class WebsiteController
         
         // Pre-fill subject field
         const subjectField = document.getElementById('subject');
-        if (subjectField) {
+        if( subjectField )
           subjectField.value = 'CV Request';
-        }
       });
     }
   }
@@ -238,13 +234,13 @@ class WebsiteController
     // Check if user has already made a choice
     const cookieConsent = localStorage.getItem('cookieConsent');
     
-    if (cookieConsent === null && this.cookieBanner) {
+    if( cookieConsent === null && this.cookieBanner ) {
       // Show the cookie banner if no choice has been made
       this.cookieBanner.style.display = 'block';
     }
     
     // Handle accept button click
-    if (this.acceptCookieButton) {
+    if( this.acceptCookieButton ) {
       this.acceptCookieButton.addEventListener('click', () => {
         localStorage.setItem('cookieConsent', 'accepted');
         this.cookieBanner.style.display = 'none';
@@ -254,7 +250,7 @@ class WebsiteController
     }
     
     // Handle decline button click
-    if (this.declineCookieButton) {
+    if( this.declineCookieButton ) {
       this.declineCookieButton.addEventListener('click', () => {
         localStorage.setItem('cookieConsent', 'declined');
         this.cookieBanner.style.display = 'none';
@@ -281,10 +277,9 @@ class WebsiteController
     
     // Adjust touch targets for better mobile experience
     const touchTargets = document.querySelectorAll('a:not(.logo a), button:not(.logo button), .nav-link, .btn');
-    touchTargets.forEach(target => {
-      if (window.getComputedStyle(target).getPropertyValue('padding') === '0px') {
+    touchTargets.forEach( target => {
+      if( window.getComputedStyle(target).getPropertyValue('padding') === '0px')
         target.style.padding = '8px';
-      }
     });
   }
   
@@ -304,8 +299,8 @@ class WebsiteController
    */
   initTabNavigation()
   {
-    if (this.tabLinks.length > 0) {
-      this.tabLinks.forEach(link => {
+    if( this.tabLinks.length > 0 ) {
+      this.tabLinks.forEach( link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           
@@ -313,20 +308,19 @@ class WebsiteController
           const tabId = link.getAttribute('data-tab');
           
           // Hide all tab contents
-          this.tabContents.forEach(content => {
+          this.tabContents.forEach( content => {
             content.style.display = 'none';
           });
           
           // Remove active class from all tab links
-          this.tabLinks.forEach(tabLink => {
+          this.tabLinks.forEach( tabLink => {
             tabLink.classList.remove('active');
           });
           
           // Show the selected tab content
           const selectedTab = document.getElementById(tabId + '-tab');
-          if (selectedTab) {
+          if( selectedTab )
             selectedTab.style.display = 'block';
-          }
           
           // Add active class to the clicked tab link
           link.classList.add('active');
