@@ -878,6 +878,16 @@ section {
     justify-content: center;
   }
   
+  /* Hide hero image on smartphones */
+  .hero-image {
+    display: none;
+  }
+  
+  /* Hide tech-stack on smartphones */
+  .tech-stack {
+    display: none;
+  }
+  
   .services-grid,
   .skills-content,
   .interest-cards,
