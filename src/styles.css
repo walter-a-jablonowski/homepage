@@ -635,8 +635,13 @@ section {
 }
 
 .badge-new {
-  background-color: #FFD700;
+  background-color: #FFCC00; /* Richer gold color */
+  background-image: linear-gradient(to bottom, #FFD700, #FFA500); /* Gold gradient for more depth */
   color: var(--dark);
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 0.15rem 0.6rem; /* Slightly more horizontal padding */
+  border: 1px solid rgba(255, 215, 0, 0.5); /* Subtle border */
 }
 
 .skill-bar {
