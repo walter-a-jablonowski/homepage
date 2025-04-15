@@ -614,6 +614,10 @@ section {
   color: var(--white);
 }
 
+.interests .section-header {
+  margin-bottom: var(--spacing-lg);
+}
+
 .tab-navigation {
   display: flex;
   justify-content: center;
