@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initContactForm();
   initCookieConsent();
   initResponsiveAdjustments();
+  initTabNavigation();
   
   // Add animation classes to elements
   document.querySelectorAll('.fade-in').forEach((element, index) => {
@@ -272,4 +273,39 @@ function initResponsiveAdjustments() {
       target.style.padding = '8px';
     }
   });
+}
+
+/**
+ * Tab navigation for Interests section
+ */
+function initTabNavigation() {
+  const tabLinks = document.querySelectorAll('.tab-link');
+  const tabContents = document.querySelectorAll('.tab-content');
+  
+  if (tabLinks.length > 0) {
+    tabLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Get the tab to show
+        const tabId = this.getAttribute('data-tab');
+        
+        // Hide all tab contents
+        tabContents.forEach(content => {
+          content.style.display = 'none';
+        });
+        
+        // Remove active class from all tab links
+        tabLinks.forEach(link => {
+          link.classList.remove('active');
+        });
+        
+        // Show the selected tab content
+        document.getElementById(tabId + '-tab').style.display = 'block';
+        
+        // Add active class to the clicked tab link
+        this.classList.add('active');
+      });
+    });
+  }
 }
