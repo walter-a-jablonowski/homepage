@@ -417,22 +417,37 @@ class WebsiteController
       typewriterElement.textContent = '';
       
       let charIndex = 0;
-      const typingSpeed = 100; // milliseconds per character
       
-      // Function to type one character at a time
+      // Function to type one character at a time with variable speed
       function typeNextChar() {
         if( charIndex < text.length ) {
           typewriterElement.textContent += text.charAt(charIndex);
           charIndex++;
-          setTimeout(typeNextChar, typingSpeed);
+          
+          // Variable typing speed for more realistic effect
+          // Faster for most characters, slower for punctuation
+          const currentChar = text.charAt(charIndex - 1);
+          let delay = 70; // Base typing speed
+          
+          // Add random variation to typing speed
+          delay += Math.random() * 50; // Add 0-50ms random delay
+          
+          // Slow down for punctuation or spaces
+          if( currentChar === ' ' || currentChar === '-' || currentChar === '.' ) {
+            delay += 50; // Additional delay for these characters
+          }
+          
+          setTimeout(typeNextChar, delay);
         } else {
-          // Typing is complete, hide the cursor
-          typewriterElement.classList.add('typing-done');
+          // Typing is complete, hide the cursor after a short delay
+          setTimeout(() => {
+            typewriterElement.classList.add('typing-done');
+          }, 1500); // Wait 1.5 seconds before hiding cursor
         }
       }
       
       // Start typing after a short delay
-      setTimeout(typeNextChar, 500);
+      setTimeout(typeNextChar, 800);
     }
   }
   

@@ -1099,6 +1099,7 @@ footer {
   color: var(--primary);
   position: relative;
   display: inline-block;
+  font-family: var(--font-code); /* Using monospace font for better typewriter feel */
 }
 
 .typewriter::after {
