@@ -1094,6 +1094,33 @@ footer {
   animation-delay: 0.6s;
 }
 
+/* ===== Typewriter Effect ===== */
+.typewriter {
+  color: var(--primary);
+  position: relative;
+  display: inline-block;
+}
+
+.typewriter::after {
+  content: '';
+  position: absolute;
+  right: -4px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background-color: var(--primary);
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+.typewriter.typing-done::after {
+  display: none;
+}
+
+@keyframes blink-caret {
+  from, to { background-color: transparent }
+  50% { background-color: var(--primary) }
+}
+
 /* ===== Media Queries ===== */
 @media (max-width: 1024px) {
   html {

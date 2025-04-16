@@ -42,6 +42,7 @@ class WebsiteController
       this.initResponsiveAdjustments();
       this.initTabNavigation();
       this.initInfoIcons();
+      this.initTypewriterEffect();
       
       // Add animation classes to elements
       document.querySelectorAll('.fade-in').forEach( (element, index) => {
@@ -402,6 +403,37 @@ class WebsiteController
         });
       }
     });
+  }
+  
+  /**
+   * Initialize typewriter effect and hide cursor after typing
+   */
+  initTypewriterEffect()
+  {
+    const typewriterElement = document.querySelector('.typewriter');
+    
+    if( typewriterElement ) {
+      const text = typewriterElement.textContent;
+      typewriterElement.textContent = '';
+      
+      let charIndex = 0;
+      const typingSpeed = 100; // milliseconds per character
+      
+      // Function to type one character at a time
+      function typeNextChar() {
+        if( charIndex < text.length ) {
+          typewriterElement.textContent += text.charAt(charIndex);
+          charIndex++;
+          setTimeout(typeNextChar, typingSpeed);
+        } else {
+          // Typing is complete, hide the cursor
+          typewriterElement.classList.add('typing-done');
+        }
+      }
+      
+      // Start typing after a short delay
+      setTimeout(typeNextChar, 500);
+    }
   }
   
   /**
