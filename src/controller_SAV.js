@@ -230,7 +230,7 @@ function initCookieConsent() {
     localStorage.setItem('cookieConsent', 'accepted');
     cookieBanner.style.display = 'none';
     
-    // Here you would initialize analytics or other cookie-dependent features
+    // Here you would initialize analytics or misc cookie-dependent features
   });
   
   // Handle decline button click
