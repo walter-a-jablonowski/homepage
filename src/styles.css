@@ -723,6 +723,61 @@ section {
   gap: var(--spacing-xl);
 }
 
+/* Project cards in Interests section */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.project-card {
+  background-color: var(--dark-gray);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-lg);
+  transition: transform var(--transition-normal);
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: var(--border-radius-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.project-card p {
+  flex-grow: 1;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  font-weight: 600;
+}
+
 .interest-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
