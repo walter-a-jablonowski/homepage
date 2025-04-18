@@ -1431,6 +1431,8 @@ footer {
   background-color: var(--dark);
   position: relative;
   overflow: hidden;
+  padding-bottom: 0;
+  margin-bottom: -10px; /* Negative margin to reduce space below the map */
 }
 
 #map {
