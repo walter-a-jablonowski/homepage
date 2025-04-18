@@ -14,11 +14,11 @@
   --secondary-dark: #E03600;
   --accent-red: #FF0000; /* Red from alternative design */
   --accent-gold: #FFC107; /* Gold from alternative design */
-  --dark: #1A1A1A; /* Almost black */
-  --dark-gray: #2A2A2A;
-  --medium-gray: #444444;
-  --light-gray: #888888;
-  --lighter-gray: #EEEEEE;
+  --dark: #0E0E0E; /* Darker black from alternative design */
+  --dark-gray: #1A1A1A; /* Darker gray */
+  --medium-gray: #2A2A2A; /* Medium gray adjusted */
+  --light-gray: #888888; /* Original light gray */
+  --lighter-gray: #EEEEEE; /* Original lighter gray */
   --white: #FFFFFF;
   
   /* Typography */
@@ -297,7 +297,7 @@ header.over-white .menu-toggle::before {
 
 /* ===== Hero Section ===== */
 .hero {
-  height: 100vh;
+  min-height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   align-items: center;
@@ -314,7 +314,7 @@ header.over-white .menu-toggle::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(26, 26, 26, 0.7) 100%);
+  background: linear-gradient(135deg, rgba(14, 14, 14, 0.95) 0%, rgba(26, 26, 26, 0.8) 100%);
   z-index: 1;
 }
 
