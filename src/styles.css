@@ -153,6 +153,7 @@ img {
 .btn-primary:hover {
   transform: translateY(-3px);
   box-shadow: 0 7px 20px rgba(255, 107, 0, 0.4);
+  color: var(--white);
 }
 
 .btn-secondary {
@@ -164,6 +165,7 @@ img {
 .btn-secondary:hover {
   transform: translateY(-3px);
   box-shadow: 0 7px 20px rgba(255, 62, 0, 0.4);
+  color: var(--white);
 }
 
 .btn-outline {
