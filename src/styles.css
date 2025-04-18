@@ -650,7 +650,7 @@ section {
 }
 
 .skill-bar {
-  height: 8px;
+  height: 12px;
   background-color: var(--lighter-gray);
   border-radius: var(--border-radius-sm);
   overflow: hidden;
