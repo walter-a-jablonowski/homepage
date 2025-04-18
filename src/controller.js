@@ -488,3 +488,26 @@ class WebsiteController
     }
   }
 }
+
+/**
+ * Copy text to clipboard
+ * @param {string} text - Text to copy
+ */
+function copyToClipboard( text )
+{
+  // Create a temporary textarea element
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  
+  // Make it invisible
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  
+  // Add to document, select text, and execute copy command
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  
+  // Remove the temporary element
+  document.body.removeChild(textarea);
+}
