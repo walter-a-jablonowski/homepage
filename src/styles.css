@@ -907,6 +907,7 @@ section {
 /* ===== Contact Section ===== */
 .contact {
   background-color: var(--lighter-gray);
+  padding-bottom: var(--spacing-md);
 }
 
 .contact-content {
