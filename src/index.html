@@ -613,7 +613,12 @@
   <script src="controller.js"></script>
   <script src="map.js"></script>
   <script>
-    const websiteController = new WebsiteController();
+    document.addEventListener('DOMContentLoaded', () => {
+      new WebsiteController();
+      setTimeout(() => {
+        new MapController();
+      }, 100);
+    });
   </script>
 </body>
 </html>

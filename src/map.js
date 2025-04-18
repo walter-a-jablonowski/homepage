@@ -3,8 +3,10 @@
  * Map implementation using Leaflet
  */
 
-class MapController {
-  constructor() {
+class MapController
+{
+  constructor()
+  {
     // Wait for DOM to be fully loaded
     document.addEventListener('DOMContentLoaded', () => {
       this.mapElement = document.getElementById('map');
@@ -20,7 +22,8 @@ class MapController {
   /**
    * Load Leaflet resources and initialize map
    */
-  loadMapResources() {
+  loadMapResources()
+  {
     // Create link element for Leaflet CSS if not already present
     if (!document.querySelector('link[href*="leaflet"]')) {
       const leafletCss = document.createElement('link');
@@ -44,7 +47,8 @@ class MapController {
   /**
    * Initialize the map
    */
-  initMap() {
+  initMap()
+  {
     if (!this.mapElement) return;
     
     // Create map
@@ -74,6 +78,3 @@ class MapController {
     }).addTo(this.map);
   }
 }
-
-// Initialize the map controller
-const mapController = new MapController();
