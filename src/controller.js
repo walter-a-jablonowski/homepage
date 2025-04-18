@@ -330,7 +330,7 @@ class WebsiteController
   }
   
   /**
-   * Tab navigation for Interests section
+   * Tab navigation for projects section
    */
   initTabNavigation()
   {
