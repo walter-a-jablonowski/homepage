@@ -503,11 +503,20 @@ function copyToClipboard( text )
   textarea.style.position = 'absolute';
   textarea.style.left = '-9999px';
   
-  // Add to document, select text, and execute copy command
+  // Add to document, select text, and execute command
   document.body.appendChild(textarea);
   textarea.select();
   document.execCommand('copy');
   
   // Remove the temporary element
   document.body.removeChild(textarea);
+  
+  // Visual feedback with CSS
+  const element = event.currentTarget;
+  element.classList.add('copied');
+  
+  // Remove the class after animation completes
+  setTimeout(() => {
+    element.classList.remove('copied');
+  }, 2000);
 }
