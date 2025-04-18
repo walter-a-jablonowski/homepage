@@ -5,13 +5,15 @@
 
 class MapController {
   constructor() {
-    this.mapElement = document.getElementById('map');
-    this.bambergCoords = [49.8988, 10.9027]; // Bamberg coordinates
-    this.map = null;
-    
-    // Initialize the map when the DOM is loaded
+    // Wait for DOM to be fully loaded
     document.addEventListener('DOMContentLoaded', () => {
-      this.loadMapResources();
+      this.mapElement = document.getElementById('map');
+      this.bambergCoords = [49.8988, 10.9027]; // Bamberg coordinates
+      this.map = null;
+      
+      if (this.mapElement) {
+        this.loadMapResources();
+      }
     });
   }
   
@@ -46,7 +48,10 @@ class MapController {
     if (!this.mapElement) return;
     
     // Create map
-    this.map = L.map('map').setView(this.bambergCoords, 13);
+    this.map = L.map('map', {
+      zoomControl: false, // Hide zoom controls for cleaner look
+      attributionControl: false // Hide attribution for cleaner look
+    }).setView(this.bambergCoords, 13);
     
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -55,8 +60,18 @@ class MapController {
     
     // Add marker for Bamberg
     L.marker(this.bambergCoords).addTo(this.map)
-      .bindPopup('Walter A. Jablonowski<br>Bamberg, Germany')
+      .bindPopup('<strong>Walter A. Jablonowski</strong><br>Bamberg, Germany')
       .openPopup();
+      
+    // Add minimal zoom controls to bottom right
+    L.control.zoom({
+      position: 'bottomright'
+    }).addTo(this.map);
+    
+    // Add attribution to bottom right
+    L.control.attribution({
+      position: 'bottomright'
+    }).addTo(this.map);
   }
 }
 
