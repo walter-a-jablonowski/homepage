@@ -10,7 +10,7 @@ class MapController
     // Wait for DOM to be fully loaded
     document.addEventListener('DOMContentLoaded', () => {
       this.mapElement = document.getElementById('map');
-      this.bambergCoords = [49.8988, 10.9027]; // Bamberg coordinates
+      this.stegaurachCoords = [49.858181, 10.855379]; // Am Anger 9, Stegaurach coordinates
       this.map = null;
       
       if (this.mapElement) {
@@ -55,16 +55,16 @@ class MapController
     this.map = L.map('map', {
       zoomControl: false, // Hide zoom controls for cleaner look
       attributionControl: false // Hide attribution for cleaner look
-    }).setView(this.bambergCoords, 13);
+    }).setView(this.stegaurachCoords, 13);
     
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
     
-    // Add marker for Bamberg
-    L.marker(this.bambergCoords).addTo(this.map)
-      .bindPopup('<strong>Walter A. Jablonowski</strong><br>Bamberg, Germany')
+    // Add marker for Stegaurach
+    L.marker(this.stegaurachCoords).addTo(this.map)
+      .bindPopup('<strong>Walter A. Jablonowski</strong><br>Stegaurach, Germany')
       .openPopup();
       
     // Add minimal zoom controls to bottom right
