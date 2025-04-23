@@ -1592,3 +1592,87 @@ footer {
     margin-bottom: var(--spacing-xs);
   }
 }
+
+/* Custom QR code icon */
+.qr-code-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  margin: 0 auto var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem; /* Match the size of other icons */
+}
+
+/* L-shaped corners */
+.qr-corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 0;
+}
+
+.qr-corner.tl {
+  top: 0;
+  left: 0;
+  border-top-width: 4px;
+  border-left-width: 4px;
+}
+
+.qr-corner.tr {
+  top: 0;
+  right: 0;
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.qr-corner.bl {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.qr-corner.br {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+/* QR code dots pattern */
+.qr-dots {
+  width: 26px;
+  height: 26px;
+  background-color: var(--primary);
+  position: relative;
+}
+
+.qr-dots::before,
+.qr-dots::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+}
+
+.qr-dots::before {
+  top: 4px;
+  left: 4px;
+}
+
+.qr-dots::after {
+  bottom: 4px;
+  right: 4px;
+}
+
+/* QR code hover effect */
+.contact-card:hover .qr-code-icon {
+  transform: scale(1.1);
+  transition: transform var(--transition-normal);
+}
