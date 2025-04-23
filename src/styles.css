@@ -968,10 +968,13 @@ section {
   color: var(--primary);
   font-weight: 600;
   position: relative;
+  padding: 4px 8px;
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-normal);
 }
 
 .contact-card a:hover {
-  color: var(--primary-dark);
+  color: var(--primary);
 }
 
 /* Email copy functionality */
