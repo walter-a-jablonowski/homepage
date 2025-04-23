@@ -968,22 +968,10 @@ section {
   color: var(--primary);
   font-weight: 600;
   position: relative;
-  padding-bottom: 2px;
 }
 
-.contact-card a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(90deg, var(--primary), var(--accent-red));
-  transition: width var(--transition-normal);
-}
-
-.contact-card a:hover::after {
-  width: 100%;
+.contact-card a:hover {
+  color: var(--primary-dark);
 }
 
 /* Email copy functionality */
