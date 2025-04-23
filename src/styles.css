@@ -923,6 +923,7 @@ section {
   gap: var(--spacing-lg);
 }
 
+/* Contact cards */
 .contact-card {
   background-color: var(--white);
   color: var(--dark);
@@ -981,6 +982,63 @@ section {
   width: 100%;
 }
 
+/* Email copy functionality */
+.email-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: var(--spacing-md);
+  transition: color var(--transition-normal);
+  background-color: rgba(255, 107, 0, 0.05);
+  padding: 8px 12px;
+  border-radius: var(--border-radius-sm);
+  word-break: break-all;
+}
+
+.email-copy:hover {
+  color: var(--primary);
+  background-color: rgba(255, 107, 0, 0.1);
+}
+
+.email-copy::after {
+  content: 'Copied!';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(45deg, var(--primary), var(--accent-red));
+  color: var(--white);
+  padding: 6px 12px;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.8rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  pointer-events: none;
+  box-shadow: 0 4px 10px rgba(255, 107, 0, 0.3);
+}
+
+.email-copy.copied::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.copy-icon {
+  color: var(--primary);
+  margin-left: 8px;
+  font-size: 1em;
+  margin-bottom: 0 !important; /* Override the contact-card i margin */
+  transition: transform var(--transition-fast);
+}
+
+.email-copy:hover .copy-icon {
+  color: var(--primary-dark);
+  transform: scale(1.2);
+}
+
+/* Contact form */
 .contact-form-container {
   background-color: var(--white);
   padding: var(--spacing-lg);
@@ -1020,39 +1078,6 @@ section {
 .form-group textarea:focus {
   outline: none;
   border-color: var(--primary);
-}
-
-/* Info icon and popover */
-.popover {
-  position: fixed;
-  z-index: 1101;
-  background: var(--lighter-gray);
-  color: var(--dark);
-  padding: 0.7rem 1rem;
-  border-radius: var(--border-radius-md);
-  font-size: 0.85rem;
-  white-space: normal;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 220px;
-  text-align: left;
-  font-weight: normal;
-  line-height: 1.5;
-  text-transform: none !important;
-  font-family: 'Roboto', sans-serif !important;
-  letter-spacing: normal;
-  display: none;
-}
-
-.info-icon {
-  color: var(--primary);
-  font-size: 0.9rem;
-  cursor: pointer;
-  margin-left: 0.25rem;
-  position: relative;
-}
-
-.info-icon.active {
-  color: var(--primary);
 }
 
 /* ===== Footer ===== */
@@ -1463,60 +1488,37 @@ footer {
   display: none;
 }
 
-/* ===== Email copy functionality ===== */
-.email-copy {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Info icon and popover */
+.popover {
+  position: fixed;
+  z-index: 1101;
+  background: var(--lighter-gray);
+  color: var(--dark);
+  padding: 0.7rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-size: 0.85rem;
+  white-space: normal;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 220px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1.5;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: normal;
+  display: none;
+}
+
+.info-icon {
+  color: var(--primary);
+  font-size: 0.9rem;
   cursor: pointer;
+  margin-left: 0.25rem;
   position: relative;
-  margin-bottom: var(--spacing-md);
-  transition: color var(--transition-normal);
-  background-color: rgba(255, 107, 0, 0.05);
-  padding: 8px 12px;
-  border-radius: var(--border-radius-sm);
-  word-break: break-all;
 }
 
-.email-copy:hover {
+.info-icon.active {
   color: var(--primary);
-  background-color: rgba(255, 107, 0, 0.1);
-}
-
-.email-copy::after {
-  content: 'Copied!';
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(45deg, var(--primary), var(--accent-red));
-  color: var(--white);
-  padding: 6px 12px;
-  border-radius: var(--border-radius-sm);
-  font-size: 0.8rem;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
-  pointer-events: none;
-  box-shadow: 0 4px 10px rgba(255, 107, 0, 0.3);
-}
-
-.email-copy.copied::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.copy-icon {
-  color: var(--primary);
-  margin-left: 8px;
-  font-size: 1em;
-  margin-bottom: 0 !important; /* Override the contact-card i margin */
-  transition: transform var(--transition-fast);
-}
-
-.email-copy:hover .copy-icon {
-  color: var(--primary-dark);
-  transform: scale(1.2);
 }
 
 /* ===== Cookie Consent Banner ===== */
