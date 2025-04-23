@@ -542,6 +542,30 @@ section {
   height: auto;
 }
 
+/* Tech cloud */
+.tech-cloud {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.05));
+}
+
+.tech-term {
+  transition: all var(--transition-normal);
+}
+
+.tech-term:hover {
+  fill: var(--primary-dark);
+  cursor: default;
+}
+
+.tech-term.secondary:hover {
+  fill: var(--primary);
+}
+
+.tech-term.tertiary:hover {
+  fill: var(--primary);
+}
+
 /* ===== Services Section ===== */
 .services {
   background-color: var(--dark);
