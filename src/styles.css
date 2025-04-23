@@ -151,7 +151,6 @@ img {
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
   box-shadow: 0 7px 20px rgba(255, 107, 0, 0.4);
   color: var(--white);
 }
@@ -163,7 +162,6 @@ img {
 }
 
 .btn-secondary:hover {
-  transform: translateY(-3px);
   box-shadow: 0 7px 20px rgba(255, 62, 0, 0.4);
   color: var(--white);
 }
@@ -177,7 +175,6 @@ img {
 .btn-outline:hover {
   background-color: var(--primary);
   color: var(--white);
-  transform: translateY(-3px);
 }
 
 /* ===== Header & Navigation ===== */
@@ -561,13 +558,13 @@ section {
   background-color: var(--dark-gray);
   border-radius: var(--border-radius-md);
   padding: var(--spacing-lg);
-  transition: transform var(--transition-normal);
+  transition: box-shadow var(--transition-normal);
   height: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .service-card:hover {
-  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .service-icon {
@@ -596,12 +593,11 @@ section {
   border-radius: var(--border-radius-md);
   padding: var(--spacing-lg);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  transition: transform var(--transition-normal);
+  transition: box-shadow var(--transition-normal);
 }
 
 .skill-category:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .skill-category h3 {
@@ -741,7 +737,7 @@ section {
   background-color: var(--dark-gray);
   border-radius: var(--border-radius-md);
   padding: var(--spacing-lg);
-  transition: transform var(--transition-normal);
+  transition: box-shadow var(--transition-normal);
   height: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -749,7 +745,7 @@ section {
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .project-image {
@@ -795,13 +791,13 @@ section {
   background-color: var(--dark-gray);
   border-radius: var(--border-radius-md);
   padding: var(--spacing-lg);
-  transition: transform var(--transition-normal);
+  transition: box-shadow var(--transition-normal);
   height: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .interest-card:hover {
-  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .interest-icon {
