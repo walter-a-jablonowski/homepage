@@ -1442,6 +1442,7 @@ footer {
 .email-copy {
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   position: relative;
   margin-bottom: var(--spacing-md);
