@@ -752,9 +752,25 @@ section {
 
 /* Project cards in Interests section */
 .project-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 var(--spacing-lg);
+}
+
+.project-cards-container {
+  display: flex;
   gap: var(--spacing-lg);
+  transition: transform var(--transition-normal);
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scroll-behavior: smooth;
+  padding: var(--spacing-sm) 0;
+}
+
+.project-cards-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
 .project-card {
@@ -762,10 +778,12 @@ section {
   border-radius: var(--border-radius-md);
   padding: var(--spacing-lg);
   transition: box-shadow var(--transition-normal);
-  height: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  min-width: 300px;
+  width: 300px;
+  flex-shrink: 0;
 }
 
 .project-card:hover {
@@ -803,6 +821,42 @@ section {
   display: inline-block;
   margin-top: var(--spacing-sm);
   font-weight: 600;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast), background-color var(--transition-fast);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-arrow:hover {
+  opacity: 1;
+  background-color: var(--primary-dark);
+}
+
+.carousel-arrow.prev {
+  left: 0;
+}
+
+.carousel-arrow.next {
+  right: 0;
+}
+
+.carousel-arrow i {
+  font-size: 1.2rem;
 }
 
 .interest-cards {
@@ -1688,4 +1742,34 @@ footer {
 /* QR code hover effect */
 .contact-card:hover .qr-code-icon {
   transform: scale(1.2);
+}
+
+/* Media queries for responsive carousel */
+@media (max-width: 768px) {
+  .project-card {
+    min-width: 250px;
+    width: 250px;
+  }
+  
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-cards {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .project-card {
+    min-width: 220px;
+    width: 220px;
+    padding: var(--spacing-md);
+  }
+  
+  .carousel-arrow {
+    width: 32px;
+    height: 32px;
+  }
 }
