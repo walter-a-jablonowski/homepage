@@ -1490,6 +1490,11 @@ footer {
     width: 40px;
     height: 40px;
   }
+  
+  /* Hide elements with hide-on-mobile class on smartphones */
+  .hide-on-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 360px) {
