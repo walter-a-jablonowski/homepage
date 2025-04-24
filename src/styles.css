@@ -1583,6 +1583,30 @@ footer {
   color: var(--primary);
 }
 
+/* AI tools link */
+.ai-tools-link {
+  display: block;
+  margin-top: 20px;
+  background-color: rgba(255, 107, 0, 0.05);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.ai-tools-link i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.ai-tools-link:hover {
+  background-color: rgba(255, 107, 0, 0.1);
+}
+
 /* ===== Cookie Consent Banner ===== */
 .cookie-banner {
   position: fixed;
