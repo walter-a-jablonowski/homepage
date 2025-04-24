@@ -806,6 +806,10 @@ section {
   transition: transform var(--transition-normal);
 }
 
+.project-image img[src*="placehold.co"] {
+  object-position: center;
+}
+
 .project-card:hover .project-image img {
   transform: scale(1.05);
 }
