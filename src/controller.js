@@ -288,18 +288,12 @@ class WebsiteController
         const serviceID  = 'service_r1nitci';   // Update this with your actual service ID
         const templateID = 'template_ltytzqx';  // Update this with your actual template ID
         
-        console.log('Sending email with EmailJS...');
-        console.log('Service ID:', serviceID);
-        console.log('Template ID:', templateID);
-        console.log('Template Params:', templateParams);
-        
         // Show spinner
         spinner.style.display = 'flex';
         
         // Send email using EmailJS
         emailjs.send(serviceID, templateID, templateParams)
           .then((response) => {
-            console.log('EmailJS SUCCESS:', response);
             // Hide spinner
             spinner.style.display = 'none';
             
@@ -317,7 +311,6 @@ class WebsiteController
             }, 5000);
           })
           .catch(error => {
-            console.error('EmailJS ERROR:', error);
             // Hide spinner
             spinner.style.display = 'none';
             
