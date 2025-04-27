@@ -1154,6 +1154,7 @@ section {
 
 /* Contact form validation and status styles */
 .validation-messages {
+  margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-md);
   padding: var(--spacing-sm);
   background-color: rgba(255, 62, 0, 0.1);
