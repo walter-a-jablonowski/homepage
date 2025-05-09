@@ -383,6 +383,8 @@ class WebsiteController
       this.declineCookieButton.addEventListener('click', () => {
         localStorage.setItem('cookieConsent', 'declined');
         this.cookieBanner.style.display = 'none';
+        // Redirect to terms declined page
+        window.location.href = 'terms_declined.html';
       });
     }
   }
