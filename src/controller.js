@@ -426,12 +426,14 @@ class WebsiteController
     if( isIOS )
       document.documentElement.classList.add('ios');
     
+    // TASK: removed, was adding padding to all links (AI says "common for mobile-friendly")
+    // 
     // Adjust touch targets for better mobile experience
-    const touchTargets = document.querySelectorAll('a:not(.logo a), button:not(.logo button), .nav-link, .btn');
-    touchTargets.forEach( target => {
-      if( window.getComputedStyle(target).getPropertyValue('padding') === '0px')
-        target.style.padding = '8px';
-    });
+    // const touchTargets = document.querySelectorAll('a:not(.logo a), button:not(.logo button), .nav-link, .btn');
+    // touchTargets.forEach( target => {
+    //   if( window.getComputedStyle(target).getPropertyValue('padding') === '0px')
+    //     target.style.padding = '8px';
+    // });
   }
   
   /**
