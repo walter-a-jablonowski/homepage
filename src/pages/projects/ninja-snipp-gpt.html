@@ -173,19 +173,19 @@
               <li>simple solution: replace use of this.renderedText with a preview text below #inlineSnippet again</li>
               <li>make text elements in #inlineSnippet editable (convert to spans like the editable fields)</li>
             </ul>
-            <pre><code class="language-html">Template currently are rendered like:
+            <blockquote>
+              <p>Template currently are rendered like:</p>
+              <pre><code class="language-html">&lt;div id="inlineSnippet" class="inline-snippet"&gt;
 
-  &lt;div id="inlineSnippet" class="inline-snippet"&gt;
+  const
 
-    const
+  &lt;span class="ph ph-text" contenteditable="true" tabindex="0" data-ph="name" data-default="myArray"&gt;myArray&lt;/span&gt;
 
-    &lt;span class="ph ph-text" contenteditable="true" tabindex="0" data-ph="name" data-default="myArray"&gt;myArray&lt;/span&gt;
+...
 
-  ...
-
-  &lt;/div&gt;
-
-Strings that are no placeholders like "const" are just text. I need these editable as well (with no background color). Maybe it would be a good idea to wrap those static texts in a span. Do you have a better idea?</code></pre>
+&lt;/div&gt;</code></pre>
+              <p>Strings that are no placeholders like "const" are just text. I need these editable as well (with no background color). Maybe it would be a good idea to wrap those static texts in a span. Do you have a better idea?</p>
+            </blockquote>
           </li>
           <li>[x] ins of 2 menus see offcanvas-demo.html
             <ul>
