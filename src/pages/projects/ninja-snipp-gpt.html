@@ -62,7 +62,7 @@
     .content p { margin: 0 0 var(--spacing-md); }
     .content ul { padding-left: 1.25rem; margin: 0 0 var(--spacing-md); }
     .content li { margin: .35rem 0; }
-    .content a { color: var(--primary); text-decoration: underline; }
+    .content a { color: var(--primary); }
     .content blockquote {
       margin: var(--spacing-md) 0;
       padding: var(--spacing-md);
@@ -79,13 +79,6 @@
       border: 1px solid rgba(255,255,255,0.08);
     }
     .content code { font-family: var(--font-code); }
-
-    .backlink {
-      margin-top: var(--spacing-xl);
-      display: inline-flex; align-items: center; gap: .5rem;
-      color: var(--lighter-gray);
-    }
-    .backlink i { color: var(--primary); }
 
     @media (max-width: 768px) {
       .project-header { flex-direction: column; }
@@ -128,10 +121,10 @@
           </p>
           <ul>
             <li>Effort with AI just a few afternoons as a side project</li>
-            <li>Manual development effort would be: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js</a>)</li>
+            <li>Manual development effort would be: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js" target="_blank">see controller.js</a>)</li>
           </ul>
           <p>
-            View project: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp</a>
+            View project: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp" target="_blank">github</a>
           </p>
         </div>
         <div class="project-media">
@@ -150,11 +143,11 @@
         </ul>
 
         <h4>Initial prompt</h4>
-        <p>Development was started with an initial prompt that includes the most important information: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md</a> The AI did an initial version of the app.</p>
+        <p>Development was started with an initial <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md" target="_blank">prompt</a> that includes the most important information. The AI did an initial version of the app.</p>
 
         <h4>Fine tuning</h4>
         <p>Then a series of prompts was used to fix/finish detail features of the app. Code written entirely by AI with human oversight.</p>
-        <p>Result commits: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main</a></p>
+        <p>Result commits: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main" target="_blank">see github</a></p>
 
         <p>Sample prompts:</p>
         <ul>
@@ -254,8 +247,6 @@ Strings that are no placeholders like "const" are just text. I need these editab
             </ul>
           </li>
         </ul>
-
-        <a class="backlink" href="../../index.html#proj"><i class="fas fa-arrow-left"></i><span>Back to projects</span></a>
       </div>
     </div>
   </section>
