@@ -64,7 +64,6 @@
     .project-detail h2 {
       font-weight: 600;
       font-size: 2.5rem;
-      color: var(--primary);
       margin-bottom: var(--spacing-md);
     }
     
@@ -173,20 +172,13 @@
     <div class="container">
       <div class="project-detail">
         <h2>NinjaSnipp</h2>
-        <img src="../../misc/NinjaSnipp.png" alt="NinjaSnipp">
         <p>A snippet manager app produced with AI <strong>fast and cost-efficient</strong> with AI</p>
-        <p>Special features</p>
         <ul>
-          <li>File system based, multiple source folders</li>
-          <li>Nested includes</li>
-          <li>"Soft links": Files and folders can be used multiple times</li>
+          <li>Effort with AI: just a few afternoons as a side project</li>
+          <li>Manual development effort: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js">see controller.js</a>)</li>
         </ul>
-        <p>github: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp">https://github.com/walter-a-jablonowski/NinjaSnipp</a></p>
-        <h3>Effort</h3>
-        <ul>
-          <li>With AI just a few afternoons as a side project</li>
-          <li>Manual development effort would be: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js</a>)</li>
-        </ul>
+        <p>View project: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp">github</a></p>
+        <img src="../../misc/NinjaSnipp.png" alt="NinjaSnipp">
         <h3>Development process</h3>
         <p>Tools used:</p>
         <ul>
@@ -194,10 +186,10 @@
           <li>Claude Sonnet, GPT-5, Grok Code Fast 1</li>
         </ul>
         <h4>Initial prompt</h4>
-        <p>Development was started with an initial prompt that includes the most important information: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md</a> The AI did an initial version of the app.</p>
+        <p>Development was started with an initial <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/ai.md">prompt</a>  that includes the most important information. The AI did an initial version of the app.</p>
         <h4>Fine tuning</h4>
         <p>Then a series of prompts was used to fix/finish detail features of the app. Code written entirely by AI with human oversight.</p>
-        <p>Result commits: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main">https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main</a></p>
+        <p>Result commits: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main">see github</a></p>
         <p>Sample prompts:</p>
         <ul>
           <li><strong>[x]</strong> use modal ins of simple dlg
@@ -295,7 +287,6 @@ Strings that are no placeholders like "const" are just text. I need these editab
               <li><strong>[-]</strong> debug this, still has some problems</li>
             </ul>
           </li>
-          <li><strong>[x]</strong> <code>this.searchHistory = JSON.parse(localStorage.getItem('searchHistory') || '[]');</code></li>
         </ul>
       </div>
     </div>

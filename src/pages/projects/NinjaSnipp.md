@@ -129,5 +129,3 @@ Sample prompts:
     > - If a user use tabs over a placeholder without entering a value, use the default value if set `{placholder=default}`
   
   - [-] debug this, still has some problems
-
-- [x] this.searchHistory = JSON.parse(localStorage.getItem('searchHistory') || '[]');
