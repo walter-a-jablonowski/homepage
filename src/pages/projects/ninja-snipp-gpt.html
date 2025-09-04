@@ -151,14 +151,14 @@
 
         <p>Sample prompts:</p>
         <ul>
-          <li>[x] use modal ins of simple dlg
+          <li>[ x ] use modal ins of simple dlg
             <blockquote>
               <p>When I press #duplicateSnippetBtn or #deleteSnippetBtn simple browser input dialogs are used. Instead use bootstrap modal.</p>
               <p>This didn't look right. Add new modals similar to these existing ones @index.php#L217-272</p>
               <p>Then you must alter the currently used js code: @controller.js#L442-463 @controller.js#L420-441</p>
             </blockquote>
           </li>
-          <li>[x] fix search
+          <li>[ x ] fix search
             <blockquote>
               <p>Looks like using the #searchInput doen't work correctly.</p>
               <p>- Search in the current data folder selected via #dataFolderSelect only</p>
@@ -168,7 +168,7 @@
               <p>- Make sure that we can go back to the previous list using #backBtn</p>
             </blockquote>
           </li>
-          <li>[x] also allow plain text edits before copy
+          <li>[ x ] also allow plain text edits before copy
             <ul>
               <li>simple solution: replace use of this.renderedText with a preview text below #inlineSnippet again</li>
               <li>make text elements in #inlineSnippet editable (convert to spans like the editable fields)</li>
@@ -187,54 +187,54 @@
               <p>Strings that are no placeholders like "const" are just text. I need these editable as well (with no background color). Maybe it would be a good idea to wrap those static texts in a span. Do you have a better idea?</p>
             </blockquote>
           </li>
-          <li>[x] ins of 2 menus see offcanvas-demo.html
+          <li>[ x ] ins of 2 menus see offcanvas-demo.html
             <ul>
-              <li>[-] maybe: spacing issue mobile menu, misc stuff</li>
+              <li>[ - ] maybe: spacing issue mobile menu, misc stuff</li>
             </ul>
             <blockquote>
               <p>The layout on larger screens is broken. The main element is displayed lower than #sidebarNav instead of beside it. It looks like we are currently using a custom offcanvas implementation.</p>
               <p>I provided you a sample for a correct offcanvas implementation in offcanvas-demo.html that uses bootstrap 5.3. Edit index.php and replace the current sidebar/offcanvas implementation with a plain bootstrap offcanvas implementation. Overall make it state of the art bootstrap code and make it work on all devices. Then review the stylesheet (and if relevant controller.js) and update it, e.g. remove redundant code.</p>
             </blockquote>
           </li>
-          <li>[x] fix layout issue on large screens
+          <li>[ x ] fix layout issue on large screens
             <blockquote>
               <p>The layout on larger scrreens is broken. The main element is displayed lower than #sidebarNav instead of beside it. The layout on smaller screens and smartphone looks good.</p>
               <p>Design: While on larger screens the sidebar is always visible it must slide in as an overlay from left to right on small screens and smartphone.</p>
               <p>Review the tag structure and bootstrap classes for the sidebar/menu used in index.php. I assume that something there isn't as it must be. You may alter all neccessary html elements and classes. Overall make it state of the art bootstrap code and make it work on all devices. Then review the stylesheet.</p>
             </blockquote>
           </li>
-          <li>[x] limit recent to current data folder
+          <li>[ x ] limit recent to current data folder
             <blockquote>
               <p>recent_snippets.json saves a list of recent files for all data folders (selectable in #dataFolderSelect.). Data folders are defined here: @config.yml#L10-12</p>
               <p>This isn't right. Instead it must save one list per data folder. We limit recent files list to current data folder. Use the key from config.yml as parent key in the json file.</p>
             </blockquote>
           </li>
-          <li>[x] `includedSameIndent: true`
+          <li>[ x ] `includedSameIndent: true`
             <blockquote>
               <p>I have added a setting includedSameIndent to config. When this is true try to apply the current indentation if the include placeholder to all lines if the included content.</p>
             </blockquote>
           </li>
-          <li>[-] maybe trim included</li>
-          <li>[x] fix include
+          <li>[ - ] maybe trim included</li>
+          <li>[ x ] fix include
             <blockquote>
               <p>The include syntax `{{ include: "error-handling" }}` isn't rendered correctly @function-template.yml#L15-16 in #inlineSnippet. The string "error-handling" is the file name of the snippet to include for the data folder currently selected in #dataFolderSelect.</p>
               <p>If there are further includes in the included file these must be resolved as well (multiple levels). When there are placeholders (`{placholder}`, `{placholder=default}`), and so on) in te included file in #inlineSnippet these must be editable in the same way as the placeholders in the main file (user can fill out).</p>
             </blockquote>
           </li>
-          <li>[x] file system include feature `11 INCLUDE error-handling`
+          <li>[ x ] file system include feature `11 INCLUDE error-handling`
             <blockquote>
               <p>I have added a demo file `11 INCLUDE error-handling` with no extension and no content. When you read which data files there are we need to resolve this entry. It wirks similar to a soft link: "INCLUDE" upper case identifies that it is an include entry instead of a snippet. There may be any string before INCLUDE. The string behind it is the name of a file of a folder from the currently selected data folder (e.g. demo_data_1), which  may also be in a sub folder of the data folder. Whenever we read snippets we need to replace the INCLUDE entry with the referenced file or with the folder (and all of its sub folders).</p>
             </blockquote>
           </li>
-          <li>[x] layout
+          <li>[ x ] layout
             <blockquote>
               <p>Currently in this app the smartphone layout when I click navbar-toggler-icon the sidebar slides in from top to button. Instead is must slide in from left to right as an overlay.</p>
               <p>Prefer boostrap classes for this, update the existing styles as needed. You may alter the sidebarNav, but make sure that its content stays as it yurrently is.</p>
             </blockquote>
           </li>
-          <li>[x] fill vars in rendered with no form just by tab
+          <li>[ x ] fill vars in rendered with no form just by tab
             <ul>
-              <li>[x] prompt</li>
+              <li>[ x ] prompt</li>
             </ul>
             <blockquote>
               <p>Currently we use a form for filling in the placeholders in the rendered snippet. Instead there must be a single element that show the snippet content with included snippets already added. Then the user can tab over the remaining placeholders and fill in the values.</p>
@@ -243,7 +243,7 @@
               <p>- If a user use tabs over a placeholder without entering a value, use the default value if set `{placholder=default}`</p>
             </blockquote>
             <ul>
-              <li>[-] debug this, still has some problems</li>
+              <li>[ - ] debug this, still has some problems</li>
             </ul>
           </li>
         </ul>
