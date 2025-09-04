@@ -32,10 +32,7 @@
     .project-detail .container { position: relative; z-index: 2; }
 
     .project-header {
-      display: flex;
-      flex-wrap: wrap;
-      gap: var(--spacing-xl);
-      align-items: flex-start;
+      display: block;
       margin-bottom: var(--spacing-xxl);
     }
     .project-media {
@@ -123,9 +120,6 @@
   <section class="project-detail">
     <div class="container">
       <div class="project-header">
-        <div class="project-media">
-          <img src="../../misc/NinjaSnipp.png" alt="NinjaSnipp.png">
-        </div>
         <div class="project-title">
           <div class="section-header">
             <h2>NinjaSnipp</h2>
@@ -134,28 +128,21 @@
           <p class="intro-text" style="margin-left: 0;">
             A snippet manager app produced with AI <strong>fast and cost-efficient</strong> with AI
           </p>
+          <ul>
+            <li>Effort with AI just a few afternoons as a side project</li>
+            <li>Manual development effort would be: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js</a>)</li>
+          </ul>
           <p>
-            <a href="https://github.com/walter-a-jablonowski/NinjaSnipp" target="_blank" class="btn btn-outline" style="margin-top: .5rem;">
-              <i class="fab fa-github"></i> github: https://github.com/walter-a-jablonowski/NinjaSnipp
-            </a>
+            View project: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp</a>
           </p>
+        </div>
+        <div class="project-media">
+          <img src="../../misc/NinjaSnipp.png" alt="NinjaSnipp.png">
         </div>
       </div>
 
       <div class="content">
         <!-- Converted from src/pages/projects/NinjaSnipp.md without altering content text -->
-        <h3>Special features</h3>
-        <ul>
-          <li>File system based, multiple source folders</li>
-          <li>Nested includes</li>
-          <li>"Soft links": Files and folders can be used multiple times</li>
-        </ul>
-
-        <h3>Effort</h3>
-        <ul>
-          <li>With AI just a few afternoons as a side project</li>
-          <li>Manual development effort would be: easily 2-3 months at least (much code: <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js" target="_blank">https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js</a>)</li>
-        </ul>
 
         <h3>Development process</h3>
         <p>Tools used:</p>

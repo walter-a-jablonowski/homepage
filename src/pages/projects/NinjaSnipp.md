@@ -1,22 +1,14 @@
 
 ## NinjaSnipp
 
-[ NinjaSnipp.png ]
-
 A snippet manager app produced with AI **fast and cost-efficient** with AI
 
-Special features
-
-- File system based, multiple source folders
-- Nested includes
-- "Soft links": Files and folders can be used multiple times
-
-github: https://github.com/walter-a-jablonowski/NinjaSnipp
-
-### Effort
-
-- With AI just a few afternoons as a side project
+- Effort with AI just a few afternoons as a side project
 - Manual development effort would be: easily 2-3 months at least (much code: https://github.com/walter-a-jablonowski/NinjaSnipp/blob/main/PHP%20manager%20app/controller.js)
+
+View project: https://github.com/walter-a-jablonowski/NinjaSnipp
+
+[ NinjaSnipp.png ]
 
 ### Development process
 
