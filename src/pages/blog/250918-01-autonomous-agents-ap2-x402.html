@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="What Google AP2 (Agent Payments Pro), A2A, Coinbase x402, and Google Agent Dev Kit mean for autonomous agents. A concise, practical overview.">
+  <meta name="keywords" content="Agents, AP2, A2A, Coinbase x402, Google Cloud, Vertex AI, Payments, AI first">
+  <meta name="author" content="Walter A. Jablonowski">
+  <meta property="og:title" content="Autonomous Agents: Google AP2, A2A and Coinbase x402 - Walter A. Jablonowski">
+  <meta property="og:description" content="What Google AP2 (Agent Payments Pro), A2A, Coinbase x402, and Google Agent Dev Kit mean for autonomous agents. A concise, practical overview.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://walter-a-jablonowski.github.io/pages/blog/250918-autonomous-agents-ap2-x402.html">
+  <title>Autonomous Agents: Google AP2, A2A and Coinbase x402 | Walter A. Jablonowski</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="stylesheet" href="../../styles.css?v=25060201">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <script src="../../cookie-fix.js?v=25060201"></script>
+  <style>
+    /* Minor article-specific refinements that complement styles.css */
+    .article-header h1 { max-width: 900px }
+    .article-image { margin: 0 0 var(--spacing-xl); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08) }
+    .article-image img { width: 100%; height: auto; display: block }
+    .key-points { display: grid; gap: var(--spacing-lg) }
+    .key-points .cardish { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: var(--spacing-lg); border-radius: 10px }
+    .mini { color: var(--light-gray) }
+    .link-row a { display: inline-flex; align-items: center; gap: .5rem; margin-right: 1rem }
+    .link-row a i { opacity: .8 }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="../../index.html"><span class="highlight">&lt;</span>WAJ<span class="highlight">/&gt;</span></a>
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="../../index.html#hero" class="nav-link">Home</a></li>
+          <li><a href="../../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../../index.html#services" class="nav-link">Services</a></li>
+          <li><a href="../../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../../index.html#proj" class="nav-link">Projects</a></li>
+          <li><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+          <li><a href="https://github.com/walter-a-jablonowski" target="_blank" class="nav-link github-link" title="Visit my GitHub profile"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="article-header">
+      <div class="container">
+        <h1>Autonomous Agents: Google AP2, A2A and Coinbase x402</h1>
+        <div class="article-meta">
+          <span><i class="far fa-calendar"></i> <time datetime="2025-09-18">September 18, 2025</time></span>
+          <span>|</span>
+          <span><i class="fas fa-tags"></i> <span class="tag">Agents</span><span class="tag">Google Cloud</span><span class="tag">Payments</span><span class="tag alt">AI first</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="article-content">
+      <div class="container">
+        <div class="article-image">
+          <img src="../../misc/ShelfSurfer.png" alt="Illustration: autonomous agents with payments and discovery" loading="lazy">
+        </div>
+
+        <div class="article-text">
+          <p class="mini">Sources: Coinbase x402 Bazaar (Agent discovery + mini‑apps) and Google Agent stack: A2A, AP2 (Agent Payments Pro), Agent Dev Kit (Vertex AI)</p>
+
+          <h2>TL;DR — Why this matters</h2>
+          <ul>
+            <li><strong>Discovery + Distribution (x402):</strong> Marketplace to publish, find and run agentic mini‑apps with crypto-native rails.</li>
+            <li><strong>Execution + Tools (Agent Dev Kit):</strong> Opinionated scaffolding on Vertex AI to build tool-using agents fast.</li>
+            <li><strong>Trust + Payments (AP2/A2A):</strong> Built-in authenticated actions and programmatic payments to let agents transact safely.</li>
+          </ul>
+
+          <h2>What each piece is</h2>
+          <div class="key-points">
+            <div class="cardish">
+              <h3>Coinbase x402 Bazaar</h3>
+              <ul>
+                <li><strong>Agent discovery:</strong> Directory to list agents and mini‑apps; users can try and adopt quickly.</li>
+                <li><strong>Mini‑apps:</strong> Lightweight, purpose-built agent experiences with crypto wallets/payment rails attached.</li>
+                <li><strong>Why useful:</strong> Solves the cold start of agent distribution and monetization.</li>
+                <li class="mini link-row">
+                  <a href="https://www.coinbase.com/de/developer-platform/discover/launches/x402-bazaar" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Launch</a>
+                  <a href="https://docs.cdp.coinbase.com/x402/bazaar" target="_blank"><i class="fa-solid fa-book"></i>Docs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="cardish">
+              <h3>Google A2A</h3>
+              <ul>
+                <li><strong>Authenticated Actions:</strong> Standard to let agents perform user-approved actions across services.</li>
+                <li><strong>Benefit:</strong> Clear consent + security model; reduces custom OAuth plumbing per tool.</li>
+              </ul>
+            </div>
+            <div class="cardish">
+              <h3>Google AP2 (Agent Payments Pro)</h3>
+              <ul>
+                <li><strong>Programmatic payments:</strong> Let agents initiate and settle payments under policy and user consent.</li>
+                <li><strong>Use cases:</strong> Booking, shopping, subscriptions, payouts between agents.</li>
+                <li><strong>Risk guardrails:</strong> Limits, verifications, auditability baked in.</li>
+              </ul>
+            </div>
+            <div class="cardish">
+              <h3>Agent Dev Kit (Vertex AI)</h3>
+              <ul>
+                <li><strong>Scaffold:</strong> Tools, memory, routing, evals; runs on Vertex AI with Google infra.</li>
+                <li><strong>Quickstart:</strong> Create an agent, register tools, wire flows, deploy an endpoint.</li>
+                <li class="mini link-row">
+                  <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-development-kit/quickstart?hl=de" target="_blank"><i class="fa-solid fa-book"></i>Quickstart</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>How they fit together</h2>
+          <ul>
+            <li><strong>Build:</strong> Start on Vertex AI Agent Dev Kit for tool-enabled agents.</li>
+            <li><strong>Transact:</strong> Add A2A for secure actions and AP2 for payments under user policies.</li>
+            <li><strong>Distribute:</strong> Ship as a mini‑app to x402 Bazaar for discovery and monetization.</li>
+          </ul>
+
+          <h2>Practical Dev Notes</h2>
+          <ul>
+            <li><strong>Stack sketch:</strong> Frontend mini‑app + Vertex agent backend; connect Coinbase wallet; enforce AP2 policies.</li>
+            <li><strong>Auth flows:</strong> User approves capabilities (A2A), sets spend limits (AP2), agent executes within bounds.</li>
+            <li><strong>Observability:</strong> Log tool calls, payment intents, approvals; keep audit trails.</li>
+            <li><strong>Monetization:</strong> Listing + in‑app payments; consider tiers and usage-based pricing.</li>
+          </ul>
+
+          <h2>Risks and guardrails</h2>
+          <ul>
+            <li><strong>Over-permissioned agents:</strong> Minimize scopes; require explicit consent per sensitive action.</li>
+            <li><strong>Payment abuse:</strong> Rate limits, per‑txn caps, anomaly detection, mandatory confirmations.</li>
+            <li><strong>Tool drift:</strong> Version tools; run evals; freeze tool schemas for listed mini‑apps.</li>
+          </ul>
+
+          <h2>Bottom line</h2>
+          <p>With x402 for discovery, A2A/AP2 for trusted actions and payments, and Vertex Agent Dev Kit for execution, the agent stack now covers build → transact → distribute. That unlocks real, paid agent experiences beyond demos.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="../../index.html"><span class="highlight">&lt;</span>WAJ<span class="highlight">/&gt;</span></a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/walter-a-jablonowski" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/walterjab" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="../../privacy.html">Privacy</a>
+          <a href="../../imprint.html">Imprint</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>powered by &copy; Walter A. Jablonowski 2019-2025. Made with AI. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init({ publicKey: "xvNrfCyYGqQD5cuoU" });
+    })();
+  </script>
+  <script src="../../controller.js?v=25060201"></script>
+  <script src="../../lib/map.js?v=25060201"></script>
+  <script src="../../lib/popover.js?v=25060201"></script>
+  <script>
+    new WebsiteController();
+    if( typeof MapController !== 'undefined' ) { new MapController(); }
+  </script>
+</body>
+</html>
