@@ -1,14 +1,12 @@
 
 Based on the information and source articles below, make a new block article in the blogs folder (file name: `YYMMDD-01-my-title.html` with no underscore in front).
 
-Make a summary that contains all important key points from the sources. Don't write unnecessary text. A block article usually includes some writing, but use outlining as well to keep it short and easy to read.
+Make a summary and be sure that it contains all important key points from the sources. Write an easy to read article. Don't write unnecessarily much text. Also use some outlining.
 
-Produce the article as an html pages that looks good with the current design of the website. You may include a header image on the article page. Here are samples for blog article pages:
+Produce the article as an html pages that looks good with the current design of this website. You may include a header image from one of the sources pages on the article page if you think there is an appropriate image on one of the sources pages. Here are samples for blog article pages:
 
 - with no image: _250918-01-sample.html
 - with image:    _250918-02-sample-with-img.html
-
-You may add styles for the article if something is missing in styles.css that you want to use, put them in a style tag in new the page.
 
 Source information and articles:
 
