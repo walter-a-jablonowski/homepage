@@ -3,7 +3,7 @@ Based on the information and source articles below, make a new block article in 
 
 Make a summary that contains all important key points from the sources. Don't write unnecessary text. A block article usually includes some writing, but use outlining as well to keep it short and easy to read.
 
-Produce the article as an html pages that looks good with the current design of the website. You may include a header image on the article page. Hier are samples for blog article pages:
+Produce the article as an html pages that looks good with the current design of the website. You may include a header image on the article page. Here are samples for blog article pages:
 
 - with no image: _250917-01-sample.html
 - with image:    _250917-02-sample-with-img.html
