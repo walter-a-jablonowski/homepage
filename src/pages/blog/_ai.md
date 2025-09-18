@@ -12,4 +12,4 @@ Source information and articles:
 
 
 
-When you finished writing the article page add a new list entry in blog.php .blog-list
+When you finished writing the article page add a new list entry in blog.php .blog-list and update the tags cloud.
