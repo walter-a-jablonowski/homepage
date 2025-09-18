@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="What Google AP2 (Agent Payments Pro), A2A, Coinbase x402, and Google Agent Dev Kit mean for autonomous agents. A concise, practical overview.">
-  <meta name="keywords" content="Agents, AP2, A2A, Coinbase x402, Google Cloud, Vertex AI, Payments, AI first">
+  <meta name="description" content="How Google Agent Dev Kit, Coinbase x402 Bazaar, and Agent Payments Pro (AP2) fit together to build, discover, and monetize autonomous agents.">
+  <meta name="keywords" content="Agents, AI first, Payments, Google Cloud, Coinbase, x402, AP2">
   <meta name="author" content="Walter A. Jablonowski">
-  <meta property="og:title" content="Autonomous Agents: Google AP2, A2A and Coinbase x402 - Walter A. Jablonowski">
-  <meta property="og:description" content="What Google AP2 (Agent Payments Pro), A2A, Coinbase x402, and Google Agent Dev Kit mean for autonomous agents. A concise, practical overview.">
+  <meta property="og:title" content="Autonomous Agents with Google ADK, Coinbase x402, and AP2 - Walter A. Jablonowski">
+  <meta property="og:description" content="A concise overview of the emerging agent stack: build with Google's Agent Dev Kit, distribute via x402 Bazaar, and handle money flows with AP2.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://walter-a-jablonowski.github.io/pages/blog/250918-autonomous-agents-ap2-x402.html">
-  <title>Autonomous Agents: Google AP2, A2A and Coinbase x402 | Walter A. Jablonowski</title>
+  <meta property="og:url" content="https://walter-a-jablonowski.github.io/pages/blog/250918-01-autonomous-agents-ap2-x402.html">
+  <title>Autonomous agents with Google ADK, Coinbase x402, and AP2 | Walter A. Jablonowski</title>
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
@@ -21,17 +21,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
   <script src="../../cookie-fix.js?v=25060201"></script>
-  <style>
-    /* Minor article-specific refinements that complement styles.css */
-    .article-header h1 { max-width: 900px }
-    .article-image { margin: 0 0 var(--spacing-xl); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08) }
-    .article-image img { width: 100%; height: auto; display: block }
-    .key-points { display: grid; gap: var(--spacing-lg) }
-    .key-points .cardish { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: var(--spacing-lg); border-radius: 10px }
-    .mini { color: var(--light-gray) }
-    .link-row a { display: inline-flex; align-items: center; gap: .5rem; margin-right: 1rem }
-    .link-row a i { opacity: .8 }
-  </style>
 </head>
 <body>
   <header>
@@ -59,96 +48,80 @@
   <main class="page-wrap">
     <section class="article-header">
       <div class="container">
-        <h1>Autonomous Agents: Google AP2, A2A and Coinbase x402</h1>
+        <h1>Autonomous agents with Google ADK, Coinbase x402, and AP2</h1>
         <div class="article-meta">
           <span><i class="far fa-calendar"></i> <time datetime="2025-09-18">September 18, 2025</time></span>
           <span>|</span>
-          <span><i class="fas fa-tags"></i> <span class="tag">Agents</span><span class="tag">Google Cloud</span><span class="tag">Payments</span><span class="tag alt">AI first</span></span>
+          <span><i class="fas fa-tags"></i> <span class="tag">Agents</span><span class="tag alt">AI first</span><span class="tag">Payments</span></span>
         </div>
       </div>
     </section>
 
     <section class="article-content">
       <div class="container">
-        <div class="article-image">
-          <img src="../../misc/ShelfSurfer.png" alt="Illustration: autonomous agents with payments and discovery" loading="lazy">
-        </div>
-
         <div class="article-text">
-          <p class="mini">Sources: Coinbase x402 Bazaar (Agent discovery + mini‑apps) and Google Agent stack: A2A, AP2 (Agent Payments Pro), Agent Dev Kit (Vertex AI)</p>
+          <p>Autonomous agents are quickly getting a practical stack: build agents with Google’s Agent Development Kit (ADK), publish and discover them via Coinbase’s x402 Bazaar, and enable compliant money flows using Agent Payments Pro (AP2). Below is a concise map of what each part does and how they fit together.</p>
 
-          <h2>TL;DR — Why this matters</h2>
+          <h2>TL;DR — Key points</h2>
           <ul>
-            <li><strong>Discovery + Distribution (x402):</strong> Marketplace to publish, find and run agentic mini‑apps with crypto-native rails.</li>
-            <li><strong>Execution + Tools (Agent Dev Kit):</strong> Opinionated scaffolding on Vertex AI to build tool-using agents fast.</li>
-            <li><strong>Trust + Payments (AP2/A2A):</strong> Built-in authenticated actions and programmatic payments to let agents transact safely.</li>
+            <li><strong>Build:</strong> Google <em>Agent Development Kit</em> offers a quickstart to scaffold tools, memory, and execution for agents on Vertex AI.</li>
+            <li><strong>Discover:</strong> Coinbase <em>x402 Bazaar</em> is an agent/app directory and distribution surface with developer docs and launch guide.</li>
+            <li><strong>Transact:</strong> <em>AP2</em> (Agent Payments Pro) provides primitives for programmatic payments, wallets, and compliance rails.</li>
+            <li><strong>A2A:</strong> Emerging agent‑to‑agent patterns enable agents to call other agents and exchange value or capabilities.</li>
           </ul>
 
-          <h2>What each piece is</h2>
-          <div class="key-points">
-            <div class="cardish">
-              <h3>Coinbase x402 Bazaar</h3>
-              <ul>
-                <li><strong>Agent discovery:</strong> Directory to list agents and mini‑apps; users can try and adopt quickly.</li>
-                <li><strong>Mini‑apps:</strong> Lightweight, purpose-built agent experiences with crypto wallets/payment rails attached.</li>
-                <li><strong>Why useful:</strong> Solves the cold start of agent distribution and monetization.</li>
-                <li class="mini link-row">
-                  <a href="https://www.coinbase.com/de/developer-platform/discover/launches/x402-bazaar" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Launch</a>
-                  <a href="https://docs.cdp.coinbase.com/x402/bazaar" target="_blank"><i class="fa-solid fa-book"></i>Docs</a>
-                </li>
-              </ul>
-            </div>
-            <div class="cardish">
-              <h3>Google A2A</h3>
-              <ul>
-                <li><strong>Authenticated Actions:</strong> Standard to let agents perform user-approved actions across services.</li>
-                <li><strong>Benefit:</strong> Clear consent + security model; reduces custom OAuth plumbing per tool.</li>
-              </ul>
-            </div>
-            <div class="cardish">
-              <h3>Google AP2 (Agent Payments Pro)</h3>
-              <ul>
-                <li><strong>Programmatic payments:</strong> Let agents initiate and settle payments under policy and user consent.</li>
-                <li><strong>Use cases:</strong> Booking, shopping, subscriptions, payouts between agents.</li>
-                <li><strong>Risk guardrails:</strong> Limits, verifications, auditability baked in.</li>
-              </ul>
-            </div>
-            <div class="cardish">
-              <h3>Agent Dev Kit (Vertex AI)</h3>
-              <ul>
-                <li><strong>Scaffold:</strong> Tools, memory, routing, evals; runs on Vertex AI with Google infra.</li>
-                <li><strong>Quickstart:</strong> Create an agent, register tools, wire flows, deploy an endpoint.</li>
-                <li class="mini link-row">
-                  <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-development-kit/quickstart?hl=de" target="_blank"><i class="fa-solid fa-book"></i>Quickstart</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <h2>Components at a glance</h2>
+          <h3>Google Agent Development Kit (ADK)</h3>
+          <p>Google’s ADK (Vertex AI) provides scaffolding and runtime support to build agents that call tools, keep state, and orchestrate tasks. The <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-development-kit/quickstart?hl=de" target="_blank" rel="noopener">Quickstart</a> shows how to:</p>
+          <ul>
+            <li>Define tools/functions an agent can invoke</li>
+            <li>Configure memory and planning/execution</li>
+            <li>Run locally or deploy to Google Cloud endpoints</li>
+          </ul>
+
+          <h3>Coinbase x402 and the Bazaar</h3>
+          <p>x402 focuses on agent discovery, distribution, and mini-apps. The <a href="https://www.coinbase.com/de/developer-platform/discover/launches/x402-bazaar" target="_blank" rel="noopener">Bazaar launch</a> and the <a href="https://docs.cdp.coinbase.com/x402/bazaar" target="_blank" rel="noopener">developer docs</a> outline:</p>
+          <ul>
+            <li>How to publish agents or mini‑apps to a marketplace-like directory</li>
+            <li>Discovery metadata and versioning</li>
+            <li>Distribution surfaces and user onboarding</li>
+          </ul>
+
+          <h3>Agent Payments Pro (AP2)</h3>
+          <p>AP2 adds payment primitives for agents: account creation, pay‑ins/pay‑outs, balances, and potentially compliance tooling. Combined with x402, it enables agents to charge for work or pay other agents.</p>
+
+          <h3>A2A (Agent‑to‑Agent)</h3>
+          <p>A2A patterns allow agents to invoke each other’s capabilities (e.g., retrieval, booking, payments). With AP2+x402, A2A can include metered usage and settlement.</p>
 
           <h2>How they fit together</h2>
+          <ol>
+            <li><strong>Develop</strong> your agent with ADK: tools, memory, execution loop.</li>
+            <li><strong>Distribute</strong> via x402 Bazaar: publish, document, and version your agent.</li>
+            <li><strong>Monetize</strong> with AP2: accept payments, pay collaborators or upstream agents.</li>
+          </ol>
+
+          <h2>Reference workflow (developer)</h2>
           <ul>
-            <li><strong>Build:</strong> Start on Vertex AI Agent Dev Kit for tool-enabled agents.</li>
-            <li><strong>Transact:</strong> Add A2A for secure actions and AP2 for payments under user policies.</li>
-            <li><strong>Distribute:</strong> Ship as a mini‑app to x402 Bazaar for discovery and monetization.</li>
+            <li>Prototype locally using the ADK Quickstart.</li>
+            <li>Add core tools (search, RAG, service APIs) and guardrails.</li>
+            <li>Integrate AP2 for pricing and settlement (per task or subscription).</li>
+            <li>Publish to x402 Bazaar with clear metadata, pricing, and docs.</li>
+            <li>Enable A2A by exposing a simple, stable tool interface.</li>
           </ul>
 
-          <h2>Practical Dev Notes</h2>
+          <h2>Risks and open questions</h2>
           <ul>
-            <li><strong>Stack sketch:</strong> Frontend mini‑app + Vertex agent backend; connect Coinbase wallet; enforce AP2 policies.</li>
-            <li><strong>Auth flows:</strong> User approves capabilities (A2A), sets spend limits (AP2), agent executes within bounds.</li>
-            <li><strong>Observability:</strong> Log tool calls, payment intents, approvals; keep audit trails.</li>
-            <li><strong>Monetization:</strong> Listing + in‑app payments; consider tiers and usage-based pricing.</li>
+            <li>Compliance and KYC/AML responsibilities when agents move money</li>
+            <li>Trust, safety, and rate‑limiting for A2A invocation chains</li>
+            <li>Vendor lock‑in across cloud runtime vs. distribution/payment rails</li>
           </ul>
 
-          <h2>Risks and guardrails</h2>
+          <h2>Sources</h2>
           <ul>
-            <li><strong>Over-permissioned agents:</strong> Minimize scopes; require explicit consent per sensitive action.</li>
-            <li><strong>Payment abuse:</strong> Rate limits, per‑txn caps, anomaly detection, mandatory confirmations.</li>
-            <li><strong>Tool drift:</strong> Version tools; run evals; freeze tool schemas for listed mini‑apps.</li>
+            <li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-development-kit/quickstart?hl=de" target="_blank" rel="noopener">Google Agent Development Kit — Quickstart</a></li>
+            <li><a href="https://www.coinbase.com/de/developer-platform/discover/launches/x402-bazaar" target="_blank" rel="noopener">Coinbase — x402 Bazaar launch</a></li>
+            <li><a href="https://docs.cdp.coinbase.com/x402/bazaar" target="_blank" rel="noopener">Coinbase — x402 Bazaar docs</a></li>
           </ul>
-
-          <h2>Bottom line</h2>
-          <p>With x402 for discovery, A2A/AP2 for trusted actions and payments, and Vertex Agent Dev Kit for execution, the agent stack now covers build → transact → distribute. That unlocks real, paid agent experiences beyond demos.</p>
         </div>
       </div>
     </section>
