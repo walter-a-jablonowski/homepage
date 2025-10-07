@@ -1,6 +1,6 @@
 # Cascade Chat Conversation
 
-  Note: _This is purely the output of the chat conversation and does not contain any raw data, codebase snippets, etc. used to generate the output._
+  _This is purely the output of the chat conversation and doesn't contain any raw data, codebase snippets, etc. used to generate the output._
 
 ### User Input
 
@@ -29,7 +29,7 @@ I understand the prompt. It's a specification for a task management app with dra
    - Same for `nextYear` and `followingYears` - no task structure defined
    - Should these follow the same nested structure as `firstCol.current`?
 
-3. **Line 62: Recursive sub-tasks** - The spec mentions "sub tasks have same data fields (including sub tasks which we currently don't render in UI)" - this creates infinite nesting potential. Questions:
+3. **Line 62: Recursive sub-tasks** - The spec mentions "sub tasks have same data fields (including sub tasks which we currently don't render in UI)" - this creates infinite nesting. Questions:
    - How many levels deep should sub-tasks go?
    - Should the data model support unlimited nesting even if UI only shows 1 level?
 
@@ -100,7 +100,7 @@ Much clearer now! Most issues are resolved. Here are the remaining items:
 
 10. **Line 12-13: "5 years after that"** - Does this mean years 2027-2031 (if next year is 2026), or literally the 5 years following next year?
 
-Otherwise, the specification is now logically sound and implementable!
+Beside that, the specification is now logically sound and implementable!
 
 *Viewed [ai_2.md](file:///g:/Meine%20Ablage/81-dev/11%20Primary%20dool/schedule/ai_2.md) *
 
@@ -133,7 +133,7 @@ Only **one typo** remaining:
 **Line 75:** "xear" → should be "year"
 - `# 5 years after the next xear` → `# 5 years after the next year`
 
-Otherwise, the specification is now **logically sound and complete**. All structural issues are resolved, and the requirements are clear and implementable. The app structure makes sense with:
+Beside that, the specification is now **logically sound and complete**. All structural issues are resolved, and the requirements are clear and implementable. The app structure makes sense with:
 
 - ✅ Clear column layout
 - ✅ Well-defined data structure
@@ -258,9 +258,9 @@ I'll read the updated file to check for any issues.
 
 7. **Done tasks in archive (line 97):**
    - All archived tasks will have `done: true` - is this field redundant in the archive?
-   - Or could archive contain both done and deleted tasks?
+   - Or could archive contain done and deleted tasks?
 
-Otherwise, the specification is comprehensive and well-structured! Just needs these clarifications and typo fixes.
+Beside that, the specification is comprehensive and well-structured! Just needs these clarifications and typo fixes.
 
 *Viewed [ai_2.md](file:///g:/Meine%20Ablage/81-dev/11%20Primary%20dool/schedule/ai_2.md) *
 
@@ -307,7 +307,7 @@ I'll read the updated file to check for any remaining issues.
    - This seems to contradict line 106-107 which says done tasks from Current/Upcoming ARE moved to archive
    - Did you mean: "leave **undone** entries for Current and Upcoming untouched"?
 
-Otherwise, the specification is **very comprehensive and ready to implement**! Just needs that one typo fix and possibly the clarifications above.
+Beside that, the specification is **very comprehensive and ready to implement**! Just needs that one typo fix and possibly the clarifications above.
 
 *Viewed [ai_2.md](file:///g:/Meine%20Ablage/81-dev/11%20Primary%20dool/schedule/ai_2.md) *
 
@@ -434,7 +434,7 @@ Now let me create the JavaScript controller:
 
 ### Planner Response
 
-Now let me create the CSS file with custom styling (no Bootstrap, following the spec's design requirements):
+Now let me create the CSS file with custom styling (no BS, following the spec's design requirements):
 
 *Edited relevant file*
 
@@ -492,7 +492,7 @@ I've successfully implemented the task management application according to your 
 schedule/
 ├── index.php              # Main HTML interface
 ├── controller.js          # JavaScript for UI and drag-and-drop
-├── style.css             # Custom styling (no Bootstrap)
+├── style.css             # Custom styling (no BS)
 ├── ajax.php              # AJAX request router
 ├── ajax/                 # AJAX endpoint handlers
 │   ├── get_data.php
@@ -611,7 +611,7 @@ Perfect! I've updated the demo data to reflect your typical usage:
   - "Fix critical bug" - has due date (2025-10-10) and priority 1
   - "Black Friday campaign" - has due date (2025-11-24)
 - Added more tasks to show realistic usage
-- All other tasks are simple with just titles and descriptions
+- All remaining tasks are simple with just titles and descriptions
 
 This better represents how you'll actually use the app - primarily organizing tasks by dragging them to appropriate months/sections, with dates and priorities only used occasionally for urgent items.
 
