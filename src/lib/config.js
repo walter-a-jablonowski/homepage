@@ -10,7 +10,7 @@
 const VOICE_AGENT_CONFIG = {
 
   // Google AI Studio API Key
-  apiKey: 'AIzaSyBPfBz2esrP2wgE1wAkUbJ4GRkSpNqi1jw',
+  apiKey: '',
 
   // Model configuration
   // Using Gemini Live 2.5 Flash Preview - official Live API model with native audio
