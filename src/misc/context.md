@@ -55,31 +55,31 @@ All projects below are projects that I did before 2015 on different platforms. C
 
 Zeitraum: 2015-11 – 2016-01
 
-**Unternehmen:** Varimetrix (Deutschland) GmbH
-**Rolle:** Entwicklung
-**Details:** Erweiterung einer iOS Anwendung aus dem Verlagsbereich um Filterfunktionen, verschiedene UI-Funktionen. Migration der Daten von Files auf SQLite per selbstgeschriebenem Tool. Neu Schreiben des Datenkern. iPad Version. Portierung auf Android.
-**Plattform:** iOS, Android
-**Werkzeuge:** Objective C, Java, PHP, xcode, Android Studio
+- **Unternehmen:** Varimetrix (Deutschland) GmbH
+- **Rolle:** Entwicklung
+- **Details:** Erweiterung einer iOS Anwendung aus dem Verlagsbereich um Filterfunktionen, verschiedene UI-Funktionen. Migration der Daten von Files auf SQLite per selbstgeschriebenem Tool. Neu Schreiben des Datenkern. iPad Version. Portierung auf Android.
+- **Plattform:** iOS, Android
+- **Werkzeuge:** Objective C, Java, PHP, xcode, Android Studio
 
 ### Erweiterung einer iOS Anwendung
 
 Zeitraum: 2015-09 – 2015-10
 
-**Unternehmen:** Varimetrix (Deutschland) GmbH
-**Rolle:** Entwicklung
-**Details:** Erweiterung einer iOS Anwendung um UI-Funktionen, Barcode Scanner Umstellung von Library auf iOS SDK, Libraries updaten, usw.
-**Plattform:** iOS
-**Werkzeuge:** **Objective C**, xcode
+- **Unternehmen:** Varimetrix (Deutschland) GmbH
+- **Rolle:** Entwicklung
+- **Details:** Erweiterung einer iOS Anwendung um UI-Funktionen, Barcode Scanner Umstellung von Library auf iOS SDK, Libraries updaten, usw.
+- **Plattform:** iOS
+- **Werkzeuge:** **Objective C**, xcode
 
 ### Mitarbeit an eCommerce System
 
 Zeitraum: 2015-02 - 2015-03
 
-**Kunde:** Handelsunternehmer
-**Rolle:** Entwicklung
-**Details:** Mitarbeit an eCommerce-System
-**Plattform:** Web
-**Werkzeuge:** **PHP**
+- **Kunde:** Handelsunternehmer
+- **Rolle:** Entwicklung
+- **Details:** Mitarbeit an eCommerce-System
+- **Plattform:** Web
+- **Werkzeuge:** **PHP**
 
 ### Entwicklung mit .NET Gadgeteer
 
