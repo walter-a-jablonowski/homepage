@@ -86,7 +86,7 @@ Zeitraum: 2016-02 – 2017-12
 
 ## Older projects
 
-All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause it was long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects tell him what experience I have but mention that I currently can't offer these cause it was too long ago.
+All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause that was too long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects and that I don't have in my current skill set, tell him about my experience but also mention that I currently can't offer these cause this was too long ago.
 
 ### Erweiterung einer iOS Anwendung, iPad Version, Portierung auf Android
 
