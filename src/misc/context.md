@@ -2,7 +2,7 @@
 
 ### Weiterentwicklung Web Applikation Statistik
 
-Zeitraum: 01.20 - 07.24
+Zeitraum: 2020-01 - 2024-07
 
 <table>
   <tr>
@@ -29,7 +29,7 @@ Zeitraum: 01.20 - 07.24
 
 ### Neuentwicklung einer Webapplikation für betriebliche Verwaltung
 
-Zeitraum: 05.19 - 01.21
+Zeitraum: 2019-05 - 2021-01
 
 <table>
   <tr>
@@ -56,7 +56,7 @@ Zeitraum: 05.19 - 01.21
 
 ### Entwicklung von Open Source Applikationen und Komponenten
 
-Zeitraum: seit 01.18
+Zeitraum: seit 2018-01
 
 <table>
   <tr>
@@ -95,7 +95,7 @@ Zeitraum: seit 01.18
 
 ### Neuentwicklung Web Applikation Statistik
 
-Zeitraum: 02.16 – 12.17
+Zeitraum: 2016-02 – 2017-12
 
 <table>
   <tr>
@@ -130,7 +130,7 @@ All projects below are projects that I did before 2015 on different platforms. C
 
 ### Erweiterung einer iOS Anwendung, iPad Version, Portierung auf Android
 
-Zeitraum: 11.15 – 01.16
+Zeitraum: 2015-11 – 2016-01
 
 <table>
   <tr>
@@ -157,7 +157,7 @@ Zeitraum: 11.15 – 01.16
 
 ### Erweiterung einer iOS Anwendung
 
-Zeitraum: 09.15 – 10.15
+Zeitraum: 2015-09 – 2015-10
 
 <table>
   <tr>
@@ -184,7 +184,7 @@ Zeitraum: 09.15 – 10.15
 
 ### Mitarbeit an eCommerce System
 
-Zeitraum: 02.15 - 03.15
+Zeitraum: 2015-02 - 2015-03
 
 <table>
   <tr>
@@ -211,7 +211,7 @@ Zeitraum: 02.15 - 03.15
 
 ### Entwicklung mit .NET Gadgeteer
 
-Zeitraum: ab 08.12
+Zeitraum: ab 2012-08
 
 <table>
   <tr>
@@ -240,7 +240,7 @@ Zeitraum: ab 08.12
 
 ### Mitarbeit an einer iPhone App Web 2.0 Plattform
 
-Zeitraum: 02.12
+Zeitraum: 2012-02
 
 <table>
   <tr>
@@ -267,7 +267,7 @@ Zeitraum: 02.12
 
 ### Entwicklung einer Web 2.0 Webapplikation (Prototyp)
 
-Zeitraum: 07.11 – 09.11
+Zeitraum: 2011-07 – 2011-09
 
 <table>
   <tr>
@@ -292,9 +292,9 @@ Zeitraum: 07.11 – 09.11
   </tr>
 </table>
 
-### Entwicklung einer iPhone App Automotive, Schulung von Programmierern
+### Entwicklung einer iPhone App Automobile, Schulung von Programmierern
 
-Zeitraum: 12.10
+Zeitraum: 2010-12
 
 <table>
   <tr>
@@ -321,7 +321,7 @@ Zeitraum: 12.10
 
 ### Entwicklung einer iPhone App im Bereich Consumer Services
 
-Zeitraum: 10.10 – 12.10
+Zeitraum: 2010-10 – 2010-12
 
 <table>
   <tr>
@@ -348,7 +348,7 @@ Zeitraum: 10.10 – 12.10
 
 ### Entwicklung einer News iPhone App
 
-Zeitraum: 07.10 – 08.10
+Zeitraum: 2010-07 – 2010-08
 
 <table>
   <tr>
@@ -375,7 +375,7 @@ Zeitraum: 07.10 – 08.10
 
 ### Entwicklung einer iPhone App für Telekommunikationskonzern
 
-Zeitraum: 07.10 – 08.10
+Zeitraum: 2010-07 – 2010-08
 
 <table>
 <tr>
@@ -402,7 +402,7 @@ Zeitraum: 07.10 – 08.10
 
 ### Neuentwicklung einer iPhone App für Immobilienportal
 
-Zeitraum: 11.09
+Zeitraum: 2009-11
 
 <table>
 <tr>
@@ -429,7 +429,7 @@ Zeitraum: 11.09
 
 ### Datenbankentwicklung SQL Server
 
-Zeitraum: 02.09 – 12.09
+Zeitraum: 2009-02 – 2009-12
 
 <table>
 <tr>
@@ -458,7 +458,7 @@ Zeitraum: 02.09 – 12.09
 
 ### iPhone Radio Apps
 
-Zeitraum: 01.09 – 03.09
+Zeitraum: 2009-01 – 2009-03
 
 <table>
 <tr>
@@ -485,7 +485,7 @@ Zeitraum: 01.09 – 03.09
 
 ### Tool für Zeiterfassung, Projektverfolgung und Abrechnung in SW-Projekten
 
-Zeitraum: 07.08
+Zeitraum: 2008-07
 
 <table>
   <tr>
@@ -512,7 +512,7 @@ Zeitraum: 07.08
 
 ### Entwicklung einer Bug-Reporting-Komponente mit Anbindung an ein Bug Tracking System
 
-Zeitraum: 03.08
+Zeitraum: 2008-03
 
 <table>
   <tr>
@@ -539,7 +539,7 @@ Zeitraum: 03.08
 
 ### Neuentwicklung eines ERP-Systems
 
-Zeitraum: 12.07 – 03.08
+Zeitraum: 2007-12 – 2008-03
 
 <table>
   <tr>
@@ -566,7 +566,7 @@ Zeitraum: 12.07 – 03.08
 
 ### Neuentwicklung einer Anwendung für Datenbereinigung &lt;img&gt;Autozulieferer-Konzern&lt;/img&gt;
 
-Zeitraum: 11.07, 07.08 – 08.08
+Zeitraum: 2007-11, 2008-07 – 2008-08
 
 **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 **Rolle:** Analyse, Design, Entwicklung
@@ -578,7 +578,7 @@ Implementierung von weiteren Komponenten.
 
 ### Komponente zur Erstellung von hierarchischen Datenfiltern
 
-Zeitraum: 04.08 – 05.08
+Zeitraum: 2008-04 – 2008-05
 
 **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 **Rolle:** Analyse, Design, Entwicklung
@@ -588,7 +588,7 @@ Zeitraum: 04.08 – 05.08
 
 ### Neuentwicklung einer Anwendung für den IT-Support
 
-Zeitraum: 07.07 – 12.08
+Zeitraum: 2007-07 – 2008-12
 
 **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 **Rolle:** Analyse, Design, Entwicklung
@@ -600,7 +600,7 @@ In 08.08 interessierte sich eine weitere Abteilung für das Programm: Entwicklun
 
 ### Neuentwicklung einer werkseiten Anw. für „Anwender-/Zugriffskontrolle“
 
-Zeitraum: 02.07 – 12.08
+Zeitraum: 2007-02 – 2008-12
 
 **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 **Rolle:** Analyse, Design, Entwicklung
@@ -611,7 +611,7 @@ Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entw
 
 ### Erweiterung einer Anwendung zum weltweiten Dateiaustausch
 
-Zeitraum: 01.07
+Zeitraum: 2007-01
 
 <table>
     <tr>
@@ -642,7 +642,7 @@ Zeitraum: 01.07
 
 ### Neuentwicklung einer ERP-Applikation für den Massivholzmöbel-Vertrieb
 
-Zeitraum: 12.04 – 02.06
+Zeitraum: 2004-12 – 2006-02
 
 <table>
     <tr>
@@ -669,7 +669,7 @@ Zeitraum: 12.04 – 02.06
 
 ### Vorbereitung zum Rework von ca. 10 Access-Anwendungen
 
-Zeitraum: 11.04 – 12.04
+Zeitraum: 2004-11 – 2004-12
 
 &lt;img&gt;DATEV logo&lt;/img&gt; DATEV
 
@@ -698,7 +698,7 @@ Zeitraum: 11.04 – 12.04
 
 ### Technisches Angeb. für Redesign Client/Server-Anwendung
 
-Zeitraum: 10.04
+Zeitraum: 2004-10
 
 &lt;img&gt;EDS logo&lt;/img&gt; EDS an HP company &lt;img&gt;SKF logo&lt;/img&gt; SKF
 
@@ -727,7 +727,7 @@ Zeitraum: 10.04
 
 ### Entwicklung einer Webplattform für Print-Lösungen
 
-Zeitraum: 07.04 – 10.04
+Zeitraum: 2004-07 – 2004-10
 
 <table>
   <tr>
@@ -754,14 +754,14 @@ Zeitraum: 07.04 – 10.04
 
 ### MS Office Schulungen für Selbstständige Kursteilnehmen
 
-05.04 - 06.05
+Zeitraum: 2004-05 - 2005-06
 
 Institut 2F Informatik GmbH, Innsbruck
 Freiberuflicher MS Office Trainer, Schulung von Unternehmern
 
 ### Mitarbeit an der Neuentwicklung eines Application Framework
 
-Zeitraum: 01.02 – 11.02
+Zeitraum: 2002-01 – 2002-11
 
 <table>
   <tr>
@@ -792,7 +792,7 @@ Zeitraum: 01.02 – 11.02
 
 ### Neuentwicklung einer Software für Produktionssteuerung in Betonwerken
 
-Zeitraum: 02.01 – 06.02
+Zeitraum: 2001-02 – 2002-06
 
 <table>
   <tr>
@@ -827,7 +827,7 @@ Zeitraum: 02.01 – 06.02
 
 ### Migration einer Dispositionssoftware
 
-Zeitraum: 01.01 – 02.01
+Zeitraum: 2001-01 – 2001-02
 
 **Kunde:** Systemhaus/Branchensoftware Betonindustrie
 **Rolle:** Analyse, Entwicklung
@@ -840,7 +840,7 @@ Zeitraum: 01.01 – 02.01
 
 ### Euro-Umstellung einer Fakturierungsanwendung
 
-Zeitraum: 10.01 – 12.01
+Zeitraum: 2001-10 – 2001-12
 
 **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
 **Rolle:** Analyse, Design, Entwicklung
@@ -850,7 +850,7 @@ Zeitraum: 10.01 – 12.01
 
 ### Weiterentwicklung von 3 Softwareprodukten
 
-Zeitraum: 09.00 – 01.03
+Zeitraum: 2000-09 – 2003-01
 
 **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
 **Rolle:** Analyse, Design, Entwicklung
@@ -863,7 +863,7 @@ Zeitraum: 09.00 – 01.03
 
 ### Mitarbeit in einer Firma bereits zur Schulzeit
 
-Zeitraum: 01.96 – 09.99
+Zeitraum: 1996-01 – 1999-09
 
 <table>
   <tr>
