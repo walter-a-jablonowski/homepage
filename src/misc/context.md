@@ -4,44 +4,44 @@
 
 Zeitraum: 2020-01 - 2024-07
 
-**Unternehmen:** Varimetrix (Deutschland) GmbH
-**Rolle:** Entwicklung
-**Details:** Weiterentwicklung einer Web Applikation im Bereich Statistik-Daten.
-**Plattform:** Web
-**Werkzeuge:** PHP 7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
+- **Unternehmen:** Varimetrix (Deutschland) GmbH
+- **Rolle:** Entwicklung
+- **Details:** Weiterentwicklung einer Web Applikation im Bereich Statistik-Daten.
+- **Plattform:** Web
+- **Werkzeuge:** PHP 7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
 
 ### Neuentwicklung einer Webapplikation für betriebliche Verwaltung
 
 Zeitraum: 2019-05 - 2021-01
 
-**Unternehmen:** Werbeagentur
-**Rolle:** Entwicklung
-**Details:** Datenbank basierte Applikation zur Abwicklung betrieblicher Vorgänge. Ablösen eines Altsystems. Insbesondere möglichst abhängigkeitslose Entwicklung um eine sehr lange Laufzeit der Anwendung zu gewährleisten und Migrationsaufwände durch Frameworks zu minimieren. Generieren von Oberflächen aus Bausteinen, sonstige Komponenten für ein kleines Framework inklusive ORM. Entwickeln von Datenbank und Formularen auf Basis des Frameworks.
-**Plattform:** Web
-**Werkzeuge:** Framework: Selbst entwickelt, PHP 7, javascript, jquery, YAML, JSON, Bootstrap, CSS, MariaDB, SQL
+- **Unternehmen:** Werbeagentur
+- **Rolle:** Entwicklung
+- **Details:** Datenbank basierte Applikation zur Abwicklung betrieblicher Vorgänge. Ablösen eines Altsystems. Insbesondere möglichst abhängigkeitslose Entwicklung um eine sehr lange Laufzeit der Anwendung zu gewährleisten und Migrationsaufwände durch Frameworks zu minimieren. Genereren von Oberflächen aus Bausteinen, sonstige Komponenten für ein kleines Framework inklusive ORM. Entwickeln von Datenbank und Formularen auf Basis des Frameworks.
+- **Plattform:** Web
+- **Werkzeuge:** Framework: Selbst entwickelt, PHP 7, javascript, jquery, YAML, JSON, Bootstrap, CSS, MariaDB, SQL
 
 ### Entwicklung von Open Source Applikationen und Komponenten
 
 Zeitraum: seit 2018-01
 
-**Unternehmen:** Eigenentwicklungen
-**Rolle:** Entwicklung
-**Details:** Entwicklung von Open Source Komponenten und Applikationen (github).
-Siehe http://www.github.com/walter-a-jablonowski
-Es ist nicht unbedingt alles veröffentlicht. Bei diesen privaten Projekten liegt der Fokus auf Einfachheit im Gegensatz zum allgemeinen Trend immer komplexer werdender Webframeworks, sowie Automatisierung. Sieht man genau hin, dann kann man das selbe Ergebnis häufig auch mit deutlich weniger komplexen Mitteln erreichen.
-Interessenbereiche allgemein: Informationsmanagement, Tools für Datengewinnung und Kommunikation, Framework-Komponenten, Tools
-**Plattform:** Web (Chrome)
-**Werkzeuge:** PHP 7, javascript, jquery, YAML, JSON, Bootstrap, HTML, CSS
+- **Unternehmen:** Eigenentwicklungen
+- **Rolle:** Entwicklung
+- **Details:** Entwicklung von Open Source Komponenten und Applikationen (github).
+  Siehe http://www.github.com/walter-a-jablonowski
+  Es ist nicht unbedingt alles veröffentlicht. Bei diesen privaten Projekten liegt der Fokus auf Einfachheit im Gegensatz zum allgemeinen Trend immer komplexer werdender Webframeworks, sowie Automatisierung. Sieht man genau hin, dann kann man das selbe Ergebnis häufig auch mit deutlich weniger komplexen Mitteln erreichen.
+  Interessenbereiche allgemein: Informationsmanagement, Tools für Datengewinnung und Kommunikation, Framework-Komponenten, Tools
+- **Plattform:** Web (Chrome)
+- **Werkzeuge:** PHP 7, javascript, jquery, YAML, JSON, Bootstrap, HTML, CSS
 
 ### Neuentwicklung Web Applikation Statistik
 
 Zeitraum: 2016-02 – 2017-12
 
-**Unternehmen:** Varimetrix (Deutschland) GmbH
-**Rolle:** Entwicklung
-**Details:** Neuentwicklung einer Web Applikation im Bereich Statistik-Daten. Layout auf Basis von Bootstrap und AdminLTE, Umsetzung grafisches Design, animierte Menüs u.Ä. Eigene Classes für die App (Base classes, App, ErrorHandler, DB, Log, Data, Captions usw.), sowie Client-Server-Kommunikation. Eigenes Templating System. Dashboard, verschiedene Charts auf Basis von per SDK gesammelten Daten und Chartjs, neu anordnen von Widgets. Generieren benutzerdefinierter Charts, YAML Chart-Definitionsfomrat. Datenlisten mit Gruppierung, aufklappbar, Sortierung, (i) Buttons mit zusätzlichen Popup Informationen. Detailansicht mit Datenliste, Listenfunktionen, Menüs. Mobile Ansicht Handy, Tablet mit Design Anpassungen (responsive). User Settings, Admin, User Help, About, Impressum, Privacy. Und andere Funktionen...
-**Plattform:** Linux Server, Apache, MySQL 5.7, PC, Mac, Smartphone, Tablet (Chrome)
-**Werkzeuge:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
+- **Unternehmen:** Varimetrix (Deutschland) GmbH
+- **Rolle:** Entwicklung
+- **Details:** Neuentwicklung einer Web Applikation im Bereich Statistik-Daten. Layout auf Basis von Bootstrap und AdminLTE, Umsetzung grafisches Design, animierte Menüs u.Ä. Eigene Classes für die App (Base classes, App, ErrorHandler, DB, Log, Data, Captions usw.), sowie Client-Server-Kommunikation. Eigenes Templating System. Dashboard, verschiedene Charts auf Basis von per SDK gesammelten Daten und Chartjs, neu anordnen von Widgets. Generieren benutzerdefinierter Charts, YAML Chart-Definitionsfomrat. Datenlisten mit Gruppierung, aufklappbar, Sortierung, (i) Buttons mit zusätzlichen Popup Informationen. Detailansicht mit Datenliste, Listenfunktionen, Menüs. Mobile Ansicht Handy, Tablet mit Design Anpassungen (responsive). User Settings, Admin, User Help, About, Impressum, Privacy. Und andere Funktionen...
+- **Plattform:** Linux Server, Apache, MySQL 5.7, PC, Mac, Smartphone, Tablet (Chrome)
+- **Werkzeuge:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
 
 &lt;img&gt;Dashboard Screensh&lt;/img&gt;
 
