@@ -55,109 +55,41 @@ All projects below are projects that I did before 2015 on different platforms. C
 
 Zeitraum: 2015-11 – 2016-01
 
-<table>
-  <tr>
-    <td>Unternehmen:</td>
-    <td>Varimetrix (Deutschland) GmbH</td>
-  </tr>
-  <tr>
-    <td>Rolle:</td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td>Details:</td>
-    <td>Erweiterung einer iOS Anwendung aus dem Verlagsbereich um Filterfunktionen, verschiedene UI-Funktionen. Migration der Daten von Files auf SQLite per selbstgeschriebenem Tool. Neu Schreiben des Datenkern. iPad Version. Portierung auf Android.</td>
-  </tr>
-  <tr>
-    <td>Plattform:</td>
-    <td>iOS, Android</td>
-  </tr>
-  <tr>
-    <td>Werkzeuge:</td>
-    <td>Objective C, Java, PHP, xcode, Android Studio</td>
-  </tr>
-</table>
+**Unternehmen:** Varimetrix (Deutschland) GmbH
+**Rolle:** Entwicklung
+**Details:** Erweiterung einer iOS Anwendung aus dem Verlagsbereich um Filterfunktionen, verschiedene UI-Funktionen. Migration der Daten von Files auf SQLite per selbstgeschriebenem Tool. Neu Schreiben des Datenkern. iPad Version. Portierung auf Android.
+**Plattform:** iOS, Android
+**Werkzeuge:** Objective C, Java, PHP, xcode, Android Studio
 
 ### Erweiterung einer iOS Anwendung
 
 Zeitraum: 2015-09 – 2015-10
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Varimetrix (Deutschland) GmbH</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Erweiterung einer iOS Anwendung um UI-Funktionen, Barcode Scanner Umstellung von Library auf iOS SDK, Libraries updaten, usw.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>iOS</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>Objective C</b>, xcode</td>
-  </tr>
-</table>
+**Unternehmen:** Varimetrix (Deutschland) GmbH
+**Rolle:** Entwicklung
+**Details:** Erweiterung einer iOS Anwendung um UI-Funktionen, Barcode Scanner Umstellung von Library auf iOS SDK, Libraries updaten, usw.
+**Plattform:** iOS
+**Werkzeuge:** **Objective C**, xcode
 
 ### Mitarbeit an eCommerce System
 
 Zeitraum: 2015-02 - 2015-03
 
-<table>
-  <tr>
-    <td><b>Kunde:</b></td>
-    <td>Handelsunternehmer</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Mitarbeit an eCommerce-System</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Web</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>PHP</b></td>
-  </tr>
-</table>
+**Kunde:** Handelsunternehmer
+**Rolle:** Entwicklung
+**Details:** Mitarbeit an eCommerce-System
+**Plattform:** Web
+**Werkzeuge:** **PHP**
 
 ### Entwicklung mit .NET Gadgeteer
 
 Zeitraum: ab 2012-08
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Eigenes Unternehmen</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Entwicklung mit .NET Gadgeteer</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Windows, NET M</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>C#</b>, Visual Studio 2010, .NET Framework, .NET Micro Framework (NET MF), .NET Gadgeteer Hardware</td>
-  </tr>
-</table>
+**Unternehmen:** Eigenes Unternehmen
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Entwicklung mit .NET Gadgeteer
+**Plattform:** Windows, NET M
+**Werkzeuge:** **C#**, Visual Studio 2010, .NET Framework, .NET Micro Framework (NET MF), .NET Gadgeteer Hardware
 
 &lt;img&gt;A small electronic device with a screen and circuitry, possibly a .NET Gadgeteer module.&lt;/img&gt;
 
@@ -165,217 +97,81 @@ Zeitraum: ab 2012-08
 
 Zeitraum: 2012-02
 
-<table>
-  <tr>
-    <td><b>Kunde:</b></td>
-    <td>Softwarehaus</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Mitarbeit an einer iPhone App - iPhone Version einer Web 2.0 Plattform.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>iOS</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>iOS SDK 5</b>, Objective C, xcode</td>
-  </tr>
-</table>
+**Kunde:** Softwarehaus
+**Rolle:** Entwicklung
+**Details:** Mitarbeit an einer iPhone App - iPhone Version einer Web 2.0 Plattform.
+**Plattform:** iOS
+**Werkzeuge:** **iOS SDK 5**, Objective C, xcode
 
 ### Entwicklung einer Web 2.0 Webapplikation (Prototyp)
 
 Zeitraum: 2011-07 – 2011-09
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Eigenes Unternehmen</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Planung, Analyse, Architektur, Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Entwicklung eines Prototyps einer Web 2.0 Applikation im Bereich Feed Aggregation. Backend mit Datenbasis und Backend Funktionen. Web Frontend.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Webserver, Linux</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>PHP4, HTML, CSS, XML, javascript, jquery</b></td>
-  </tr>
-</table>
+**Unternehmen:** Eigenes Unternehmen
+**Rolle:** Planung, Analyse, Architektur, Entwicklung
+**Details:** Entwicklung eines Prototyps einer Web 2.0 Applikation im Bereich Feed Aggregation. Backend mit Datenbasis und Backend Funktionen. Web Frontend.
+**Plattform:** Webserver, Linux
+**Werkzeuge:** **PHP4, HTML, CSS, XML, javascript, jquery**
 
 ### Entwicklung einer iPhone App Automobile, Schulung von Programmierern
 
 Zeitraum: 2010-12
 
-<table>
-  <tr>
-    <td><b>Kunde:</b></td>
-    <td><b><i>Subunternehmer Automotive Konzern</i></b></td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Entwicklung einer iPhone App im Bereich Fahrzeuginformationen als Prototyp und Basis für weitere App-Entwicklungen. Funktionaler Details des Projekts sind geheim. Schulung von Programmierern anhand der App.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>iOS</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>iOS SDK 4, Objective C, xcode, IB, WebServices, XML</b></td>
-  </tr>
-</table>
+**Kunde:** **_Subunternehmer Automotive Konzern_**
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Entwicklung einer iPhone App im Bereich Fahrzeuginformationen als Prototyp und Basis für weitere App-Entwicklungen. Funktionaler Details des Projekts sind geheim. Schulung von Programmierern anhand der App.
+**Plattform:** iOS
+**Werkzeuge:** **iOS SDK 4, Objective C, xcode, IB, WebServices, XML**
 
 ### Entwicklung einer iPhone App im Bereich Consumer Services
 
 Zeitraum: 2010-10 – 2010-12
 
-<table>
-  <tr>
-    <td><b>Kunde:</b></td>
-    <td>Dienstleister</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Mitarbeit bei der Entwicklung einer Dienstleistungsplattform als iPhone App im Bereich Consumer Services.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>iOS</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>iOS SDK 4, Objective C, xcode, IB, Web Requests, XML</b></td>
-  </tr>
-</table>
+**Kunde:** Dienstleister
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Mitarbeit bei der Entwicklung einer Dienstleistungsplattform als iPhone App im Bereich Consumer Services.
+**Plattform:** iOS
+**Werkzeuge:** **iOS SDK 4, Objective C, xcode, IB, Web Requests, XML**
 
 ### Entwicklung einer News iPhone App
 
 Zeitraum: 2010-07 – 2010-08
 
-<table>
-  <tr>
-    <td><b>Kunde:</b></td>
-    <td>Werbeagentur</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Entwicklung einer iPhone-App zur Kommunikation von Newsmeldungen im B2B-Bereich. Newsdarstellung als Liste, Detailansicht, PDF-Ansicht, sowie Push-Notification, User-Login, und Zugriffs-Log in Datenbank. Entwickelt wurden die iPhone-App, sowie ein Server-Interface, das vorhandene Daten (News, PDF) für die Verwendung in der App zugänglich macht.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>iOS, Linux Server</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>iOS SDK 4, Objective C, xcode, Interface Builder, PHP4, SQL, MySQL, SOAP, Push</b></td>
-  </tr>
-</table>
+**Kunde:** Werbeagentur
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Entwicklung einer iPhone-App zur Kommunikation von Newsmeldungen im B2B-Bereich. Newsdarstellung als Liste, Detailansicht, PDF-Ansicht, sowie Push-Notification, User-Login, und Zugriffs-Log in Datenbank. Entwickelt wurden die iPhone-App, sowie ein Server-Interface, das vorhandene Daten (News, PDF) für die Verwendung in der App zugänglich macht.
+**Plattform:** iOS, Linux Server
+**Werkzeuge::** iOS SDK 4, Objective C, xcode, Interface Builder, PHP4, SQL, MySQL, SOAP, Push
 
 ### Entwicklung einer iPhone App für Telekommunikationskonzern
 
 Zeitraum: 2010-07 – 2010-08
 
-<table>
-<tr>
-<td><strong>Kunde:</strong></td>
-<td>Konzern-Subunternehmer, Endkunde: <em><strong>Telekommunikationskonzern</strong></em></td>
-</tr>
-<tr>
-<td><strong>Rolle:</strong></td>
-<td>Programmdesign, Entwicklung</td>
-</tr>
-<tr>
-<td><strong>Details:</strong></td>
-<td>Entwicklung einer iPhone-App für einen großen deutschen Telekommunikationskonzern im Bereich Gebührenzahlung.</td>
-</tr>
-<tr>
-<td><strong>Plattform:</strong></td>
-<td>iOS</td>
-</tr>
-<tr>
-<td><strong>Werkzeuge:</strong></td>
-<td>Apple iPhone SDK 3 (auf Kundenwunsch), Objective C, xcode, Interface Builder</td>
-</tr>
-</table>
+**Kunde:** Konzern-Subunternehmer, Endkunde: _**Telekommunikationskonzern**_
+**Rolle:** Programmdesign, Entwicklung
+**Details:** Entwicklung einer iPhone-App für einen großen deutschen Telekommunikationskonzern im Bereich Gebührenzahlung.
+**Plattform:** iOS
+**Werkzeuge:** Apple iPhone SDK 3 (auf Kundenwunsch), Objective C, xcode, Interface Builder
 
 ### Neuentwicklung einer iPhone App für Immobilienportal
 
 Zeitraum: 2009-11
 
-<table>
-<tr>
-<td><strong>Kunde:</strong></td>
-<td>Webagentur, Endkunde: <em><strong>Immobilienportal</strong></em></td>
-</tr>
-<tr>
-<td><strong>Rolle:</strong></td>
-<td>Analyse, Design, Entwicklung</td>
-</tr>
-<tr>
-<td><strong>Details:</strong></td>
-<td>Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilienangeboten aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.</td>
-</tr>
-<tr>
-<td><strong>Plattform:</strong></td>
-<td>iOS</td>
-</tr>
-<tr>
-<td><strong>Werkzeuge:</strong></td>
-<td><strong>iOS SDK 3</strong>, Objective C, xcode, Interface Builder, GPS-API</td>
-</tr>
-</table>
+**Kunde:** Webagentur, Endkunde: _**Immobilienportal**_
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilienangeboten aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.
+**Plattform:** iOS
+**Werkzeuge:** **iOS SDK 3**, Objective C, xcode, Interface Builder, GPS-API
 
 ### Datenbankentwicklung SQL Server
 
 Zeitraum: 2009-02 – 2009-12
 
-<table>
-<tr>
-<td><strong>Kunde:</strong></td>
-<td><em><strong>Siemens IT-Solutions / Bundesagentur für Arbeit</strong></em></td>
-</tr>
-<tr>
-<td><strong>Rolle:</strong></td>
-<td>Datenbankentwickler</td>
-</tr>
-<tr>
-<td><strong>Details:</strong></td>
-<td>SQL-Entwicklung in einem umfangreichen Datenbanksystem, mit dem bundesweit das gesamte Inventar der Bundesagentur für Arbeit verwaltet wird. Umsetzen von RfCs (Request for Change), Entwickeln von Reports, Komplexe Massendatenänderungen.</td>
-</tr>
-<tr>
-<td><strong>Plattform:</strong></td>
-<td>Windows XP, Windows 2003 Server, Unix</td>
-</tr>
-<tr>
-<td><strong>Werkzeuge:</strong></td>
-<td><strong>MS SQL Server 2000 u. 2008</strong>, SQL, SQL-Server Tools, Reporting, DTS, <strong>Crystal Reports</strong>, Visual Studio und MS.NET für Code-Generierung</td>
-</tr>
-</table>
+**Kunde:** _**Siemens IT-Solutions / Bundesagentur für Arbeit**_
+**Rolle:** Datenbankentwickler
+**Details:** SQL-Entwicklung in einem umfangreichen Datenbanksystem, mit dem bundesweit das gesamte Inventar der Bundesagentur für Arbeit verwaltet wird. Umsetzen von RfCs (Request for Change), Entwickeln von Reports, Komplexe Massendatenänderungen.
+**Plattform:** Windows XP, Windows 2003 Server, Unix
+**Werkzeuge:** **MS SQL Server 2000 u. 2008**, SQL, SQL-Server Tools, Reporting, DTS, **Crystal Reports**, Visual Studio und MS.NET für Code-Generierung
 
 &lt;img&gt;SIEMENS Bundesagentur für Arbeit logo&lt;/img&gt;
 
@@ -383,109 +179,41 @@ Zeitraum: 2009-02 – 2009-12
 
 Zeitraum: 2009-01 – 2009-03
 
-<table>
-<tr>
-<td><strong>Kunde:</strong></td>
-<td>Softwarehaus</td>
-</tr>
-<tr>
-<td><strong>Rolle:</strong></td>
-<td>Entwicklung</td>
-</tr>
-<tr>
-<td><strong>Details:</strong></td>
-<td>Mitarbeit an mehreren iPhone Apps zum Empfangen von Radioprogrammen auf dem iPhone.</td>
-</tr>
-<tr>
-<td><strong>Plattform:</strong></td>
-<td>iOS</td>
-</tr>
-<tr>
-<td><strong>Werkzeuge:</strong></td>
-<td><strong>iOS SDK 3</strong>, Objective C, xcode, Interface Builder</td>
-</tr>
-</table>
+**Kunde:** Softwarehaus
+**Rolle:** Entwicklung
+**Details:** Mitarbeit an mehreren iPhone Apps zum Empfangen von Radioprogrammen auf dem iPhone.
+**Plattform:** iOS
+**Werkzeuge:** **iOS SDK 3**, Objective C, xcode, Interface Builder
 
 ### Tool für Zeiterfassung, Projektverfolgung und Abrechnung in SW-Projekten
 
 Zeitraum: 2008-07
 
-<table>
-  <tr>
-    <td>Kunde:</td>
-    <td>Softwarehaus</td>
-  </tr>
-  <tr>
-    <td>Rolle:</td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td>Details:</td>
-    <td>Hauptzweck: Kontrolle der Budgeteinhaltung in Softwareprojekten. Entwicklung einer Access-basierten Mehrbenutzerlösung zur auftrags- bzw. aufgabenbezogenen Erfassung von Arbeitszeiten, mit Auswertung zur Verfolgung der Einhaltung von Zeiten und Budgets, sowie Funktionen zur Abrechnung mit Endkunden und MA. Zudem Auftragsverwaltung, Aufgabenübersicht je Anwender, mit der Möglichkeit Anwendern Aufgaben zuzuordnen. Integriertes Pflichtenheft je Auftrag. Benutzerverwaltung mit unterschiedlichen Zugriffsmöglichkeiten je nach Anwenderrolle (Entwickler, Geschäftsführung).</td>
-  </tr>
-  <tr>
-    <td>Plattform:</td>
-    <td>Windows XP</td>
-  </tr>
-  <tr>
-    <td>Werkzeuge:</td>
-    <td><b>MS Access 2003</b>, VBA, <b>SQL</b></td>
-  </tr>
-</table>
+**Kunde:** Softwarehaus
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Hauptzweck: Kontrolle der Budgeteinhaltung in Softwareprojekten. Entwicklung einer Access-basierten Mehrbenutzerlösung zur auftrags- bzw. aufgabenbezogenen Erfassung von Arbeitszeiten, mit Auswertung zur Verfolgung der Einhaltung von Zeiten und Budgets, sowie Funktionen zur Abrechnung mit Endkunden und MA. Zudem Auftragsverwaltung, Aufgabenübersicht je Anwender, mit der Möglichkeit Anwendern Aufgaben zuzuordnen. Integriertes Pflichtenheft je Auftrag. Benutzerverwaltung mit unterschiedlichen Zugriffsmöglichkeiten je nach Anwenderrolle (Entwickler, Geschäftsführung).
+**Plattform:** Windows XP
+**Werkzeuge:** **MS Access 2003**, VBA, **SQL**
 
 ### Entwicklung einer Bug-Reporting-Komponente mit Anbindung an ein Bug Tracking System
 
 Zeitraum: 2008-03
 
-<table>
-  <tr>
-    <td>Kunde:</td>
-    <td>Softwarehaus</td>
-  </tr>
-  <tr>
-    <td>Rolle:</td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td>Details:</td>
-    <td>Entwicklung einer Problem-Report-Komponente für eine Anwendung aus dem Bereich technische Dokumentation. Anbindung an ein Bug Tracking System.</td>
-  </tr>
-  <tr>
-    <td>Plattform:</td>
-    <td>Windows XP</td>
-  </tr>
-  <tr>
-    <td>Werkzeuge:</td>
-    <td><b>C#</b>, Visual Studio 2008, <b>.NET Framework 3.0</b>, WPF, WebServices</td>
-  </tr>
-</table>
+**Kunde:** Softwarehaus
+**Rolle:** Entwicklung
+**Details:** Entwicklung einer Problem-Report-Komponente für eine Anwendung aus dem Bereich technische Dokumentation. Anbindung an ein Bug Tracking System.
+**Plattform:** Windows XP
+**Werkzeuge:** **C#**, Visual Studio 2008, **.NET Framework 3.0**, WPF, WebServices
 
 ### Neuentwicklung eines ERP-Systems
 
 Zeitraum: 2007-12 – 2008-03
 
-<table>
-  <tr>
-    <td>Kunde:</td>
-    <td>Softwarehaus</td>
-  </tr>
-  <tr>
-    <td>Rolle:</td>
-    <td>Analyse, Design, Entwicklung</td>
-  </tr>
-  <tr>
-    <td>Details:</td>
-    <td>Entwicklung eines ERP-Systems/Fakturierung für KMUs, mit: Kundenstamm, Lieferantenstamm, Artikel, Preise pro Lieferant, Aufträge, Bestellungen, komplette Dokumenthistorie pro Vorgang, Oberfläche optimiert für einfache Bedienung, Such- und Filterfunktionen, Druckfunktionen. (Ca. 60% implementiert. Fertigstellung wurde vom Kunden auf Ende 2008 verschoben.)<br><br>Design der relationalen Datenbasis, SQL-Entwicklung, Gestaltung des User Interface, Entwicklung der Client-Applikation.</td>
-  </tr>
-  <tr>
-    <td>Plattform:</td>
-    <td>Windows XP</td>
-  </tr>
-  <tr>
-    <td>Werkzeuge:</td>
-    <td><b>Visual Basic.NET</b>, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, <b>SQL</b>, MS Access</td>
-  </tr>
-</table>
+**Kunde:** Softwarehaus
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Entwicklung eines ERP-Systems/Fakturierung für KMUs, mit: Kundenstamm, Lieferantenstamm, Artikel, Preise pro Lieferant, Aufträge, Bestellungen, komplette Dokumenthistorie pro Vorgang, Oberfläche optimiert für einfache Bedienung, Such- und Filterfunktionen, Druckfunktionen. (Ca. 60% implementiert. Fertigstellung wurde vom Kunden auf Ende 2008 verschoben.)  Design der relationalen Datenbasis, SQL-Entwicklung, Gestaltung des User Interface, Entwicklung der Client-Applikation.
+**Plattform:** Windows XP
+**Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **SQL**, MS Access
 
 ### Neuentwicklung einer Anwendung für Datenbereinigung &lt;img&gt;Autozulieferer-Konzern&lt;/img&gt;
 
@@ -536,59 +264,21 @@ Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entw
 
 Zeitraum: 2007-01
 
-<table>
-    <tr>
-        <td>Kunde:</td>
-        <td>Subunternehmer, Endkunde: Autozulieferer-Konzern</td>
-    </tr>
-    <tr>
-        <td>Rolle:</td>
-        <td>Entwicklung</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Details:</td>
-        <td>Erweiterung einer Anwendung zur automatisierten weltweiten Aktualisierung/Verteilung von Dateien um einige Funktionen (in User-Clients, Windows-Service).</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Plattform:</td>
-        <td>Windows XP</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Werkzeuge:</td>
-        <td>Visual Basic.NET, Visual Studio, MS .NET-Framework, SQL, SQL-Datenbank (SQLite), Sparx EA UML Tool</td>
-        <td></td>
-    </tr>
-</table>
+**Kunde:** Subunternehmer, Endkunde: Autozulieferer-Konzern
+**Rolle:** Entwicklung
+**Details:** Erweiterung einer Anwendung zur automatisierten weltweiten Aktualisierung/Verteilung von Dateien um einige Funktionen (in User-Clients, Windows-Service).
+**Plattform:** Windows XP
+**Werkzeuge:** Visual Basic.NET, Visual Studio, MS .NET-Framework, SQL, SQL-Datenbank (SQLite), Sparx EA UML Tool
 
 ### Neuentwicklung einer ERP-Applikation für den Massivholzmöbel-Vertrieb
 
 Zeitraum: 2004-12 – 2006-02
 
-<table>
-    <tr>
-        <td>Unternehmen:</td>
-        <td>Eigenentwicklung in Kooperation mit Möbelimporteur</td>
-    </tr>
-    <tr>
-        <td>Rolle:</td>
-        <td>Planung, Analyse, Design, Entwicklung</td>
-    </tr>
-    <tr>
-        <td>Details:</td>
-        <td>Entwicklung eines kompletten ERP-Systems für die Abwicklung des Handels mit Massivholzmöbeln, und des Verkaufs via Internet. Automatisierung des Vertriebs über den (eigens entwickelten) Webshop und die Ebay-Plattform.</td>
-    </tr>
-    <tr>
-        <td>Plattform:</td>
-        <td>Windows XP, SuSE Linux Server (Webserver)</td>
-    </tr>
-    <tr>
-        <td>Werkzeuge:</td>
-        <td>MS Access XP, MySQL, PHP4, Visual Studio, C#</td>
-    </tr>
-</table>
+**Unternehmen:** Eigenentwicklung in Kooperation mit Möbelimporteur
+**Rolle:** Planung, Analyse, Design, Entwicklung
+**Details:** Entwicklung eines kompletten ERP-Systems für die Abwicklung des Handels mit Massivholzmöbeln, und des Verkaufs via Internet. Automatisierung des Vertriebs über den (eigens entwickelten) Webshop und die Ebay-Plattform.
+**Plattform:** Windows XP, SuSE Linux Server (Webserver)
+**Werkzeuge:** MS Access XP, MySQL, PHP4, Visual Studio, C#
 
 ### Vorbereitung zum Rework von ca. 10 Access-Anwendungen
 
@@ -596,28 +286,11 @@ Zeitraum: 2004-11 – 2004-12
 
 &lt;img&gt;DATEV logo&lt;/img&gt; DATEV
 
-<table>
-    <tr>
-        <td>Kunde:</td>
-        <td>Softwarehaus, Endkunde: DATEV e.G.</td>
-    </tr>
-    <tr>
-        <td>Rolle:</td>
-        <td>Analyse, Design, Entwicklung</td>
-    </tr>
-    <tr>
-        <td>Details:</td>
-        <td>Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen, die nach Umstellung auf den SP 2 von Windows XP notwendig wurde: Anforderungsanalyse, Implementierung eines Prototyps für automatisierte Programm-Umstellung.</td>
-    </tr>
-    <tr>
-        <td>Plattform:</td>
-        <td>Windows XP</td>
-    </tr>
-    <tr>
-        <td>Werkzeuge:</td>
-        <td>MS Access XP, Visual Studio</td>
-    </tr>
-</table>
+**Kunde:** Softwarehaus, Endkunde: DATEV e.G.
+**Rolle:** Analyse, Design, Entwicklung
+**Details:** Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen, die nach Umstellung auf den SP 2 von Windows XP notwendig wurde: Anforderungsanalyse, Implementierung eines Prototyps für automatisierte Programm-Umstellung.
+**Plattform:** Windows XP
+**Werkzeuge:** MS Access XP, Visual Studio
 
 ### Technisches Angeb. für Redesign Client/Server-Anwendung
 
@@ -625,55 +298,21 @@ Zeitraum: 2004-10
 
 &lt;img&gt;EDS logo&lt;/img&gt; EDS an HP company &lt;img&gt;SKF logo&lt;/img&gt; SKF
 
-<table>
-    <tr>
-        <td>Kunde:</td>
-        <td>EDS Schweinfurt, Solution Center, Endkunde: SKF (2 Auslandsstandorte)</td>
-    </tr>
-    <tr>
-        <td>Rolle:</td>
-        <td>Analyse, Angebotsformulierung</td>
-    </tr>
-    <tr>
-        <td>Details:</td>
-        <td>Pre-Study für das Redesign eines Projektcontrolling-Systems. Analyse des Ist-Systems mit 140 Usern an zwei Standorten. Ausarbeitung einer technischen Studie mit mehreren Redesign-Strategien als Angebotsgrundlage. Zeit- und Kostenkalkulation.</td>
-    </tr>
-    <tr>
-        <td>Plattform:</td>
-        <td>Windows NT, Unix</td>
-    </tr>
-    <tr>
-        <td>Werkzeuge:</td>
-        <td>Sybase Datenbank und PowerBuilder für Testzwecke</td>
-    </tr>
-</table>
+**Kunde:** EDS Schweinfurt, Solution Center, Endkunde: SKF (2 Auslandsstandorte)
+**Rolle:** Analyse, Angebotsformulierung
+**Details:** Pre-Study für das Redesign eines Projektcontrolling-Systems. Analyse des Ist-Systems mit 140 Usern an zwei Standorten. Ausarbeitung einer technischen Studie mit mehreren Redesign-Strategien als Angebotsgrundlage. Zeit- und Kostenkalkulation.
+**Plattform:** Windows NT, Unix
+**Werkzeuge:** Sybase Datenbank und PowerBuilder für Testzwecke
 
 ### Entwicklung einer Webplattform für Print-Lösungen
 
 Zeitraum: 2004-07 – 2004-10
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Eigenes Unternehmen</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Entwicklung einer Webplattform für Print-Lösungen (Produktentwicklung). Projekt nach 10/04 nicht weiter verfolgt.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Windows, Linux Server</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>PHP5, SQL, MySQL, HTML, XAMPP</b></td>
-  </tr>
-</table>
+**Unternehmen:** Eigenes Unternehmen
+**Rolle:** Entwicklung
+**Details:** Entwicklung einer Webplattform für Print-Lösungen (Produktentwicklung). Projekt nach 10/04 nicht weiter verfolgt.
+**Plattform:** Windows, Linux Server
+**Werkzeuge:** **PHP5, SQL, MySQL, HTML, XAMPP**
 
 ### MS Office Schulungen für Selbstständige Kursteilnehmen
 
@@ -686,67 +325,24 @@ Freiberuflicher MS Office Trainer, Schulung von Unternehmern
 
 Zeitraum: 2002-01 – 2002-11
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Systemhaus/Branchensoftware Betonindustrie</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Team:</b></td>
-    <td>3 MA</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Mitarbeit an der Implementierung eines Application-Framework für kaufm./technische Anwendungen. Funktion: Generierung der relationalen Datenbasis, GUI/konfigurierbare Oberflächenlogik zur Laufzeit (auf Basis eines UML-Models in XML-Form)</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Windows 2000/Cygwin, Linux</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>Java, XML, XSLT, Together UML, JBuilder</b></td>
-  </tr>
-</table>
+**Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
+**Rolle:** Entwicklung
+**Team:** 3 MA
+**Details:** Mitarbeit an der Implementierung eines Application-Framework für kaufm./technische Anwendungen. Funktion: Generierung der relationalen Datenbasis, GUI/konfigurierbare Oberflächenlogik zur Laufzeit (auf Basis eines UML-Models in XML-Form)
+**Plattform:** Windows 2000/Cygwin, Linux
+**Werkzeuge:** **Java, XML, XSLT, Together UML, JBuilder**
 
 ### Neuentwicklung einer Software für Produktionssteuerung in Betonwerken
 
 Zeitraum: 2001-02 – 2002-06
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Systemhaus/Branchensoftware Betonindustrie,<br>Endkunden: <b>Saint Gobain Konzern</b>, 2 Betonwerke Deutschland</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Projektleitung/Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Team:</b></td>
-    <td>3 – 4 MA</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Neuentwicklung einer Software für die Produktion in Betonwerken:<br>Produktionssteuerung, Auftragsabwicklung, Sammeln von Produktionsdaten,<br>Generieren statistischer Auswertungen, Anbindung an Fakturierungssysteme.<br>Zudem Vor-Ort-Installationen mit kundenspezifischem Customizing der Software:<br>Versch. Installationsprojekte der Software bei Werken in Deutschland und<br>Nordfrankreich: Entwicklung von Erweiterungen nach Anforderung, Anpassung von<br>Protokollen/Formaten an die Werksanlage und an kaufm. Software.</td>
-  </tr>
-  <tr>
-    <td><b>Aufgaben:</b></td>
-    <td>Projektleitung, Kundenberatung, Analyse und Design, GUI Workflow/Implementierung<br>von Kernfunktionalität, Koordination mit einem Hersteller von Steuerungsanlagen</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Windows NT/2000</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td><b>MS Access, Visual Basic, Winsock, SQL Server</b></td>
-  </tr>
-</table>
+**Unternehmen:** Systemhaus/Branchensoftware Betonindustrie, Endkunden: **Saint Gobain Konzern**, 2 Betonwerke Deutschland
+**Rolle:** Projektleitung/Entwicklung
+**Team:** 3 – 4 MA
+**Details:** Neuentwicklung einer Software für die Produktion in Betonwerken: Produktionssteuerung, Auftragsabwicklung, Sammeln von Produktionsdaten, Genereren statistischer Auswertungen, Anbindung an Fakturierungssysteme. Zudem Vor-Ort-Installationen mit kundenspezifischem Customizing der Software: Versch. Installationsprojekte der Software bei Werken in Deutschland und Nordfrankreich: Entwicklung von Erweiterungen nach Anforderung, Anpassung von Protokollen/Formaten an die Werksanlage und an kaufm. Software.
+**Aufgaben:** Projektleitung, Kundenberatung, Analyse und Design, GUI Workflow/Implementierung von Kernfunktionalität, Koordination mit einem Hersteller von Steuerungsanlagen
+**Plattform:** Windows NT/2000
+**Werkzeuge:** **MS Access, Visual Basic, Winsock, SQL Server**
 
 ### Migration einer Dispositionssoftware
 
