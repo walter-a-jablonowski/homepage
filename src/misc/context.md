@@ -98,13 +98,13 @@ Zeitraum: 2012-02
 - **Plattform:** iOS
 - **Werkzeuge:** **iOS SDK 5**, Objective C, xcode
 
-### Entwicklung einer Web 2.0 Webapplikation (Prototyp)
+### Entwicklung einer Web 2.0 Webapplikation
 
 Zeitraum: 2011-07 – 2011-09
 
 - **Unternehmen:** Eigenes Unternehmen
 - **Rolle:** Planung, Analyse, Architektur, Entwicklung
-- **Details:** Entwicklung eines Prototyps einer Web 2.0 Applikation im Bereich Feed Aggregation. Backend mit Datenbasis und Backend Funktionen. Web Frontend.
+- **Details:** Entwicklung einer Web 2.0 Applikation im Bereich Feed Aggregation. Backend mit Datenbasis und Backend Funktionen. Web Frontend.
 - **Plattform:** Webserver, Linux
 - **Werkzeuge:** **PHP4, HTML, CSS, XML, javascript, jquery**
 
@@ -112,9 +112,9 @@ Zeitraum: 2011-07 – 2011-09
 
 Zeitraum: 2010-12
 
-- **Kunde:** **_Subunternehmer Automotive Konzern_**
+- **Kunde:** **Subunternehmer Automobil Konzern**
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer iPhone App im Bereich Fahrzeuginformationen als Prototyp und Basis für weitere App-Entwicklungen. Funktionaler Details des Projekts sind geheim. Schulung von Programmierern anhand der App.
+- **Details:** Entwicklung einer iPhone App im Bereich Fahrzeuginformationen als Basis für weitere App-Entwicklungen. Funktionaler Details des Projekts sind geheim. Schulung von Programmierern anhand der App.
 - **Plattform:** iOS
 - **Werkzeuge:** **iOS SDK 4, Objective C, xcode, IB, WebServices, XML**
 
@@ -134,7 +134,7 @@ Zeitraum: 2010-07 – 2010-08
 
 - **Kunde:** Werbeagentur
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer iPhone-App zur Kommunikation von Newsmeldungen im B2B-Bereich. Newsdarstellung als Liste, Detailansicht, PDF-Ansicht, sowie Push-Notification, User-Login, und Zugriffs-Log in Datenbank. Entwickelt wurden die iPhone-App, sowie ein Server-Interface, das vorhandene Daten (News, PDF) für die Verwendung in der App zugänglich macht.
+- **Details:** Entwicklung einer iPhone-App zur Kommunikation von Newsmeldungen im B2B-Bereich. Newsdarstellung als Liste, Detailansicht, PDF-Ansicht, sowie Push-Messages, User-Login, und Zugriffs-Log in Datenbank. Entwickelt wurden die iPhone-App, sowie ein Server-Interface, das vorhandene Daten (News, PDF) für die Verwendung in der App zugänglich macht.
 - **Plattform:** iOS, Linux Server
 - **Werkzeuge:** iOS SDK 4, Objective C, xcode, Interface Builder, PHP4, SQL, MySQL, SOAP, Push
 
@@ -154,7 +154,7 @@ Zeitraum: 2009-11
 
 - **Kunde:** Webagentur, Endkunde: _**Immobilienportal**_
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilienangeboten aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.
+- **Details:** Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilien aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.
 - **Plattform:** iOS
 - **Werkzeuge:** **iOS SDK 3**, Objective C, xcode, Interface Builder, GPS-API
 
@@ -279,7 +279,7 @@ Zeitraum: 2004-11 – 2004-12
 
 - **Kunde:** Softwarehaus, Endkunde: DATEV e.G.
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen, die nach Umstellung auf den SP 2 von Windows XP notwendig wurde: Anforderungsanalyse, Implementierung eines Prototyps für automatisierte Programm-Umstellung.
+- **Details:** Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen nach Umstellung auf den SP 2 von Windows XP: Anforderungsanalyse, Implementierung automatisierte Programm-Umstellung.
 - **Plattform:** Windows XP
 - **Werkzeuge:** MS Access XP, Visual Studio
 
@@ -288,8 +288,8 @@ Zeitraum: 2004-11 – 2004-12
 Zeitraum: 2004-10
 
 - **Kunde:** EDS Schweinfurt, Solution Center, Endkunde: SKF (2 Auslandsstandorte)
-- **Rolle:** Analyse, Angebotsformulierung
-- **Details:** Pre-Study für das Redesign eines Projektcontrolling-Systems. Analyse des Ist-Systems mit 140 Usern an zwei Standorten. Ausarbeitung einer technischen Studie mit mehreren Redesign-Strategien als Angebotsgrundlage. Zeit- und Kostenkalkulation.
+- **Rolle:** Analyse
+- **Details:** Pre-Study für das Redesign eines Projektcontrolling-Systems. Analyse des Ist-Systems mit 140 Usern an zwei Standorten. Ausarbeitung einer technischen Studie mit mehreren Redesign-Strategien. Zeit- und Kostenkalkulation.
 - **Plattform:** Windows NT, Unix
 - **Werkzeuge:** Sybase Datenbank und PowerBuilder für Testzwecke
 
@@ -328,7 +328,7 @@ Zeitraum: 2001-02 – 2002-06
 - **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie, Endkunden: **Saint Gobain Konzern**, 2 Betonwerke Deutschland
 - **Rolle:** Projektleitung/Entwicklung
 - **Team:** 3 – 4 MA
-- **Details:** Neuentwicklung einer Software für die Produktion in Betonwerken: Produktionssteuerung, Auftragsabwicklung, Sammeln von Produktionsdaten, Genereren statistischer Auswertungen, Anbindung an Fakturierungssysteme. Zudem Vor-Ort-Installationen mit kundenspezifischem Customizing der Software: Versch. Installationsprojekte der Software bei Werken in Deutschland und Nordfrankreich: Entwicklung von Erweiterungen nach Anforderung, Anpassung von Protokollen/Formaten an die Werksanlage und an kaufm. Software.
+- **Details:** Neuentwicklung einer Software für die Produktion in Betonwerken: Produktionssteuerung, Auftragsabwicklung, Sammeln von Produktionsdaten, Genereren statistischer Auswertungen, Anbindung an Fakturierungssysteme. Zudem Vor-Ort-Installationen mit kundenspezifischem Customizing der Software: Versch. Installationsprojekte der Software bei Werken in Deutschland und Nordfrankreich: Entwicklung von Erweiterungen nach Anforderung, Anpassung von Formaten an die Werksanlage und an kaufm. Software.
 - **Aufgaben:** Projektleitung, Kundenberatung, Analyse und Design, GUI Workflow/Implementierung von Kernfunktionalität, Koordination mit einem Hersteller von Steuerungsanlagen
 - **Plattform:** Windows NT/2000
 - **Werkzeuge:** **MS Access, Visual Basic, Winsock, SQL Server**
