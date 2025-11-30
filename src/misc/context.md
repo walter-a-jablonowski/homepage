@@ -1,3 +1,43 @@
+# Roles
+
+- AI Engineer
+- AI first developer
+- Data Engineer
+- NLP Engineer
+- Generative AI Engineer
+- AI Product Engineer / AI Full-Stack
+
+- Full-Stack / AI-Product Engineering mit PHP + KI-API-Integration
+- Backend / Data-Infrastructure mit KI-Automatisierung
+- Web-Apps mit KI-Features (z. B. Empfehlungssystem, Textanalyse, Daten-Workflows)
+
+
+# Current skills
+
+AI & ML:
+
+- Agentic AI systems (new skill, still learning)
+- Python (new skill, still learning)
+
+Web development:
+
+- PHP
+- OOAD
+- JavaScript
+- HTML
+- CSS
+
+Database:
+
+- SQL development
+- RDD (Relational database design)
+- MySQL, MariaDB
+- Oracle
+- SQL Server
+
+
+# Projects
+
 ## Last projects
 
 ### Weiterentwicklung Web Applikation Statistik
@@ -44,7 +84,7 @@ Zeitraum: 2016-02 – 2017-12
 - **Werkzeuge:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
 
 
-## Old projects
+## Older projects
 
 All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause it was long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects tell him what experience I have but mention that I currently can't offer these cause it was too long ago.
 
