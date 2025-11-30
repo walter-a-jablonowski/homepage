@@ -550,6 +550,9 @@ section {
 
 .tech-stack {
   flex: 1;
+  border: 2px solid rgba(200, 200, 200, 0.3);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
 }
 
 .tech-radar {
@@ -1424,10 +1427,6 @@ footer {
   .about-content,
   .contact-content {
     grid-template-columns: 1fr;
-  }
-
-  .tech-stack {
-    margin-top: var(--spacing-xl);
   }
 
   .timeline-container::after {

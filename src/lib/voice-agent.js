@@ -17,7 +17,6 @@ class VoiceAgent {
         // UI elements (will be set in init)
         this.micButton = null;
         this.statusElement = null;
-        this.conversationElement = null;
         this.errorElement = null;
         this.loadingElement = null;
     }
@@ -36,7 +35,6 @@ class VoiceAgent {
             // Get UI elements
             this.micButton = document.getElementById('voice-agent-mic');
             this.statusElement = document.getElementById('voice-agent-status');
-            this.conversationElement = document.getElementById('voice-agent-conversation');
             this.errorElement = document.getElementById('voice-agent-error');
             this.loadingElement = document.getElementById('voice-agent-loading');
 
@@ -209,7 +207,7 @@ class VoiceAgent {
                             speechConfig: {
                                 voiceConfig: {
                                     prebuiltVoiceConfig: {
-                                        voiceName: 'Puck'
+                                        voiceName: 'Aoede'  // Female voice
                                     }
                                 }
                             }
@@ -333,10 +331,9 @@ class VoiceAgent {
                         }
                     }
 
-                    // Handle text data (for debugging/display)
+                    // Handle text data (for debugging)
                     if (part.text) {
                         console.log('Assistant:', part.text);
-                        this.addConversationMessage('assistant', part.text);
                     }
                 });
 
@@ -598,23 +595,6 @@ class VoiceAgent {
         if (this.statusElement) {
             this.statusElement.textContent = message;
         }
-    }
-
-    /**
-     * Add message to conversation display
-     */
-    addConversationMessage(role, text) {
-        if (!this.conversationElement) return;
-
-        const messageDiv = document.createElement('div');
-        messageDiv.className = `conversation-message ${role}`;
-        messageDiv.textContent = text;
-
-        this.conversationElement.appendChild(messageDiv);
-        this.conversationElement.classList.add('active');
-
-        // Scroll to bottom
-        this.conversationElement.scrollTop = this.conversationElement.scrollHeight;
     }
 
     /**

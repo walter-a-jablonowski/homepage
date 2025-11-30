@@ -121,42 +121,13 @@
   color: var(--accent-red);
 }
 
-/* Conversation display */
-.voice-agent-conversation {
-  width: 100%;
-  max-width: 500px;
-  max-height: 200px;
-  overflow-y: auto;
-  padding: var(--spacing-md);
-  background-color: rgba(238, 238, 238, 0.5);
-  border-radius: var(--border-radius-md);
-  margin-top: var(--spacing-md);
-  display: none; /* Hidden by default, shown when there's conversation */
-}
-
-.voice-agent-conversation.active {
-  display: block;
-}
-
-.conversation-message {
-  margin-bottom: var(--spacing-sm);
-  padding: var(--spacing-sm);
-  border-radius: var(--border-radius-sm);
-  font-size: 0.9rem;
-}
-
-.conversation-message.user {
-  background-color: var(--primary);
-  color: var(--white);
-  margin-left: auto;
-  max-width: 80%;
-  text-align: right;
-}
-
-.conversation-message.assistant {
-  background-color: var(--white);
-  color: var(--dark);
-  max-width: 80%;
+/* Example question */
+.voice-agent-example {
+  font-size: 0.875rem;
+  color: var(--light-gray);
+  font-style: italic;
+  margin-top: var(--spacing-sm);
+  text-align: center;
 }
 
 /* Loading indicator */

@@ -19,8 +19,8 @@ const VOICE_AGENT_CONFIG = {
   // Voice settings
   voice: {
     language: 'en-US',
-    // You can customize these settings based on your preference
-    // See Google AI Studio docs for available options
+    // The AI automatically detects and responds in German or English
+    // based on the user's input language (configured in system instruction)
   },
 
   // Context file path (relative to index.html)
