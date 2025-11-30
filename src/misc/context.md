@@ -384,25 +384,8 @@ Zeitraum: 2000-09 – 2003-01
 
 Zeitraum: 1996-01 – 1999-09
 
-<table>
-  <tr>
-    <td><b>Unternehmen:</b></td>
-    <td>Systemhaus</td>
-  </tr>
-  <tr>
-    <td><b>Rolle:</b></td>
-    <td>Entwicklung</td>
-  </tr>
-  <tr>
-    <td><b>Details:</b></td>
-    <td>Verschiedene Projekte im Rahmen einer Nebentätigkeit zur Schulzeit: Weiterentwicklung FiBu, verschiedene Tools.</td>
-  </tr>
-  <tr>
-    <td><b>Plattform:</b></td>
-    <td>Windows NT</td>
-  </tr>
-  <tr>
-    <td><b>Werkzeuge:</b></td>
-    <td>MS Access, Visual Basic, C, Visual C++, MFC</td>
-  </tr>
-</table>
+**Unternehmen:** Systemhaus
+**Rolle:** Entwicklung
+**Details:** Verschiedene Projekte im Rahmen einer Nebentätigkeit zur Schulzeit: Weiterentwicklung FiBu, verschiedene Tools.
+**Plattform:** Windows NT
+**Werkzeuge:** MS Access, Visual Basic, C, Visual C++, MFC
