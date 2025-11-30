@@ -1,4 +1,4 @@
-# Last projects
+## Last projects
 
 ### Weiterentwicklung Web Applikation Statistik
 
@@ -124,11 +124,9 @@ Zeitraum: 02.16 – 12.17
 
 
 
-# Old projects
+## Old projects
 
 All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause it was long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects tell him what experience I have but mention that I currently can't offer these cause it was too long ago.
-
-## Projekte
 
 ### Erweiterung einer iOS Anwendung, iPad Version, Portierung auf Android
 

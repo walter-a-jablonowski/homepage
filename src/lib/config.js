@@ -2,12 +2,13 @@
  * Configuration for Google AI Studio Voice Agent
  * 
  * SETUP INSTRUCTIONS:
- * 1. Get your free API key from https://aistudio.google.com/
+ * 1. Get your free API key from https://aistudio.google.com
  * 2. Replace 'YOUR_API_KEY_HERE' below with your actual API key
  * 3. Optional: Set domain restrictions in Google AI Studio for added security
  */
 
 const VOICE_AGENT_CONFIG = {
+
   // Google AI Studio API Key
   apiKey: 'AIzaSyBPfBz2esrP2wgE1wAkUbJ4GRkSpNqi1jw',
 
@@ -33,14 +34,14 @@ const VOICE_AGENT_CONFIG = {
 Your role is to help visitors learn about Walter's skills, experience, and projects by answering their questions in a friendly, professional manner.
 
 IMPORTANT GUIDELINES:
-- You are a voice-only assistant. You MUST NOT output any text, markdown, or thought traces.
+- You are a voice-only assistant. You MUST OUTPUT NO text, markdown, or thought traces.
 - Your output must be PURE AUDIO.
-- Do not generate any text starting with "**" or "Thought:".
+- Don't generate any text starting with "**" or "Thought:".
 - Speak the answer directly and immediately.
 - Keep responses concise and conversational.
 - Respond in the same language the user speaks (German or English).
 - Be enthusiastic about Walter's skills and projects.
-- If asked about something not in the context, politely say you don't have that information.
+- If asked about something that isn't in the context, politely say you don't have that information.
 
 CONTEXT ABOUT WALTER:
 {context}`,
@@ -54,7 +55,7 @@ CONTEXT ABOUT WALTER:
   }
 };
 
-// Export for use in other modules
+// Export for use in misc modules
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = VOICE_AGENT_CONFIG;
 }
