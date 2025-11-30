@@ -43,9 +43,6 @@ Zeitraum: 2016-02 – 2017-12
 - **Plattform:** Linux Server, Apache, MySQL 5.7, PC, Mac, Smartphone, Tablet (Chrome)
 - **Werkzeuge:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
 
-&lt;img&gt;Dashboard Screensh&lt;/img&gt;
-
-
 
 ## Old projects
 
@@ -90,8 +87,6 @@ Zeitraum: ab 2012-08
 - **Details:** Entwicklung mit .NET Gadgeteer
 - **Plattform:** Windows, NET M
 - **Werkzeuge:** **C#**, Visual Studio 2010, .NET Framework, .NET Micro Framework (NET MF), .NET Gadgeteer Hardware
-
-&lt;img&gt;A small electronic device with a screen and circuitry, possibly a .NET Gadgeteer module.&lt;/img&gt;
 
 ### Mitarbeit an einer iPhone App Web 2.0 Plattform
 
@@ -173,8 +168,6 @@ Zeitraum: 2009-02 – 2009-12
 - **Plattform:** Windows XP, Windows 2003 Server, Unix
 - **Werkzeuge:** **MS SQL Server 2000 u. 2008**, SQL, SQL-Server Tools, Reporting, DTS, **Crystal Reports**, Visual Studio und MS.NET für Code-Generierung
 
-&lt;img&gt;SIEMENS Bundesagentur für Arbeit logo&lt;/img&gt;
-
 ### iPhone Radio Apps
 
 Zeitraum: 2009-01 – 2009-03
@@ -215,7 +208,7 @@ Zeitraum: 2007-12 – 2008-03
 - **Plattform:** Windows XP
 - **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **SQL**, MS Access
 
-### Neuentwicklung einer Anwendung für Datenbereinigung &lt;img&gt;Autozulieferer-Konzern&lt;/img&gt;
+### Neuentwicklung einer Anwendung für Datenbereinigung
 
 Zeitraum: 2007-11, 2008-07 – 2008-08
 
@@ -284,8 +277,6 @@ Zeitraum: 2004-12 – 2006-02
 
 Zeitraum: 2004-11 – 2004-12
 
-&lt;img&gt;DATEV logo&lt;/img&gt; DATEV
-
 - **Kunde:** Softwarehaus, Endkunde: DATEV e.G.
 - **Rolle:** Analyse, Design, Entwicklung
 - **Details:** Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen, die nach Umstellung auf den SP 2 von Windows XP notwendig wurde: Anforderungsanalyse, Implementierung eines Prototyps für automatisierte Programm-Umstellung.
@@ -295,8 +286,6 @@ Zeitraum: 2004-11 – 2004-12
 ### Technisches Angeb. für Redesign Client/Server-Anwendung
 
 Zeitraum: 2004-10
-
-&lt;img&gt;EDS logo&lt;/img&gt; EDS an HP company &lt;img&gt;SKF logo&lt;/img&gt; SKF
 
 - **Kunde:** EDS Schweinfurt, Solution Center, Endkunde: SKF (2 Auslandsstandorte)
 - **Rolle:** Analyse, Angebotsformulierung
@@ -353,9 +342,6 @@ Zeitraum: 2001-01 – 2001-02
 - **Details:** Migration einer sehr umfangreichen Software für Fuhrparksdisposition von Borland C++ nach Visual C++ und Win32.
 - **Plattform:** Windows 2000
 - **Werkzeuge:** Borland C++, Visual C++, Visual Basic (für Codegenerierung Resource Files)
-
-&lt;img&gt;Screenshot of a software development project plan with tasks and timelines.&lt;/img&gt;
-&lt;img&gt;Screenshot of a software development project plan with tasks and timelines.&lt;/img&gt;
 
 ### Euro-Umstellung einer Fakturierungsanwendung
 
