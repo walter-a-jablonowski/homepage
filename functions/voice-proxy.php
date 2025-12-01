@@ -6,13 +6,13 @@
  * to the client. It provides a WebSocket URL with the API key for the voice agent.
  */
 
-// Enable CORS for your GitHub Pages domain
-header('Access-Control-Allow-Origin: https://walter-a-jablonowski.github.io');
-header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+// CORS headers - allow requests from GitHub Pages
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 header('Content-Type: application/json');
 
-// Handle preflight requests
+// Handle preflight OPTIONS request
 if( $_SERVER['REQUEST_METHOD'] === 'OPTIONS' )
 {
   http_response_code(200);

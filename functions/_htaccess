@@ -1,8 +1,6 @@
-# Enable access for everyone
-Require all granted
-
-# Optional: allow directory listing (if you want it)
-Options +Indexes
-
-# Optional: ensure .htaccess itself can override configs
-AllowOverride All
+# Enable CORS headers
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Methods "POST, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
