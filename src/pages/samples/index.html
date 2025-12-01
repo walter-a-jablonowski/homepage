@@ -221,10 +221,49 @@
         <div class="sample-card">
           <div class="sample-info">
             <div class="sample-name">Command line tools</div>
-            <div class="sample-description">...</div>
+            <div class="sample-description">Quick command line tools for automation and system tasks.</div>
           </div>
           <div class="sample-image-container">
-            <img src="https://placehold.co/560x320/FF6B35/FFFFFF?text=Data+Viz" alt="Data Visualization Tool" class="sample-image">
+            <svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" class="sample-image">
+              <!-- Background -->
+              <rect width="560" height="320" fill="#1a1a1a"/>
+              
+              <!-- Terminal window -->
+              <rect x="40" y="40" width="480" height="240" rx="8" fill="#2d2d2d" stroke="#FF6B35" stroke-width="2"/>
+              
+              <!-- Terminal header bar -->
+              <rect x="40" y="40" width="480" height="30" rx="8" fill="#FF6B35"/>
+              <rect x="40" y="55" width="480" height="15" fill="#FF6B35"/>
+              
+              <!-- Terminal -->
+              <circle cx="60" cy="55" r="5" fill="#fff"/>
+              <circle cx="80" cy="55" r="5" fill="#fff"/>
+              <circle cx="100" cy="55" r="5" fill="#fff"/>
+              
+              <!-- Command prompt lines -->
+              <text x="60" y="100" font-family="'Source Code Pro', monospace" font-size="14" fill="#4CAF50">$</text>
+              <text x="75" y="100" font-family="'Source Code Pro', monospace" font-size="14" fill="#fff">ai-tool generate --input data.csv</text>
+              
+              <!-- Output lines with AI processing indicator -->
+              <text x="60" y="130" font-family="'Source Code Pro', monospace" font-size="12" fill="#888">Processing with AI...</text>
+              
+              <!-- Progress bar -->
+              <rect x="60" y="145" width="400" height="8" rx="4" fill="#333"/>
+              <rect x="60" y="145" width="280" height="8" rx="4" fill="#FF6B35"/>
+              
+              <!-- Generated output -->
+              <text x="60" y="175" font-family="'Source Code Pro', monospace" font-size="12" fill="#4CAF50">✓ Analysis complete</text>
+              <text x="60" y="195" font-family="'Source Code Pro', monospace" font-size="12" fill="#888">Generated 3 reports</text>
+              <text x="60" y="215" font-family="'Source Code Pro', monospace" font-size="12" fill="#888">Optimized 127 entries</text>
+              
+              <!-- Cursor blink -->
+              <rect x="60" y="235" width="10" height="15" fill="#FF6B35" opacity="0.8"/>
+              
+              <!-- AI sparkles decoration -->
+              <path d="M 420 180 L 425 185 L 420 190 L 415 185 Z" fill="#FF6B35" opacity="0.6"/>
+              <path d="M 440 200 L 443 203 L 440 206 L 437 203 Z" fill="#FF6B35" opacity="0.4"/>
+              <path d="M 400 160 L 404 164 L 400 168 L 396 164 Z" fill="#FF6B35" opacity="0.5"/>
+            </svg>
           </div>
         </div>
 
