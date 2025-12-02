@@ -4,10 +4,29 @@
 - **German description:** 25 Jahre Erfahrung in der Programmierung zuletzt mit Fokus auf PHP-basierten Webanwendungen seit ca. 10 Jahren, sowie Design von Datenbanken und reine SQL-Entwicklung. Erfahrung in "AI first"-Entwicklung. Interessiert an minimalistischen Lösungen und innovativen Technologien.
 
 - **Languages:** German, English
-- **Work location:** Bamberg, Germany or Home Office
+- **Work location:** Bamberg, Germany or home office
 
 
-# Roles
+# Career goals
+
+**English description:** 
+
+- "AI first" development and development of AI features
+- Ideally working on AI solutions and topic of interest, e.g. nutrition, information management, innovation
+- alternatively DB design and plain SQL development
+- Part-time 16h - 20h, temporarily full time possible
+- Maintain work-life balance with flexible hours
+
+**German description:** 
+
+- "AI first" Entwicklung und Entwicklung von KI Features
+- Idealerweise Lösungen mit KI-Funktionen oder Themen von Interesse, z.B. Ernährung, Informationsmanagement, Innovationen
+- auch DB-Design und reine SQL-Entwicklung
+- Teilzeit 16-20h (Home Office), temporär Vollzeit denkbar
+- Work-Life-Balance durch flexible Arbeitszeiten
+
+
+Roles:
 
 - AI Engineer
 - AI first developer
@@ -51,25 +70,6 @@ Special skills:
 **German description:** Gesteigerte Produktivität durch KI-Einsatz bei der Entwicklung. Zudem Effizienzsteigerung durch minimalistische Ansätze: Weniger Frameworks und Tools steigern die Produktivität erheblich in Kombination mit KI.
 
 Tools: Windsurf IDE, Claude Sonnet, various AI tools and frameworks
-
-
-# Career goals
-
-**English description:** 
-
-- "AI first" development and development of AI features
-- Ideally working on AI solutions and topic of interest, e.g. nutrition, information management, innovation
-- alternatively DB design and plain SQL development
-- Part-time 16h - 20h, temporarily full time possible
-- Maintain work-life balance with flexible hours
-
-**German description:** 
-
-- "AI first" Entwicklung und Entwicklung von KI Features
-- Idealerweise Lösungen mit KI-Funktionen oder Themen von Interesse, z.B. Ernährung, Informationsmanagement, Innovationen
-- auch DB-Design und reine SQL-Entwicklung
-- Teilzeit 16-20h (Home Office), temporär Vollzeit denkbar
-- Work-Life-Balance durch flexible Arbeitszeiten
 
 
 # Projects
