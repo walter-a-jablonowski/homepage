@@ -477,6 +477,24 @@ class WebsiteController
           
           // Add active class to the clicked tab link
           link.classList.add('active');
+          
+          // Show/hide projects notice based on active tab
+          const projectsComment = document.getElementById('projects-comment');
+          if( projectsComment ) {
+            if( tabId === 'projects' )
+              projectsComment.style.display = 'block';
+            else
+              projectsComment.style.display = 'none';
+          }
+          
+          // Adjust tab-navigation spacing based on active tab
+          const tabNavigation = document.querySelector('.tab-navigation');
+          if( tabNavigation ) {
+            if( tabId === 'projects' )
+              tabNavigation.classList.remove('expanded');
+            else
+              tabNavigation.classList.add('expanded');
+          }
         });
       });
     }

@@ -729,6 +729,11 @@ section {
 .tab-navigation {
   display: flex;
   justify-content: center;
+  margin-bottom: var(--spacing-sm);
+  transition: margin-bottom var(--transition-fast);
+}
+
+.tab-navigation.expanded {
   margin-bottom: var(--spacing-md);
 }
 
@@ -762,6 +767,15 @@ section {
   color: var(--light-gray);
   margin: 0 var(--spacing-xs);
   font-size: 1.2rem;
+}
+
+.section-comment {
+  text-align: center;
+  margin: 0.25rem 0 0.75rem 0;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 .tab-content {
