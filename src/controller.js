@@ -209,10 +209,15 @@ class WebsiteController
       return;
 
     window.addEventListener('scroll', () => {
-      if( window.scrollY > 500 )
-        this.floatingAiButton.classList.add('show');
-      else
-        this.floatingAiButton.classList.remove('show');
+      const servicesSection = document.getElementById('services');
+      if( servicesSection ) {
+        const servicesSectionTop = servicesSection.offsetTop - 100; // Show slightly before reaching the section
+        
+        if( window.scrollY >= servicesSectionTop )
+          this.floatingAiButton.classList.add('show');
+        else
+          this.floatingAiButton.classList.remove('show');
+      }
     });
   }
   
