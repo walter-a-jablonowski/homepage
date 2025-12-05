@@ -211,7 +211,7 @@ class WebsiteController
     window.addEventListener('scroll', () => {
       const servicesSection = document.getElementById('services');
       if( servicesSection ) {
-        const servicesSectionTop = servicesSection.offsetTop - 100; // Show slightly before reaching the section
+        const servicesSectionTop = servicesSection.offsetTop - 500; // Show slightly before reaching the section
         
         if( window.scrollY >= servicesSectionTop )
           this.floatingAiButton.classList.add('show');
