@@ -13,7 +13,8 @@ class WebsiteController
     this.navMenu = document.querySelector('.nav-menu');
     this.navLinks = document.querySelectorAll('.nav-link');
     this.body = document.body;
-    this.backToTopButton = document.querySelector('.back-to-top');
+    // this.backToTopButton = document.querySelector('.back-to-top');  // (TASK) hidden for now (replaced by Speak to an AI)
+    this.floatingAiButton = document.querySelector('.floating-ai-button');
     this.contactForm = document.getElementById('contact-form');
     this.requestCvButton = document.querySelector('.request-cv');
     this.cookieBanner = document.getElementById('cookie-consent');
@@ -36,7 +37,8 @@ class WebsiteController
     document.addEventListener('DOMContentLoaded', () => {
       this.initNavigation();
       this.initScrollAnimations();
-      this.initBackToTop();
+      // this.initBackToTop();  // (TASK) hidden for now (replaced by Speak to an AI)
+      this.initFloatingAiButton();
       this.initContactForm();
       this.initCookieConsent();
       this.initResponsiveAdjustments();
@@ -195,6 +197,22 @@ class WebsiteController
         top: 0,
         behavior: 'smooth'
       });
+    });
+  }
+
+  /**
+   * Floating AI button - show/hide based on scroll position
+   */
+  initFloatingAiButton()
+  {
+    if( !this.floatingAiButton )
+      return;
+
+    window.addEventListener('scroll', () => {
+      if( window.scrollY > 500 )
+        this.floatingAiButton.classList.add('show');
+      else
+        this.floatingAiButton.classList.remove('show');
     });
   }
   
