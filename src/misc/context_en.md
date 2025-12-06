@@ -114,10 +114,7 @@ Period: since 2018-01
 
 - **Company:** Own projects
 - **Role:** Development
-- **Details:** Development of open-source components and applications (GitHub).  
-  See http://www.github.com/walter-a-jablonowski  
-  In these private projects, the focus is on simplicity in contrast to the general trend toward increasingly complex web frameworks, as well as on automation. Often you can achieve the same results with significantly less complex means.
-  General areas of interest: information management, tools for data acquisition and communication, framework components, tools.
+- **Details:** Development of open-source components and applications (GitHub). See http://www.github.com/walter-a-jablonowski. In these private projects, the focus is on simplicity in contrast to the general trend toward increasingly complex web frameworks, as well as on automation. Often you can achieve the same results with significantly less complex means. General areas of interest: information management, tools for data acquisition and communication, framework components, tools.
 - **Platform:** Web (Chrome)
 - **Tools:** PHP 7, JavaScript, jQuery, YAML, JSON, Bootstrap, HTML, CSS
 
@@ -286,60 +283,55 @@ Period: 2008-03
 - **Platform:** Windows XP
 - **Tools:** C#, Visual Studio 2008, .NET Framework 3.0, WPF, web services
 
-### Neuentwicklung eines ERP-Systems
+### New development of an ERP system
 
-Zeitraum: 2007-12 – 2008-03
+Period: 2007-12 – 2008-03
 
-- **Kunde:** Softwarehaus
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung eines ERP-Systems/Fakturierung für KMUs, mit: Kundenstamm, Lieferantenstamm, Artikel, Preise pro Lieferant, Aufträge, Bestellungen, komplette Dokumenthistorie pro Vorgang, Oberfläche optimiert für einfache Bedienung, Such- und Filterfunktionen, Druckfunktionen. (Ca. 60% implementiert. Fertigstellung wurde vom Kunden auf Ende 2008 verschoben.)  Design der relationalen Datenbasis, SQL-Entwicklung, Gestaltung des User Interface, Entwicklung der Client-Applikation.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **SQL**, MS Access
+- **Client:** Software company
+- **Role:** Analysis, design, development
+- **Details:** Development of an ERP/invoicing system for KMUs, including: customer master, supplier master, items, prices per supplier, orders, purchases, complete document history per transaction, UI optimized for ease of use, search and filter functions, printing functions. (Approx. 60% implemented. Completion was postponed by the client to the end of 2008.) Design of the relational database, SQL development, UI design, development of the client application.
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, Visual Studio, MS .NET Framework, WinForms, ADO.NET, Xceed Controls, SQL, MS Access
 
-### Neuentwicklung einer Anwendung für Datenbereinigung
+### New development of an application for data cleansing
 
-Zeitraum: 2007-11, 2008-07 – 2008-08
+Period: 2007-11, 2008-07 – 2008-08
 
-- **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer Software zur flexiblen Prüfung und Bereinigung von großen Oracle-Datenbanken mit mehreren Millionen Datensätzen (Statistik-Daten aus der industriellen Produktion).
-  Später: Beratende Tätigkeit bei der Integration des Tools in eine größere Anwendung.
-  Implementierung von weiteren Komponenten.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, **Oracle Datenbank**, PL/SQL, Oracle SQL Developer, MS Access, Q-DAS
+- **Client:** Subcontractor, end client: automotive supplier group
+- **Role:** Analysis, design, development
+- **Details:** Development of software for flexible checking and cleansing of large Oracle databases with several million records (statistical data from industrial production). Later: Consulting activities for integrating the tool into a larger application. Implementation of additional components.
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, Visual Studio, MS .NET Framework, WinForms, Oracle database, PL/SQL, Oracle SQL Developer, MS Access, Q-DAS
 
-### Komponente zur Erstellung von hierarchischen Datenfiltern
+### Component for creating hierarchical data filters
 
-Zeitraum: 2008-04 – 2008-05
+Period: 2008-04 – 2008-05
 
-- **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer allgemein verwendbaren Komponente (DLL) für die Erstellung von hierarchischen, benutzerdefinierten (Endlos-)Datenfiltern in VB.NET-Anwendungen. XML-Format für Filterdefinitionen. Die Komponente soll in mehreren Anwendungen zum Einsatz kommen.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, **Oracle Datenbank**, PL/SQL, Oracle SQL Developer, XML
+- **Client:** Subcontractor, end client: automotive supplier group
+- **Role:** Analysis, design, development
+- **Details:** Development of a reusable component (DLL) for creating hierarchical, user-defined (unlimited-depth) data filters in VB.NET applications. XML format for filter definitions. The component is intended for use in multiple applications.
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, Visual Studio, MS .NET Framework, WinForms, Oracle database, PL/SQL, Oracle SQL Developer, XML
 
-### Neuentwicklung einer Anwendung für den IT-Support
+### New development of an application for IT support
 
-Zeitraum: 2007-07 – 2008-12
+Period: 2007-07 – 2008-12
 
-- **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Neuentwicklung einer Anwendung für den werksinternen IT-Support, mit: Ticketsystem, Vorgangsspeicherung pro Ticket (komplette Historie), Ticket-Workflow mit Berücksichtigung von Subunternehmern, E-Mail-Versand aus der Anwendung, Wissensdatenbank, Auswertungsberichte, umfangreiche grafische Auswertungen (Balkendiagramme, Tortendiagramme inkl. hierarchische Datenfilter), Druckfunktionen aller Daten, Zugriffsberechtigungen, und einiges mehr.
-  Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung der kompletten Client-Applikation. Weiterentwicklung nach Anforderung.
-  In 08.08 interessierte sich eine weitere Abteilung für das Programm: Entwicklung einer abgewandelten Version der Anwendung.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **Oracle Datenbank**, **PL/SQL**, Oracle SQL Developer
+- **Client:** Subcontractor, end client: automotive supplier group
+- **Role:** Analysis, design, development
+- **Details:** New development of an application for in-plant IT support, including: ticket system, case history per ticket (complete history), ticket workflow taking subcontractors into account, email dispatch from the application, knowledge base, evaluation reports, extensive graphical evaluations (bar charts, pie charts incl. hierarchical data filters), printing functions for all data, access rights management, and more. Development of the entire application: design of the relational database, development of queries and procedures with PL/SQL, development of the complete client application, further development based on requirements. In 08/08 another department became interested in the program: development of a modified version of the application.
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, Visual Studio, MS .NET Framework, WinForms, ADO.NET, Xceed Controls, Oracle database, PL/SQL, Oracle SQL Developer
 
-### Neuentwicklung einer werkseiten Anw. für „Anwender-/Zugriffskontrolle“
+### New development of a plant-wide application for “user/access control”
 
-Zeitraum: 2007-02 – 2008-12
+Period: 2007-02 – 2008-12
 
-- **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Neuentwicklung einer Anwendung zur zentralisierten Verwaltung, Validierung und Bereitstellung von Daten, Benutzeraccounts und Zugriffsrechte auf inhouse genutzte Anwendungen. Umfangreiche Datenimportfunktionen zur Bereitstellung der Daten aus fünf Quellsystemen. Implementierung der Anbindung von Drittanwendungen an die Applikation zum Zweck einer Zentralisierung von Programmzugriffen. In der Endausbaustufe sollen bis zu 70 Anwendungen, und ein Vielfaches an Installationen angebunden sein. Implementierung von Übersichten und Auswertungen zu allen Accountdaten zu Managementzwecken.
-  Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung des kompletten Client-Applikation. Weiterentwicklung nach Anforderung.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **Visual Basic.NET**, **C#**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **Oracle Datenbank**, **PL/SQL**, Oracle SQL Developer, XML
+- **Client:** Subcontractor, end client: automotive supplier group
+- **Role:** Analysis, design, development
+- **Details:** New development of an application for centralized management, validation, and provision of data, user accounts, and access rights for in-house applications. Extensive data import functions to provide data from five source systems. Implementation of the connection of third-party applications to the system for centralized program access. In the final stage, up to 70 applications and many more installations are to be connected. Implementation of overviews and evaluations of all account data for management purposes. Development of the entire application: design of the relational database, development of queries and procedures with PL/SQL, development of the complete client application, further development based on requirements.
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, C#, Visual Studio, MS .NET Framework, WinForms, ADO.NET, Xceed Controls, Oracle database, PL/SQL, Oracle SQL Developer, XML
 
 ### Erweiterung einer Anwendung zum weltweiten Dateiaustausch
 

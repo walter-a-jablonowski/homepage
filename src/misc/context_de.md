@@ -118,10 +118,7 @@ Zeitraum: seit 2018-01
 
 - **Unternehmen:** Eigenentwicklungen
 - **Rolle:** Entwicklung
-- **Details:** Entwicklung von Open Source Komponenten und Applikationen (github).
-  Siehe http://www.github.com/walter-a-jablonowski
-  Bei diesen privaten Projekten liegt der Fokus auf Einfachheit im Gegensatz zum allgemeinen Trend immer komplexer werdender Webframeworks, sowie Automatisierung. Sieht man genau hin, dann kann man das selbe Ergebnis häufig auch mit deutlich weniger komplexen Mitteln erreichen.
-  Interessenbereiche allgemein: Informationsmanagement, Tools für Datengewinnung und Kommunikation, Framework-Komponenten, Tools
+- **Details:** Entwicklung von Open Source Komponenten und Applikationen (github). Siehe http://www.github.com/walter-a-jablonowski. Bei diesen privaten Projekten liegt der Fokus auf Einfachheit im Gegensatz zum allgemeinen Trend immer komplexer werdender Webframeworks, sowie Automatisierung. Sieht man genau hin, dann kann man das selbe Ergebnis häufig auch mit deutlich weniger komplexen Mitteln erreichen. Interessenbereiche allgemein: Informationsmanagement, Tools für Datengewinnung und Kommunikation, Framework-Komponenten, Tools
 - **Plattform:** Web (Chrome)
 - **Werkzeuge:** PHP 7, javascript, jquery, YAML, JSON, Bootstrap, HTML, CSS
 
@@ -306,9 +303,7 @@ Zeitraum: 2007-11, 2008-07 – 2008-08
 
 - **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer Software zur flexiblen Prüfung und Bereinigung von großen Oracle-Datenbanken mit mehreren Millionen Datensätzen (Statistik-Daten aus der industriellen Produktion).
-  Später: Beratende Tätigkeit bei der Integration des Tools in eine größere Anwendung.
-  Implementierung von weiteren Komponenten.
+- **Details:** Entwicklung einer Software zur flexiblen Prüfung und Bereinigung von großen Oracle-Datenbanken mit mehreren Millionen Datensätzen (Statistik-Daten aus der industriellen Produktion). Später: Beratende Tätigkeit bei der Integration des Tools in eine größere Anwendung. Implementierung von weiteren Komponenten.
 - **Plattform:** Windows XP
 - **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, **Oracle Datenbank**, PL/SQL, Oracle SQL Developer, MS Access, Q-DAS
 
@@ -328,9 +323,7 @@ Zeitraum: 2007-07 – 2008-12
 
 - **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Neuentwicklung einer Anwendung für den werksinternen IT-Support, mit: Ticketsystem, Vorgangsspeicherung pro Ticket (komplette Historie), Ticket-Workflow mit Berücksichtigung von Subunternehmern, E-Mail-Versand aus der Anwendung, Wissensdatenbank, Auswertungsberichte, umfangreiche grafische Auswertungen (Balkendiagramme, Tortendiagramme inkl. hierarchische Datenfilter), Druckfunktionen aller Daten, Zugriffsberechtigungen, und einiges mehr.
-  Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung der kompletten Client-Applikation. Weiterentwicklung nach Anforderung.
-  In 08.08 interessierte sich eine weitere Abteilung für das Programm: Entwicklung einer abgewandelten Version der Anwendung.
+- **Details:** Neuentwicklung einer Anwendung für den werksinternen IT-Support, mit: Ticketsystem, Vorgangsspeicherung pro Ticket (komplette Historie), Ticket-Workflow mit Berücksichtigung von Subunternehmern, E-Mail-Versand aus der Anwendung, Wissensdatenbank, Auswertungsberichte, umfangreiche grafische Auswertungen (Balkendiagramme, Tortendiagramme inkl. hierarchische Datenfilter), Druckfunktionen aller Daten, Zugriffsberechtigungen, und einiges mehr. Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung der kompletten Client-Applikation. Weiterentwicklung nach Anforderung. In 08.08 interessierte sich eine weitere Abteilung für das Programm: Entwicklung einer abgewandelten Version der Anwendung.
 - **Plattform:** Windows XP
 - **Werkzeuge:** **Visual Basic.NET**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **Oracle Datenbank**, **PL/SQL**, Oracle SQL Developer
 
@@ -340,8 +333,7 @@ Zeitraum: 2007-02 – 2008-12
 
 - **Kunde:** Subunternehmer, Endkunde: **Autozulieferer-Konzern**
 - **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Neuentwicklung einer Anwendung zur zentralisierten Verwaltung, Validierung und Bereitstellung von Daten, Benutzeraccounts und Zugriffsrechte auf inhouse genutzte Anwendungen. Umfangreiche Datenimportfunktionen zur Bereitstellung der Daten aus fünf Quellsystemen. Implementierung der Anbindung von Drittanwendungen an die Applikation zum Zweck einer Zentralisierung von Programmzugriffen. In der Endausbaustufe sollen bis zu 70 Anwendungen, und ein Vielfaches an Installationen angebunden sein. Implementierung von Übersichten und Auswertungen zu allen Accountdaten zu Managementzwecken.
-  Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung des kompletten Client-Applikation. Weiterentwicklung nach Anforderung.
+- **Details:** Neuentwicklung einer Anwendung zur zentralisierten Verwaltung, Validierung und Bereitstellung von Daten, Benutzeraccounts und Zugriffsrechte auf inhouse genutzte Anwendungen. Umfangreiche Datenimportfunktionen zur Bereitstellung der Daten aus fünf Quellsystemen. Implementierung der Anbindung von Drittanwendungen an die Applikation zum Zweck einer Zentralisierung von Programmzugriffen. In der Endausbaustufe sollen bis zu 70 Anwendungen, und ein Vielfaches an Installationen angebunden sein. Implementierung von Übersichten und Auswertungen zu allen Accountdaten zu Managementzwecken. Entwicklung der kompletten Applikation: Design der relationalen Datenbasis. Entwicklung von Queries und Procedures mit PL/SQL. Entwicklung des kompletten Client-Applikation. Weiterentwicklung nach Anforderung.
 - **Plattform:** Windows XP
 - **Werkzeuge:** **Visual Basic.NET**, **C#**, Visual Studio, MS .NET-Framework, WinForms, ADO.NET, Xceed Controls, **Oracle Datenbank**, **PL/SQL**, Oracle SQL Developer, XML
 
