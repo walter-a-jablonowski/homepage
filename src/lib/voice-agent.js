@@ -249,7 +249,7 @@ class VoiceAgent
               speechConfig: {
                 voiceConfig: {
                   prebuiltVoiceConfig: {
-                    voiceName: 'Aoede'  // Female voice
+                    voiceName: 'Kore'  // maybe better multilingual support
                   }
                 }
               }
