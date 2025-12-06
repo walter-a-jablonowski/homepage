@@ -12,7 +12,8 @@ class VoiceAgent
     this.audioQueue   = [];
     this.isPlaying    = false;
     this.state        = 'idle';  // idle, listening, speaking, error
-    this.context      = '';
+    this.contextEn    = '';
+    this.contextDe    = '';
     this.audioElement = null;    // HTML audio element for playback
 
     // UI elements (will be set in init)
@@ -64,20 +65,29 @@ class VoiceAgent
   }
 
   /**
-   * Load context from context.md file
+   * Load context from both English and German context files
    */
   async loadContext()
   {
     try {
       this.updateStatus('Loading context...', 'loading');
-      const response = await fetch(VOICE_AGENT_CONFIG.contextPath);
+      
+      // Load both context files in parallel
+      const [responseEn, responseDe] = await Promise.all([
+        fetch(VOICE_AGENT_CONFIG.contextPathEn),
+        fetch(VOICE_AGENT_CONFIG.contextPathDe)
+      ]);
 
-      if (!response.ok) {
-        throw new Error(`Failed to load context: ${response.statusText}`);
-      }
+      if( ! responseEn.ok )
+        throw new Error(`Failed to load English context: ${responseEn.statusText}`);
+      
+      if( ! responseDe.ok )
+        throw new Error(`Failed to load German context: ${responseDe.statusText}`);
 
-      this.context = await response.text();
-      console.log('Context loaded successfully');
+      this.contextEn = await responseEn.text();
+      this.contextDe = await responseDe.text();
+      
+      console.log('Context loaded successfully (EN + DE)');
       this.updateStatus('Click the microphone to start');
     } catch (error) {
       console.error('Error loading context:', error);
@@ -227,10 +237,9 @@ class VoiceAgent
         console.log('WebSocket connected');
 
         // Send initial setup message with system instructions
-        const systemInstruction = VOICE_AGENT_CONFIG.systemInstructionTemplate.replace(
-          '{context}',
-          this.context
-        );
+        const systemInstruction = VOICE_AGENT_CONFIG.systemInstructionTemplate
+          .replace('{context_en}', this.contextEn)
+          .replace('{context_de}', this.contextDe);
 
         const setupMessage = {
           setup: {
@@ -247,14 +256,20 @@ class VoiceAgent
             },
             systemInstruction: {
               parts: [{ text: systemInstruction }]
-            }
+            },
+            // Enable transcription for language detection
+            // #lang-detect-added (moved to setup level, not generationConfig)
+            inputAudioTranscription: {},
+            outputAudioTranscription: {}
           }
         };
 
         console.log('Sending setup message:', {
           model: setupMessage.setup.model,
           responseModalities: setupMessage.setup.generationConfig.responseModalities,
-          voice: setupMessage.setup.generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName
+          voice: setupMessage.setup.generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName,
+          // #lang-detect-added
+          transcription: 'enabled (input + output)'
         });
         this.ws.send(JSON.stringify(setupMessage));
         resolve();
@@ -323,12 +338,29 @@ class VoiceAgent
         return;
       }
 
+      // Handle input transcription (user speech)
+      // #lang-detect-added
+      if( message.serverContent?.inputTranscription )
+      {
+        console.log('🎤 User transcription:', message.serverContent.inputTranscription.text);
+        console.log('   Full transcription object:', message.serverContent.inputTranscription);
+      }
+
+      // Handle output transcription (AI speech)
+      // #lang-detect-added
+      if( message.serverContent?.outputTranscription )
+      {
+        console.log('🔊 AI transcription:', message.serverContent.outputTranscription.text);
+        console.log('   Full transcription object:', message.serverContent.outputTranscription);
+      }
+
       // Handle server content (audio response)
       if( message.serverContent )
       {
         const parts = message.serverContent.modelTurn?.parts || [];
 
-        console.log('Received server content with', parts.length, 'parts');
+        if( parts.length > 0 )
+          console.log('Received server content with', parts.length, 'parts');
 
         parts.forEach((part, index) => {
 
