@@ -333,85 +333,85 @@ Period: 2007-02 – 2008-12
 - **Platform:** Windows XP
 - **Tools:** Visual Basic.NET, C#, Visual Studio, MS .NET Framework, WinForms, ADO.NET, Xceed Controls, Oracle database, PL/SQL, Oracle SQL Developer, XML
 
-### Erweiterung einer Anwendung zum weltweiten Dateiaustausch
+### Extension of an application for worldwide file exchange
 
-Zeitraum: 2007-01
+Period: 2007-01
 
-- **Kunde:** Subunternehmer, Endkunde: Autozulieferer-Konzern
-- **Rolle:** Entwicklung
-- **Details:** Erweiterung einer Anwendung zur automatisierten weltweiten Aktualisierung/Verteilung von Dateien um einige Funktionen (in User-Clients, Windows-Service).
-- **Plattform:** Windows XP
-- **Werkzeuge:** Visual Basic.NET, Visual Studio, MS .NET-Framework, SQL, SQL-Datenbank (SQLite), Sparx EA UML Tool
+- **Client:** Subcontractor, end client: automotive supplier group
+- **Role:** Development
+- **Details:** Extension of an application for automated worldwide updating/distribution of files by several functions (in user clients, Windows service).
+- **Platform:** Windows XP
+- **Tools:** Visual Basic.NET, Visual Studio, MS .NET Framework, SQL, SQL database (SQLite), Sparx EA UML Tool
 
-### Neuentwicklung einer ERP-Applikation für den Massivholzmöbel-Vertrieb
+### New development of an ERP application for solid wood furniture distribution
 
-Zeitraum: 2004-12 – 2006-02
+Period: 2004-12 – 2006-02
 
-- **Unternehmen:** Eigenentwicklung in Kooperation mit Möbelimporteur
-- **Rolle:** Planung, Analyse, Design, Entwicklung
-- **Details:** Entwicklung eines kompletten ERP-Systems für die Abwicklung des Handels mit Massivholzmöbeln, und des Verkaufs via Internet. Automatisierung des Vertriebs über den (eigens entwickelten) Webshop und die Ebay-Plattform.
-- **Plattform:** Windows XP, SuSE Linux Server (Webserver)
-- **Werkzeuge:** MS Access XP, MySQL, PHP4, Visual Studio, C#
+- **Company:** Own development in cooperation with a furniture importer
+- **Role:** Planning, analysis, design, development
+- **Details:** Development of a complete ERP system for handling the trade of solid wood furniture and sales via the internet. Automation of sales via the (self-developed) webshop and the eBay platform.
+- **Platform:** Windows XP, SuSE Linux server (web server)
+- **Tools:** MS Access XP, MySQL, PHP4, Visual Studio, C#
 
-### Vorbereitung zum Rework von ca. 10 Access-Anwendungen
+### Preparation for the rework of approx. 10 Access applications
 
-Zeitraum: 2004-11 – 2004-12
+Period: 2004-11 – 2004-12
 
-- **Kunde:** Softwarehaus, Endkunde: DATEV e.G.
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Vorbereitungen zur Überarbeitung von ca. 10 Access-Anwendungen nach Umstellung auf den SP 2 von Windows XP: Anforderungsanalyse, Implementierung automatisierte Programm-Umstellung.
-- **Plattform:** Windows XP
-- **Werkzeuge:** MS Access XP, Visual Studio
+- **Client:** Software company, end client: DATEV e.G.
+- **Role:** Analysis, design, development
+- **Details:** Preparations for the revision of approx. 10 Access applications after migration to SP2 of Windows XP: requirements analysis, implementation of automated program conversion.
+- **Platform:** Windows XP
+- **Tools:** MS Access XP, Visual Studio
 
-### Technisches Angeb. für Redesign Client/Server-Anwendung
+### Technical proposal for redesign of a client/server application
 
-Zeitraum: 2004-10
+Period: 2004-10
 
-- **Kunde:** EDS Schweinfurt, Solution Center, Endkunde: SKF (2 Auslandsstandorte)
-- **Rolle:** Analyse
-- **Details:** Pre-Study für das Redesign eines Projektcontrolling-Systems. Analyse des Ist-Systems mit 140 Usern an zwei Standorten. Ausarbeitung einer technischen Studie mit mehreren Redesign-Strategien. Zeit- und Kostenkalkulation.
-- **Plattform:** Windows NT, Unix
-- **Werkzeuge:** Sybase Datenbank und PowerBuilder für Testzwecke
+- **Client:** EDS Schweinfurt, Solution Center, end client: SKF (2 international locations)
+- **Role:** Analysis
+- **Details:** Pre-study for the redesign of a project controlling system. Analysis of the existing system with 140 users at two locations. Preparation of a technical study with several redesign strategies. Time and cost estimation.
+- **Platform:** Windows NT, Unix
+- **Tools:** Sybase database and PowerBuilder for testing purposes
 
-### Entwicklung einer Webplattform für Print-Lösungen
+### Development of a web platform for print solutions
 
-Zeitraum: 2004-07 – 2004-10
+Period: 2004-07 – 2004-10
 
-- **Unternehmen:** Eigenes Unternehmen
-- **Rolle:** Entwicklung
-- **Details:** Entwicklung einer Webplattform für Print-Lösungen (Produktentwicklung). Projekt nach 10/04 nicht weiter verfolgt.
-- **Plattform:** Windows, Linux Server
-- **Werkzeuge:** **PHP5, SQL, MySQL, HTML, XAMPP**
+- **Company:** Own company
+- **Role:** Development
+- **Details:** Development of a web platform for print solutions (product development). Project was not pursued further after 10/04.
+- **Platform:** Windows, Linux server
+- **Tools:** PHP5, SQL, MySQL, HTML, XAMPP
 
-### MS Office Schulungen für Selbstständige Kursteilnehmen
+### MS Office training for self-employed course participants
 
-Zeitraum: 2004-05 - 2005-06
+Period: 2004-05 – 2005-06
 
-- Institut 2F Informatik GmbH, Innsbruck
-- Freiberuflicher MS Office Trainer, Schulung von Unternehmern
+- Institute 2F Informatik GmbH, Innsbruck
+- Freelance MS Office trainer, training for entrepreneurs
 
-### Mitarbeit an der Neuentwicklung eines Application Framework
+### Participation in the new development of an application framework
 
-Zeitraum: 2002-01 – 2002-11
+Period: 2002-01 – 2002-11
 
-- **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
-- **Rolle:** Entwicklung
-- **Team:** 3 MA
-- **Details:** Mitarbeit an der Implementierung eines Application-Framework für kaufm./technische Anwendungen. Funktion: Generierung der relationalen Datenbasis, GUI/konfigurierbare Oberflächenlogik zur Laufzeit (auf Basis eines UML-Models in XML-Form)
-- **Plattform:** Windows 2000/Cygwin, Linux
-- **Werkzeuge:** **Java, XML, XSLT, Together UML, JBuilder**
+- **Company:** System house / industry software for the concrete industry
+- **Role:** Development
+- **Team:** 3 employees
+- **Details:** Participation in the implementation of an application framework for commercial/technical applications. Function: generation of the relational database, GUI/configurable UI logic at runtime (based on a UML model in XML form).
+- **Platform:** Windows 2000/Cygwin, Linux
+- **Tools:** Java, XML, XSLT, Together UML, JBuilder
 
-### Neuentwicklung einer Software für Produktionssteuerung in Betonwerken
+### New development of software for production control in concrete plants
 
-Zeitraum: 2001-02 – 2002-06
+Period: 2001-02 – 2002-06
 
-- **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie, Endkunden: **Saint Gobain Konzern**, 2 Betonwerke Deutschland
-- **Rolle:** Projektleitung/Entwicklung
-- **Team:** 3 – 4 MA
-- **Details:** Neuentwicklung einer Software für die Produktion in Betonwerken: Produktionssteuerung, Auftragsabwicklung, Sammeln von Produktionsdaten, Genereren statistischer Auswertungen, Anbindung an Fakturierungssysteme. Zudem Vor-Ort-Installationen mit kundenspezifischem Customizing der Software: Versch. Installationsprojekte der Software bei Werken in Deutschland und Nordfrankreich: Entwicklung von Erweiterungen nach Anforderung, Anpassung von Formaten an die Werksanlage und an kaufm. Software.
-- **Aufgaben:** Projektleitung, Kundenberatung, Analyse und Design, GUI Workflow/Implementierung von Kernfunktionalität, Koordination mit einem Hersteller von Steuerungsanlagen
-- **Plattform:** Windows NT/2000
-- **Werkzeuge:** **MS Access, Visual Basic, Winsock, SQL Server**
+- **Company:** System house / industry software for the concrete industry, end clients: Saint Gobain group, 2 concrete plants in Germany
+- **Role:** Project management/development
+- **Team:** 3–4 employees
+- **Details:** New development of software for production in concrete plants: production control, order processing, collection of production data, generation of statistical evaluations, connection to invoicing systems. Also on-site installations with customer-specific customization of the software: various installation projects at plants in Germany and northern France; development of extensions as required, adaptation of formats to the plant equipment and to commercial software.
+- **Tasks:** Project management, customer consulting, analysis and design, GUI workflow/implementation of core functionality, coordination with a manufacturer of control systems
+- **Platform:** Windows NT/2000
+- **Tools:** MS Access, Visual Basic, Winsock, SQL Server
 
 ### Migration einer Dispositionssoftware
 
