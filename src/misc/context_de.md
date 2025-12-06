@@ -30,9 +30,9 @@
 - Web-Apps mit KI-Features (z. B. Empfehlungssystem, Textanalyse, Daten-Workflows)
 
 
-# Current skills
+# Aktuelle Fähigkeiten
 
-# AI & ML (new skills: some know how but still learning)
+# AI & ML (neue Fähigkeiten: Know How vorhanden, wird derzeit weiter ausgebaut)
 
 - Projektarten
   - AI agents
@@ -44,13 +44,13 @@
 
 ## Web development
 
-- Project types
-  - Larger web applications based on PHP and JavaScript with a focus on usability
-  - Websites: Modern, responsive websites that look great on all devices and are optimized for AI and search engines.
-  - Mini Apps: Small to medium-sized applications that solve specific problems - with AI fast and cost-efficient.
+- Projektarten
+  - Größere Webanwendungen auf Basis von PHP und JavaScript mit Fokus auf Usability
+  - Websites: Moderne, responsive Websites, die auf allen Geräten gut aussehen und für KI und Suchmaschinen optimiert sind
+  - Mini-Apps: Kleine bis mittelgroße Anwendungen, die konkrete Probleme lösen – mit KI schnell und kosteneffizient umgesetzt
 - Skills
   - OOAD: Object oriented analysis and design
-- Languages
+- Programmiersprachen
   - PHP
   - JavaScript
   - HTML
@@ -58,39 +58,35 @@
   - YAML
   - JSON
 
-## Database
+## Datenbankentwicklung
 
-- Project types
-  - Database design with a focus on exact business process modelling
-  - SQL development: Complex SQL queries and procedures
-- Databases
+- Projektarten
+  - Datenbankdesign mit Fokus auf exakter Abbildung von Geschäftsprozessen
+  - SQL-Entwicklung: Komplexe SQL-Abfragen und Prozeduren
+- Datenbanken
   - MySQL, MariaDB
   - Oracle
   - SQL Server
 
-## Misc services
+## Diverse Dienste
 
-- Consulting: Advice on technology choices, architecture, and implementation strategies for your projects
+- Consulting: Beratung zu Technologieauswahl, Architektur und Implementierungsstrategien für Ihre Projekte
 
-## Special skills
+## Spezielle Fähigkeiten
 
-- **English description:**
-  - AI superpowers: Increased productivity through AI usage. Passionate about making minimalistic apps. Minimalistic approaches (less frameworks and tools) increase the productivity even more in combination with AI.
-  - Conceptualization of software for management and workflow tasks
-- **German description:**
-  - Gesteigerte Produktivität durch KI-Einsatz bei der Entwicklung. Zudem Effizienzsteigerung durch minimalistische Ansätze: Weniger Frameworks und Tools steigern die Produktivität erheblich in Kombination mit KI.
-  - Konzipierung von Software für Management/Workflow-Aufgaben
+- Gesteigerte Produktivität durch KI-Einsatz bei der Entwicklung. Zudem Effizienzsteigerung durch minimalistische Ansätze: Weniger Frameworks und Tools steigern die Produktivität erheblich in Kombination mit KI.
+- Konzipierung von Software für Management/Workflow-Aufgaben
 
 ## Tools
 
 - Windsurf IDE
 - Claude Sonnet
-- Various AI tools and frameworks
+- Unterschiedliche KI-Tools und Frameworks
 
 
-# Projects
+# Projekte
 
-## Last projects
+## Letzte Projekte
 
 ### Weiterentwicklung Web Applikation Statistik
 
@@ -133,9 +129,9 @@ Zeitraum: 2016-02 – 2017-12
 - **Werkzeuge:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chartjs, CSS 3, javascript, jquery, YAML, JSON
 
 
-## Older projects
+## Ältere Projekte
 
-All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause that was too long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects and that I don't have in my current skill set, tell him about my experience but also mention that I currently can't offer these cause this was too long ago.
+Alle nachfolgenden Projekte sind Arbeiten, die ich vor 2015 auf verschiedenen Plattformen durchgeführt habe. Momentan kann ich nicht alle diese Sprachen/Technologien aktiv anbieten, da dies zu lange zurückliegt. WICHTIG: Wenn ein Nutzer nach Sprachen oder Technologien fragt, die ich in älteren Projekten verwendet habe und die nicht mehr zu meinem aktuellen Skill-Set gehören, erläutere meine damalige Erfahrung, weise aber immer darauf hin, dass ich diese aktuell nicht mehr aktiv anbiete.
 
 ### Erweiterung einer iOS Anwendung, iPad Version, Portierung auf Android
 
