@@ -46,7 +46,7 @@ if (message.serverContent?.outputTranscription) {
 According to the official documentation:
 > "The transcription language is inferred from the model's response."
 
-The API automatically detects the language being spoken. The language information may be included in the transcription object metadata.
+The API automatically detects the language being spoken. The language information may be included in the transcription object metadata. 2512 has transcription only
 
 ---
 
@@ -65,6 +65,12 @@ The API automatically detects the language being spoken. The language informatio
 1. **Test the implementation** - Run the voice agent and check console for transcriptions
 2. **Inspect transcription objects** - Look for language field in the full object logs
 3. **Implement language switching** - If language is available, use it to switch contexts dynamically
+
+Look for:
+
+🎤 User transcription: [what you said]
+🔊 AI transcription: [what AI said]
+Full transcription object: {...}
 
 ---
 
