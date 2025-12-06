@@ -234,7 +234,7 @@ Zeitraum: 2010-07 – 2010-08
 
 Zeitraum: 2010-07 – 2010-08
 
-- **Kunde:** Konzern-Subunternehmer, Endkunde: _**Telekommunikationskonzern**_
+- **Kunde:** Konzern-Subunternehmer, Endkunde: **Telekommunikationskonzern**
 - **Rolle:** Programmdesign, Entwicklung
 - **Details:** Entwicklung einer iPhone-App für einen großen deutschen Telekommunikationskonzern im Bereich Gebührenzahlung.
 - **Plattform:** iOS
@@ -244,7 +244,7 @@ Zeitraum: 2010-07 – 2010-08
 
 Zeitraum: 2009-11
 
-- **Kunde:** Webagentur, Endkunde: _**Immobilienportal**_
+- **Kunde:** Webagentur, Endkunde: **Immobilienportal**
 - **Rolle:** Analyse, Design, Entwicklung
 - **Details:** Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilien aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.
 - **Plattform:** iOS
@@ -254,7 +254,7 @@ Zeitraum: 2009-11
 
 Zeitraum: 2009-02 – 2009-12
 
-- **Kunde:** _**Siemens IT-Solutions / Bundesagentur für Arbeit**_
+- **Kunde:** **Siemens IT-Solutions / Bundesagentur für Arbeit**
 - **Rolle:** Datenbankentwickler
 - **Details:** SQL-Entwicklung in einem umfangreichen Datenbanksystem, mit dem bundesweit das gesamte Inventar der Bundesagentur für Arbeit verwaltet wird. Umsetzen von RfCs (Request for Change), Entwickeln von Reports, Komplexe Massendatenänderungen.
 - **Plattform:** Windows XP, Windows 2003 Server, Unix

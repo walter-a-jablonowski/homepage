@@ -236,55 +236,55 @@ Period: 2010-07 – 2010-08
 - **Platform:** iOS
 - **Tools:** Apple iPhone SDK 3 (at client’s request), Objective C, Xcode, Interface Builder
 
-### Neuentwicklung einer iPhone App für Immobilienportal
+### New development of an iPhone app for a real estate portal
 
-Zeitraum: 2009-11
+Period: 2009-11
 
-- **Kunde:** Webagentur, Endkunde: _**Immobilienportal**_
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer App als Starter für die Plattform eines Immobilienportals. Abfrage von Lokationsinformationen (GPS), Suche und Darstellung von Immobilien aus der DB per Suchtext/Ort oder Geokoordinaten, zudem Benutzerlogin.
-- **Plattform:** iOS
-- **Werkzeuge:** **iOS SDK 3**, Objective C, xcode, Interface Builder, GPS-API
+- **Client:** Web agency, end client: real estate portal
+- **Role:** Analysis, design, development
+- **Details:** Development of an app as a starter for the platform of a real estate portal. Retrieval of location information (GPS), search and display of properties from the DB via search text/location or geo-coordinates, plus user login.
+- **Platform:** iOS
+- **Tools:** iOS SDK 3, Objective C, Xcode, Interface Builder, GPS API
 
-### Datenbankentwicklung SQL Server
+### Database development SQL Server
 
-Zeitraum: 2009-02 – 2009-12
+Period: 2009-02 – 2009-12
 
-- **Kunde:** _**Siemens IT-Solutions / Bundesagentur für Arbeit**_
-- **Rolle:** Datenbankentwickler
-- **Details:** SQL-Entwicklung in einem umfangreichen Datenbanksystem, mit dem bundesweit das gesamte Inventar der Bundesagentur für Arbeit verwaltet wird. Umsetzen von RfCs (Request for Change), Entwickeln von Reports, Komplexe Massendatenänderungen.
-- **Plattform:** Windows XP, Windows 2003 Server, Unix
-- **Werkzeuge:** **MS SQL Server 2000 u. 2008**, SQL, SQL-Server Tools, Reporting, DTS, **Crystal Reports**, Visual Studio und MS.NET für Code-Generierung
+- **Client:** Siemens IT-Solutions / Federal Employment Agency
+- **Role:** Database developer
+- **Details:** SQL development in a large database system used nationwide to manage the entire inventory of the Federal Employment Agency. Implementation of RfCs (Requests for Change), development of reports, complex mass data modifications.
+- **Platform:** Windows XP, Windows 2003 Server, Unix
+- **Tools:** MS SQL Server 2000 and 2008, SQL, SQL Server tools, reporting, DTS, Crystal Reports, Visual Studio and MS.NET for code generation
 
-### iPhone Radio Apps
+### iPhone radio apps
 
-Zeitraum: 2009-01 – 2009-03
+Period: 2009-01 – 2009-03
 
-- **Kunde:** Softwarehaus
-- **Rolle:** Entwicklung
-- **Details:** Mitarbeit an mehreren iPhone Apps zum Empfangen von Radioprogrammen auf dem iPhone.
-- **Plattform:** iOS
-- **Werkzeuge:** **iOS SDK 3**, Objective C, xcode, Interface Builder
+- **Client:** Software company
+- **Role:** Development
+- **Details:** Contribution to several iPhone apps for receiving radio programs on the iPhone.
+- **Platform:** iOS
+- **Tools:** iOS SDK 3, Objective C, Xcode, Interface Builder
 
-### Tool für Zeiterfassung, Projektverfolgung und Abrechnung in SW-Projekten
+### Tool for time tracking, project monitoring and billing in software projects
 
-Zeitraum: 2008-07
+Period: 2008-07
 
-- **Kunde:** Softwarehaus
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Hauptzweck: Kontrolle der Budgeteinhaltung in Softwareprojekten. Entwicklung einer Access-basierten Mehrbenutzerlösung zur auftrags- bzw. aufgabenbezogenen Erfassung von Arbeitszeiten, mit Auswertung zur Verfolgung der Einhaltung von Zeiten und Budgets, sowie Funktionen zur Abrechnung mit Endkunden und MA. Zudem Auftragsverwaltung, Aufgabenübersicht je Anwender, mit der Möglichkeit Anwendern Aufgaben zuzuordnen. Integriertes Pflichtenheft je Auftrag. Benutzerverwaltung mit unterschiedlichen Zugriffsmöglichkeiten je nach Anwenderrolle (Entwickler, Geschäftsführung).
-- **Plattform:** Windows XP
-- **Werkzeuge:** **MS Access 2003**, VBA, **SQL**
+- **Client:** Software company
+- **Role:** Analysis, design, development
+- **Details:** Main purpose: controlling budget compliance in software projects. Development of an Access-based multi-user solution for recording working times per project or task, with evaluations to monitor adherence to times and budgets, as well as functions for billing customers and employees. Also order management, task overview per user with the option to assign tasks to users. Integrated requirements specification for each project. User management with different access rights depending on user role (developer, management).
+- **Platform:** Windows XP
+- **Tools:** MS Access 2003, VBA, SQL
 
-### Entwicklung einer Bug-Reporting-Komponente mit Anbindung an ein Bug Tracking System
+### Development of a bug reporting component with connection to a bug tracking system
 
-Zeitraum: 2008-03
+Period: 2008-03
 
-- **Kunde:** Softwarehaus
-- **Rolle:** Entwicklung
-- **Details:** Entwicklung einer Problem-Report-Komponente für eine Anwendung aus dem Bereich technische Dokumentation. Anbindung an ein Bug Tracking System.
-- **Plattform:** Windows XP
-- **Werkzeuge:** **C#**, Visual Studio 2008, **.NET Framework 3.0**, WPF, WebServices
+- **Client:** Software company
+- **Role:** Development
+- **Details:** Development of a problem report component for an application in the field of technical documentation. Integration with a bug tracking system.
+- **Platform:** Windows XP
+- **Tools:** C#, Visual Studio 2008, .NET Framework 3.0, WPF, web services
 
 ### Neuentwicklung eines ERP-Systems
 
