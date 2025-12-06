@@ -195,7 +195,7 @@ class VoiceAgent
       
       try {
         // Get WebSocket URL from Cloudflare Worker proxy
-        const response = await fetch(VOICE_AGENT_CONFIG.proxyUrl, {
+        const response = await fetch( VOICE_AGENT_CONFIG.proxyUrl, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -205,20 +205,19 @@ class VoiceAgent
           })
         });
 
-        if (!response.ok) {
+        if( ! response.ok)
           throw new Error('Failed to get WebSocket URL from proxy');
-        }
 
         const data = await response.json();
         
-        if (!data.success || !data.websocket_url) {
+        if( ! data.success || ! data.websocket_url )
           throw new Error(data.error || 'Invalid proxy response');
-        }
 
         wsUrl = data.websocket_url;
-      } catch (error) {
+      }
+      catch (error) {
         console.error('Error getting WebSocket URL:', error);
-        reject(new Error('Failed to connect to proxy: ' + error.message));
+        reject( new Error('Failed to connect to proxy: ' + error.message));
         return;
       }
 
@@ -267,13 +266,13 @@ class VoiceAgent
       };
 
       this.ws.onmessage = async (event) => {
+
         // Handle binary Blob messages
         let messageText;
-        if (event.data instanceof Blob) {
+        if( event.data instanceof Blob )
           messageText = await event.data.text();
-        } else {
+        else
           messageText = event.data;
-        }
 
         this.handleWebSocketMessage(messageText);
       };
@@ -286,19 +285,17 @@ class VoiceAgent
         });
 
         // Log common close codes
-        if (event.code === 1000) {
+        if (event.code === 1000)
           console.log('Normal closure');
-        } else if (event.code === 1006) {
+        else if (event.code === 1006)
           console.error('Abnormal closure - connection lost');
-        } else if (event.code === 1008) {
+        else if (event.code === 1008)
           console.error('Policy violation - check API key and model name');
-        } else if (event.code === 1011) {
+        else if (event.code === 1011)
           console.error('Server error - invalid request format');
-        }
 
-        if (this.state !== 'idle') {
+        if (this.state !== 'idle')
           this.stopVoiceAgent();
-        }
       };
     });
   }
@@ -313,13 +310,13 @@ class VoiceAgent
       console.log('Received WebSocket message:', message);
 
       // Handle setup complete
-      if (message.setupComplete) {
+      if( message.setupComplete ) {
         console.log('Setup complete, ready to receive audio');
         return;
       }
 
       // Handle errors
-      if (message.error) {
+      if( message.error ) {
         console.error('Server error:', message.error);
         this.showError(`Server error: ${message.error.message || 'Unknown error'}`);
         this.stopVoiceAgent();
@@ -327,12 +324,14 @@ class VoiceAgent
       }
 
       // Handle server content (audio response)
-      if (message.serverContent) {
+      if( message.serverContent )
+      {
         const parts = message.serverContent.modelTurn?.parts || [];
 
         console.log('Received server content with', parts.length, 'parts');
 
         parts.forEach((part, index) => {
+
           console.log(`Part ${index}:`, {
             hasInlineData: !!part.inlineData,
             mimeType: part.inlineData?.mimeType,
@@ -341,7 +340,8 @@ class VoiceAgent
           });
 
           // Handle audio data - support audio/pcm and audio/wav
-          if (part.inlineData) {
+          if( part.inlineData )
+          {
             const mimeType = part.inlineData.mimeType;
             // Check if mime type starts with audio/pcm or audio/wav (may include parameters like ;rate=24000)
             if (mimeType.startsWith('audio/pcm') || mimeType.startsWith('audio/wav')) {
@@ -358,29 +358,28 @@ class VoiceAgent
               });
 
               // Start processing queue if no already playing
-              if (!this.isPlaying) {
+              if( ! this.isPlaying )
                 this.processAudioQueue();
-              }
-            } else {
-              console.warn('Unsupported audio mime type:', mimeType);
             }
+            else
+              console.warn('Unsupported audio mime type:', mimeType);
           }
 
           // Handle text data (for debugging)
-          if (part.text) {
+          if( part.text )
             console.log('Assistant:', part.text);
-          }
         });
 
         // Check if turn is complete
-        if (message.serverContent.turnComplete) {
+        if( message.serverContent.turnComplete ) {
           console.log('Turn complete');
           this.setState('listening');
           this.updateStatus('Listening... Speak now');
         }
       }
 
-    } catch (error) {
+    }
+    catch (error) {
       console.error('Error handling WebSocket message:', error);
     }
   }
