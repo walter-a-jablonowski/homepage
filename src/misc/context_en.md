@@ -186,55 +186,55 @@ Period: 2012-02
 - **Platform:** iOS
 - **Tools:** iOS SDK 5, Objective C, Xcode
 
-### Entwicklung einer Web 2.0 Webapplikation
+### Development of a Web 2.0 web application
 
-Zeitraum: 2011-07 – 2011-09
+Period: 2011-07 – 2011-09
 
-- **Unternehmen:** Eigenes Unternehmen
-- **Rolle:** Planung, Analyse, Architektur, Entwicklung
-- **Details:** Entwicklung einer Web 2.0 Applikation im Bereich Feed Aggregation. Backend mit Datenbasis und Backend Funktionen. Web Frontend.
-- **Plattform:** Webserver, Linux
-- **Werkzeuge:** **PHP4, HTML, CSS, XML, javascript, jquery**
+- **Company:** Own company
+- **Role:** Planning, analysis, architecture, development
+- **Details:** Development of a Web 2.0 application in the area of feed aggregation. Backend with database and backend functions. Web frontend.
+- **Platform:** Web server, Linux
+- **Tools:** PHP4, HTML, CSS, XML, JavaScript, jQuery
 
-### Entwicklung einer iPhone App Automobile, Schulung von Programmierern
+### Development of an iPhone app for automobiles, training of developers
 
-Zeitraum: 2010-12
+Period: 2010-12
 
-- **Kunde:** **Subunternehmer Automobil Konzern**
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer iPhone App im Bereich Fahrzeuginformationen als Basis für weitere App-Entwicklungen. Funktionaler Details des Projekts sind geheim. Schulung von Programmierern anhand der App.
-- **Plattform:** iOS
-- **Werkzeuge:** **iOS SDK 4, Objective C, xcode, IB, WebServices, XML**
+- **Client:** Subcontractor of an automotive group
+- **Role:** Analysis, design, development
+- **Details:** Development of an iPhone app in the field of vehicle information as a basis for further app developments. Functional details of the project are confidential. Training of developers using the app.
+- **Platform:** iOS
+- **Tools:** iOS SDK 4, Objective C, Xcode, IB, web services, XML
 
-### Entwicklung einer iPhone App im Bereich Consumer Services
+### Development of an iPhone app in the area of consumer services
 
-Zeitraum: 2010-10 – 2010-12
+Period: 2010-10 – 2010-12
 
-- **Kunde:** Dienstleister
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Mitarbeit bei der Entwicklung einer Dienstleistungsplattform als iPhone App im Bereich Consumer Services.
-- **Plattform:** iOS
-- **Werkzeuge:** **iOS SDK 4, Objective C, xcode, IB, Web Requests, XML**
+- **Client:** Service provider
+- **Role:** Analysis, design, development
+- **Details:** Participation in the development of a service platform as an iPhone app in the area of consumer services.
+- **Platform:** iOS
+- **Tools:** iOS SDK 4, Objective C, Xcode, IB, web requests, XML
 
-### Entwicklung einer News iPhone App
+### Development of a news iPhone app
 
-Zeitraum: 2010-07 – 2010-08
+Period: 2010-07 – 2010-08
 
-- **Kunde:** Werbeagentur
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung einer iPhone-App zur Kommunikation von Newsmeldungen im B2B-Bereich. Newsdarstellung als Liste, Detailansicht, PDF-Ansicht, sowie Push-Messages, User-Login, und Zugriffs-Log in Datenbank. Entwickelt wurden die iPhone-App, sowie ein Server-Interface, das vorhandene Daten (News, PDF) für die Verwendung in der App zugänglich macht.
-- **Plattform:** iOS, Linux Server
-- **Werkzeuge:** iOS SDK 4, Objective C, xcode, Interface Builder, PHP4, SQL, MySQL, SOAP, Push
+- **Client:** Advertising agency
+- **Role:** Analysis, design, development
+- **Details:** Development of an iPhone app for communication of news items in the B2B sector. Display of news as list, detail view, PDF view, as well as push messages, user login, and access log in database. Development of the iPhone app and of a server interface that makes existing data (news, PDFs) available for use in the app.
+- **Platform:** iOS, Linux server
+- **Tools:** iOS SDK 4, Objective C, Xcode, Interface Builder, PHP4, SQL, MySQL, SOAP, push
 
-### Entwicklung einer iPhone App für Telekommunikationskonzern
+### Development of an iPhone app for a telecommunications group
 
-Zeitraum: 2010-07 – 2010-08
+Period: 2010-07 – 2010-08
 
-- **Kunde:** Konzern-Subunternehmer, Endkunde: _**Telekommunikationskonzern**_
-- **Rolle:** Programmdesign, Entwicklung
-- **Details:** Entwicklung einer iPhone-App für einen großen deutschen Telekommunikationskonzern im Bereich Gebührenzahlung.
-- **Plattform:** iOS
-- **Werkzeuge:** Apple iPhone SDK 3 (auf Kundenwunsch), Objective C, xcode, Interface Builder
+- **Client:** Corporate subcontractor, end client: telecommunications group
+- **Role:** Program design, development
+- **Details:** Development of an iPhone app for a large German telecommunications group in the area of fee/payment processing.
+- **Platform:** iOS
+- **Tools:** Apple iPhone SDK 3 (at client’s request), Objective C, Xcode, Interface Builder
 
 ### Neuentwicklung einer iPhone App für Immobilienportal
 
