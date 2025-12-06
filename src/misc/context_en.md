@@ -413,45 +413,45 @@ Period: 2001-02 – 2002-06
 - **Platform:** Windows NT/2000
 - **Tools:** MS Access, Visual Basic, Winsock, SQL Server
 
-### Migration einer Dispositionssoftware
+### Migration of a scheduling/dispatching software
 
-Zeitraum: 2001-01 – 2001-02
+Period: 2001-01 – 2001-02
 
-- **Kunde:** Systemhaus/Branchensoftware Betonindustrie
-- **Rolle:** Analyse, Entwicklung
-- **Details:** Migration einer sehr umfangreichen Software für Fuhrparksdisposition von Borland C++ nach Visual C++ und Win32.
-- **Plattform:** Windows 2000
-- **Werkzeuge:** Borland C++, Visual C++, Visual Basic (für Codegenerierung Resource Files)
+- **Client:** System house / industry software for the concrete industry
+- **Role:** Analysis, development
+- **Details:** Migration of a very extensive fleet dispatching software from Borland C++ to Visual C++ and Win32.
+- **Platform:** Windows 2000
+- **Tools:** Borland C++, Visual C++, Visual Basic (for code generation of resource files)
 
-### Euro-Umstellung einer Fakturierungsanwendung
+### Euro conversion of an invoicing application
 
-Zeitraum: 2001-10 – 2001-12
+Period: 2001-10 – 2001-12
 
-- **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung eines Tools zur Euro-Umstellung von ca. 300 Installationen (10.01). Anschließend sukzessive Durchführung der Umstellung aller Kunden.
-- **Plattform:** Windows (Version des Kunden)
-- **Werkzeuge:** MS Visual C
+- **Company:** System house / industry software for the concrete industry
+- **Role:** Analysis, design, development
+- **Details:** Development of a tool for Euro conversion of approx. 300 installations (as of 10/01). Subsequently, gradual execution of the conversion for all customers.
+- **Platform:** Windows (customer’s version)
+- **Tools:** MS Visual C
 
-### Weiterentwicklung von 3 Softwareprodukten
+### Further development of 3 software products
 
-Zeitraum: 2000-09 – 2003-01
+Period: 2000-09 – 2003-01
 
-- **Unternehmen:** Systemhaus/Branchensoftware Betonindustrie
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklungsaufgaben in 3 Produkten (Fakturierung, FiBu und Fuhrparkdisposition)
-  - Entwicklung von funktionalen Erweiterungen nach Anforderung
-  - Erstellen/Anpassen von Formularen (Forth-ähnliche Sprache)
-  - Erstellen/Anpassen vom Import-/Export-Schnittstellen (Produktionsanlagen, FiBu ...)
-- **Plattform:** Windows 95/98/NT/2000/XP
-- **Werkzeuge:** C, Visual C++, Borland C++, MFC, dBase IV/V (eigene DB-API), Forth-ähnliche Sprache
+- **Company:** System house / industry software for the concrete industry
+- **Role:** Analysis, design, development
+- **Details:** Development tasks in 3 products (invoicing, financial accounting, and fleet dispatching)  
+  - Development of functional enhancements based on requirements  
+  - Creation/adjustment of forms (Forth-like language)  
+  - Creation/adjustment of import/export interfaces (production systems, financial accounting, etc.)
+- **Platform:** Windows 95/98/NT/2000/XP
+- **Tools:** C, Visual C++, Borland C++, MFC, dBase IV/V (proprietary DB API), Forth-like language
 
-### Mitarbeit in einer Firma bereits zur Schulzeit
+### Working in a company already during school
 
-Zeitraum: 1996-01 – 1999-09
+Period: 1996-01 – 1999-09
 
-- **Unternehmen:** Systemhaus
-- **Rolle:** Entwicklung
-- **Details:** Verschiedene Projekte im Rahmen einer Nebentätigkeit zur Schulzeit: Weiterentwicklung FiBu, verschiedene Tools.
-- **Plattform:** Windows NT
-- **Werkzeuge:** MS Access, Visual Basic, C, Visual C++, MFC
+- **Company:** System house
+- **Role:** Development
+- **Details:** Various projects as part of a part-time job during school: further development of financial accounting, various tools.
+- **Platform:** Windows NT
+- **Tools:** MS Access, Visual Basic, C, Visual C++, MFC
