@@ -18,8 +18,6 @@ class VoiceAgent
     // UI elements (will be set in init)
     this.micButton      = null;
     this.statusElement  = null;
-    this.errorElement   = null;
-    this.loadingElement = null;
   }
 
   /**
@@ -37,8 +35,6 @@ class VoiceAgent
       // Get UI elements
       this.micButton = document.getElementById('voice-agent-mic');
       this.statusElement = document.getElementById('voice-agent-status');
-      this.errorElement = document.getElementById('voice-agent-error');
-      this.loadingElement = document.getElementById('voice-agent-loading');
 
       // Load context from context.md
       await this.loadContext();
@@ -73,7 +69,7 @@ class VoiceAgent
   async loadContext()
   {
     try {
-      this.showLoading(true);
+      this.updateStatus('Loading context...', 'loading');
       const response = await fetch(VOICE_AGENT_CONFIG.contextPath);
 
       if (!response.ok) {
@@ -82,7 +78,7 @@ class VoiceAgent
 
       this.context = await response.text();
       console.log('Context loaded successfully');
-      this.showLoading(false);
+      this.updateStatus('Click the microphone to start');
     } catch (error) {
       console.error('Error loading context:', error);
       this.showError('Failed to load context information');
@@ -634,48 +630,38 @@ class VoiceAgent
   /**
    * Update status message
    */
-  updateStatus(message) {
+  updateStatus(message, className = '') {
     if (this.statusElement) {
       this.statusElement.textContent = message;
-    }
-  }
-
-  /**
-   * Show/hide loading indicator
-   */
-  showLoading(show) {
-    if (this.loadingElement) {
-      if (show) {
-        this.loadingElement.classList.add('active');
-      } else {
-        this.loadingElement.classList.remove('active');
+      // Remove all state classes
+      this.statusElement.className = 'voice-agent-status';
+      // Add new class if provided
+      if (className) {
+        this.statusElement.classList.add(className);
       }
     }
   }
+
 
   /**
    * Show error message
    */
   showError(message) {
-    if (this.errorElement) {
-      this.errorElement.textContent = message;
-      this.errorElement.classList.add('active');
-
-      // Hide after 5 seconds
-      setTimeout(() => {
-        this.errorElement.classList.remove('active');
-      }, 5000);
-    }
+    this.updateStatus(message, 'error');
+    
+    // Hide after 5 seconds and restore default message
+    setTimeout(() => {
+      if (this.state === 'idle') {
+        this.updateStatus('Click the microphone to start');
+      }
+    }, 5000);
   }
 
   /**
    * Show fallback message for unsupported browsers
    */
   showFallback() {
-    const fallbackElement = document.getElementById('voice-agent-fallback');
-    if (fallbackElement) {
-      fallbackElement.classList.add('active');
-    }
+    this.updateStatus('Voice agent unsupported. Try a modern browser.', 'fallback');
 
     // Hide the main UI
     if (this.micButton) {
