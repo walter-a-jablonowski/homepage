@@ -96,7 +96,7 @@ Period: 2020-01 – 2024-07
 - **Role:** Development
 - **Details:** Further development of a web application in the area of statistical data.
 - **Platform:** Web
-- **Technologies:** PHP 7, HTML5, Bootstrap, AdminLTE, Chart.js, CSS 3, JavaScript, jQuery, YAML, JSON
+- **Tools:** PHP 7, HTML5, Bootstrap, AdminLTE, Chart.js, CSS 3, JavaScript, jQuery, YAML, JSON
 
 ### New Development of a Web Application for Operational Administration
 
@@ -106,7 +106,7 @@ Period: 2019-05 – 2021-01
 - **Role:** Development
 - **Details:** Database-driven application for handling operational processes, replacing a legacy system. Focus on minimizing dependencies to ensure a very long lifetime of the application and to reduce migration efforts caused by frameworks. Generation of user interfaces from building blocks and misc components for a small framework including an ORM. Design of the database and forms based on this framework.
 - **Platform:** Web
-- **Technologies:** Custom framework, PHP 7, JavaScript, jQuery, YAML, JSON, Bootstrap, CSS, MariaDB, SQL
+- **Tools:** Custom framework, PHP 7, JavaScript, jQuery, YAML, JSON, Bootstrap, CSS, MariaDB, SQL
 
 ### Development of Open Source Applications and Components
 
@@ -119,7 +119,7 @@ Period: since 2018-01
   In these private projects, the focus is on simplicity in contrast to the general trend toward increasingly complex web frameworks, as well as on automation. Often you can achieve the same results with significantly less complex means.
   General areas of interest: information management, tools for data acquisition and communication, framework components, tools.
 - **Platform:** Web (Chrome)
-- **Technologies:** PHP 7, JavaScript, jQuery, YAML, JSON, Bootstrap, HTML, CSS
+- **Tools:** PHP 7, JavaScript, jQuery, YAML, JSON, Bootstrap, HTML, CSS
 
 ### New Development of Web Application for Statistics
 
@@ -129,62 +129,62 @@ Period: 2016-02 – 2017-12
 - **Role:** Development
 - **Details:** New development of a web application in the area of statistical data. Layout based on Bootstrap and AdminLTE, implementation of the visual design, animated menus, etc. Custom classes for the app (base classes, app, error handler, DB, log, data, captions, etc.) as well as client–server communication. Custom templating system. Dashboard with various charts based on data collected via SDK and Chart.js, rearrangeable widgets. Creation of user-defined charts with a YAML chart definition format. Data lists with grouping, expandable rows, sorting, (i) buttons with additional popup information. Detail view with data list, list functions, menus. Mobile view for phone and tablet with responsive design adjustments. User settings, admin area, user help, about, imprint, privacy, and other features.
 - **Platform:** Linux server, Apache, MySQL 5.7, PC, Mac, smartphone, tablet (Chrome)
-- **Technologies:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chart.js, CSS 3, JavaScript, jQuery, YAML, JSON
+- **Tools:** PHP 5/7, HTML5, Bootstrap, AdminLTE, Chart.js, CSS 3, JavaScript, jQuery, YAML, JSON
 
 
 ## Older projects
 
 All projects below are projects that I did before 2015 on different platforms. Currently I can't offer all of these languages/technologies cause that was too long ago. IMPORTANT: Whenever the user asks for languages or technologies that I used in old projects and that I don't have in my current skill set, tell him about my experience but also mention that I currently can't offer these cause this was too long ago.
 
-### Erweiterung einer iOS Anwendung, iPad Version, Portierung auf Android
+### Extension of an iOS application, iPad version, porting to Android
 
-Zeitraum: 2015-11 – 2016-01
+Period: 2015-11 – 2016-01
 
-- **Unternehmen:** Varimetrix (Deutschland) GmbH
-- **Rolle:** Entwicklung
-- **Details:** Erweiterung einer iOS Anwendung aus dem Verlagsbereich um Filterfunktionen, verschiedene UI-Funktionen. Migration der Daten von Files auf SQLite per selbstgeschriebenem Tool. Neu Schreiben des Datenkern. iPad Version. Portierung auf Android.
-- **Plattform:** iOS, Android
-- **Werkzeuge:** Objective C, Java, PHP, xcode, Android Studio
+- **Company:** Varimetrix (Deutschland) GmbH
+- **Role:** Development
+- **Details:** Extension of an iOS application from the publishing sector with filter functions and various UI features. Migration of data from files to SQLite using a self-written tool. Complete rewrite of the data core. iPad version. Porting to Android.
+- **Platform:** iOS, Android
+- **Tools:** Objective C, Java, PHP, Xcode, Android Studio
 
-### Erweiterung einer iOS Anwendung
+### Extension of an iOS application
 
-Zeitraum: 2015-09 – 2015-10
+Period: 2015-09 – 2015-10
 
-- **Unternehmen:** Varimetrix (Deutschland) GmbH
-- **Rolle:** Entwicklung
-- **Details:** Erweiterung einer iOS Anwendung um UI-Funktionen, Barcode Scanner Umstellung von Library auf iOS SDK, Libraries updaten, usw.
-- **Plattform:** iOS
-- **Werkzeuge:** **Objective C**, xcode
+- **Company:** Varimetrix (Deutschland) GmbH
+- **Role:** Development
+- **Details:** Extension of an iOS application with UI features, barcode scanner migration from a third‑party library to the iOS SDK, library updates, etc.
+- **Platform:** iOS
+- **Tools:** Objective C, Xcode
 
-### Mitarbeit an eCommerce System
+### Work on an eCommerce system
 
-Zeitraum: 2015-02 - 2015-03
+Period: 2015-02 – 2015-03
 
-- **Kunde:** Handelsunternehmer
-- **Rolle:** Entwicklung
-- **Details:** Mitarbeit an eCommerce-System
-- **Plattform:** Web
-- **Werkzeuge:** **PHP**
+- **Client:** Retail entrepreneur
+- **Role:** Development
+- **Details:** Contributed to an eCommerce system
+- **Platform:** Web
+- **Tools:** PHP
 
-### Entwicklung mit .NET Gadgeteer
+### Development with .NET Gadgeteer
 
-Zeitraum: ab 2012-08
+Period: from 2012-08
 
-- **Unternehmen:** Eigenes Unternehmen
-- **Rolle:** Analyse, Design, Entwicklung
-- **Details:** Entwicklung mit .NET Gadgeteer
-- **Plattform:** Windows, NET M
-- **Werkzeuge:** **C#**, Visual Studio 2010, .NET Framework, .NET Micro Framework (NET MF), .NET Gadgeteer Hardware
+- **Company:** Own company
+- **Role:** Analysis, design, development
+- **Details:** Development with .NET Gadgeteer
+- **Platform:** Windows, .NET Micro Framework
+- **Tools:** C#, Visual Studio 2010, .NET Framework, .NET Micro Framework (NET MF), .NET Gadgeteer hardware
 
-### Mitarbeit an einer iPhone App Web 2.0 Plattform
+### Contribution to an iPhone app for a Web 2.0 platform
 
-Zeitraum: 2012-02
+Period: 2012-02
 
-- **Kunde:** Softwarehaus
-- **Rolle:** Entwicklung
-- **Details:** Mitarbeit an einer iPhone App - iPhone Version einer Web 2.0 Plattform.
-- **Plattform:** iOS
-- **Werkzeuge:** **iOS SDK 5**, Objective C, xcode
+- **Client:** Software company
+- **Role:** Development
+- **Details:** Contribution to an iPhone app – iPhone version of a Web 2.0 platform.
+- **Platform:** iOS
+- **Tools:** iOS SDK 5, Objective C, Xcode
 
 ### Entwicklung einer Web 2.0 Webapplikation
 
