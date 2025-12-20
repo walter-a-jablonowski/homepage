@@ -31,7 +31,7 @@ const VOICE_AGENT_CONFIG = {
   contextPathEn: 'misc/context_en.md',
   contextPathDe: 'misc/context_de.md',
 
-  greetMsg: 'Please greet me briefly and ask how you can help.',
+  greetMsg: 'Bitte grüße mich kurz und nenne mir, wie ich dir helfen kann.',
 
   // {context_en} will be replaced with content from context_en.md
   // {context_de} will be replaced with content from context_de.md

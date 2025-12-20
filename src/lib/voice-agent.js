@@ -657,7 +657,7 @@ class VoiceAgent
   {
     if( ! this.ws || this.ws.readyState !== WebSocket.OPEN )
     {
-      console.error('WebSocket not ready for greeting prompt');
+      console.error('No WebSocket ready for greeting prompt');
       return;
     }
 
