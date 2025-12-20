@@ -11,31 +11,28 @@
 
 const VOICE_AGENT_CONFIG = {
 
-  // Service status - set to true to show maintenance mode
   downForService: true,
 
   // Cloudflare Worker URL (keeps API key secure on server)
   proxyUrl: 'https://homepage-api.walter-a-jablonowski.workers.dev',
 
-  // Model configuration
   // Using Gemini 2.5 Flash Live - official Live API model with native audio
   // model: 'gemini-live-2.5-flash-preview',
   // model: 'gemini-live-2.5-flash-preview-native-audio-09-2025',  // cost-efficient version for real-time voice agents
   model: 'gemini-2.5-flash-native-audio-preview-12-2025',
   // model: 'gemini-live-2.5-flash-native-audio',  // recommended for low-latency voice agents
 
-  // Voice settings
   voice: {
     language: 'en-US',
     // The AI automatically detects and responds in German or English
     // based on the user's input language (configured in system instruction)
   },
 
-  // Context file paths (relative to index.html)
   contextPathEn: 'misc/context_en.md',
   contextPathDe: 'misc/context_de.md',
 
-  // System instruction template
+  greetMsg: 'Please greet me briefly and ask how you can help.',
+
   // {context_en} will be replaced with content from context_en.md
   // {context_de} will be replaced with content from context_de.md
   systemInstructionTemplate: `You are Walter's AI assistant on his personal developer portfolio website.
@@ -79,7 +76,6 @@ CONTENT RULES:
 # German Context (Deutscher Kontext)
 {context_de}`,
 
-  // UI settings
   ui: {
     idleColor: '#FF6B35',      // Orange from website theme
     listeningColor: '#FF3E00', // Orange-red

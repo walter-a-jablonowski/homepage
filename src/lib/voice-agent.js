@@ -159,6 +159,9 @@ class VoiceAgent
       // Connect to Google AI Studio Live API
       await this.connectWebSocket();
 
+      // Send initial greeting prompt to trigger AI greeting
+      this.sendGreetingPrompt();
+
       // Start capturing audio
       this.startAudioCapture();
 
@@ -645,6 +648,31 @@ class VoiceAgent
       binary += String.fromCharCode(bytes[i]);
     }
     return btoa(binary);
+  }
+
+  /**
+   * Send initial greeting prompt to trigger AI greeting
+   */
+  sendGreetingPrompt()
+  {
+    if( ! this.ws || this.ws.readyState !== WebSocket.OPEN )
+    {
+      console.error('WebSocket not ready for greeting prompt');
+      return;
+    }
+
+    const greetingMessage = {
+      clientContent: {
+        turns: [{
+          role: 'user',
+          parts: [{ text: VOICE_AGENT_CONFIG.greetMsg }]
+        }],
+        turnComplete: true
+      }
+    };
+
+    console.log('Sending greeting prompt to AI');
+    this.ws.send(JSON.stringify(greetingMessage));
   }
 
   /**
