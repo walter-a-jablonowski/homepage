@@ -11,6 +11,8 @@
  * 7. Click "Save and Deploy"
  * 8. Copy your worker URL (e.g., https://voice-proxy.your-subdomain.workers.dev)
  * 9. Update config.js with your worker URL
+ * 
+ * (C) Walter A. Jablonowski 2025, All rights reserved
  */
 
 // Your Google AI Studio API Key (stored securely in Cloudflare)
