@@ -12,8 +12,7 @@ class VoiceAgent
     this.audioQueue   = [];
     this.isPlaying    = false;
     this.state        = 'idle';  // idle, listening, speaking, error
-    this.contextEn    = '';
-    this.contextDe    = '';
+    this.sessionConfig = null;   // Session config from Cloudflare Worker
     this.audioElement = null;    // HTML audio element for playback
 
     // UI elements (will be set in init)
@@ -44,8 +43,8 @@ class VoiceAgent
         return false;
       }
 
-      // Load context from context.md
-      await this.loadContext();
+      // Load session config from Cloudflare Worker
+      await this.loadSessionConfig();
 
       // Set up event listeners
       this.setupEventListeners();
@@ -72,33 +71,39 @@ class VoiceAgent
   }
 
   /**
-   * Load context from both English and German context files
+   * Load session configuration from Cloudflare Worker
+   * This includes system instruction with context, model name, and greeting message
    */
-  async loadContext()
+  async loadSessionConfig()
   {
     try {
-      this.updateStatus('Loading context...', 'loading');
+      this.updateStatus('Loading configuration...', 'loading');
       
-      // Load both context files in parallel
-      const [responseEn, responseDe] = await Promise.all([
-        fetch(VOICE_AGENT_CONFIG.contextPathEn),
-        fetch(VOICE_AGENT_CONFIG.contextPathDe)
-      ]);
+      const response = await fetch(VOICE_AGENT_CONFIG.proxyUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          action: 'get_session_config'
+        })
+      });
 
-      if( ! responseEn.ok )
-        throw new Error(`Failed to load English context: ${responseEn.statusText}`);
-      
-      if( ! responseDe.ok )
-        throw new Error(`Failed to load German context: ${responseDe.statusText}`);
+      if( ! response.ok )
+        throw new Error(`Failed to load session config: ${response.statusText}`);
 
-      this.contextEn = await responseEn.text();
-      this.contextDe = await responseDe.text();
+      const data = await response.json();
       
-      console.log('Context loaded successfully (EN + DE)');
+      if( ! data.success )
+        throw new Error(data.error || 'Invalid session config response');
+
+      this.sessionConfig = data;
+      
+      console.log('Session config loaded successfully');
       this.updateStatus('Click the microphone to start');
     } catch (error) {
-      console.error('Error loading context:', error);
-      this.showError('Failed to load context information');
+      console.error('Error loading session config:', error);
+      this.showError('Failed to load configuration');
       throw error;
     }
   }
@@ -215,49 +220,25 @@ class VoiceAgent
   async connectWebSocket()
   {
     return new Promise(async (resolve, reject) => {
-      let wsUrl;
       
-      try {
-        // Get WebSocket URL from Cloudflare Worker proxy
-        const response = await fetch( VOICE_AGENT_CONFIG.proxyUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            action: 'get_websocket_url'
-          })
-        });
-
-        if( ! response.ok)
-          throw new Error('Failed to get WebSocket URL from proxy');
-
-        const data = await response.json();
-        
-        if( ! data.success || ! data.websocket_url )
-          throw new Error(data.error || 'Invalid proxy response');
-
-        wsUrl = data.websocket_url;
-      }
-      catch (error) {
-        console.error('Error getting WebSocket URL:', error);
-        reject( new Error('Failed to connect to proxy: ' + error.message));
+      // Check if session config is loaded
+      if( ! this.sessionConfig || ! this.sessionConfig.websocket_url )
+      {
+        reject(new Error('Session config not loaded'));
         return;
       }
+      
+      const wsUrl = this.sessionConfig.websocket_url;
 
       this.ws = new WebSocket(wsUrl);
 
       this.ws.onopen = () => {
         console.log('WebSocket connected');
 
-        // Send initial setup message with system instructions
-        const systemInstruction = VOICE_AGENT_CONFIG.systemInstructionTemplate
-          .replace('{context_en}', this.contextEn)
-          .replace('{context_de}', this.contextDe);
-
+        // Send initial setup message with system instructions from Worker
         const setupMessage = {
           setup: {
-            model: `models/${VOICE_AGENT_CONFIG.model}`,
+            model: `models/${this.sessionConfig.model}`,
             generationConfig: {
               responseModalities: ['AUDIO'],
               speechConfig: {
@@ -269,7 +250,7 @@ class VoiceAgent
               }
             },
             systemInstruction: {
-              parts: [{ text: systemInstruction }]
+              parts: [{ text: this.sessionConfig.system_instruction }]
             },
             // Enable transcription for language detection
             // #lang-detect-added (moved to setup level, not generationConfig)
@@ -282,8 +263,8 @@ class VoiceAgent
           model: setupMessage.setup.model,
           responseModalities: setupMessage.setup.generationConfig.responseModalities,
           voice: setupMessage.setup.generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName,
-          // #lang-detect-added
-          transcription: 'enabled (input + output)'
+          transcription: 'enabled (input + output)',
+          systemInstructionLength: this.sessionConfig.system_instruction.length
         });
         this.ws.send(JSON.stringify(setupMessage));
         resolve();
@@ -661,11 +642,17 @@ class VoiceAgent
       return;
     }
 
+    if( ! this.sessionConfig || ! this.sessionConfig.greeting_message )
+    {
+      console.error('No greeting message in session config');
+      return;
+    }
+
     const greetingMessage = {
       clientContent: {
         turns: [{
           role: 'user',
-          parts: [{ text: VOICE_AGENT_CONFIG.greetMsg }]
+          parts: [{ text: this.sessionConfig.greeting_message }]
         }],
         turnComplete: true
       }
