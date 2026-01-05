@@ -135,6 +135,18 @@
       letter-spacing: 0.5px;
     }
 
+    .content .prompt-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .content .prompt-list li {
+      margin-bottom: var(--spacing-md);
+    }
+    .content .prompt-list ul {
+      list-style: none;
+      padding-left: 1.25rem;
+    }
+
     @media (max-width: 768px) {
       .project-header { flex-direction: column; }
     }
@@ -260,7 +272,7 @@
         <p><b>Result commits:</b> <a href="https://github.com/walter-a-jablonowski/NinjaSnipp/commits/main" target="_blank">see github</a></p>
 
         <p><b>Sample prompts</b> (latest first):</p>
-        <ul>
+        <ul class="prompt-list">
           <li>
             ...
           </li>
