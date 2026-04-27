@@ -3,7 +3,7 @@ I provided you a sample of a project page from my home page in "_sample".
 
 Can you make a new page that looks exactly the same in /output but descripes the current project/application {{APPLICATION}}?
 
-I already added a dummy image, and will add a better project image later.
+I will add the project image later.
 
  --
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Crypto Position Tracker project details | Walter A. Jablonowski">
-  <title>Crypto Position Tracker | Project Detail</title>
+  <meta name="description" content="Dashboard project details | Walter A. Jablonowski">
+  <title>Dashboard | Project Detail</title>
   <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
@@ -122,18 +122,18 @@
       <div class="project-header">
         <div class="project-title">
           <div class="section-header">
-            <h2>Find AI Blockchain use cases</h2>
+            <h2>Dashboard (early preview)</h2>
             <div class="underline"></div>
           </div>
           <p class="intro-text" style="margin-left: 0;">
-            Real-Time Anomaly Detection for the Top 100 Crypto Coins
+            Personal AI Command Center — Your entire life in one view
           </p>
           <p>
-            A lightweight monitoring tool that tracks the top 100 coins by market cap and surfaces unusual movers at a glance. Automated data collection feeds a scoring pipeline that detects regime changes and statistical outliers, so you can spot coins gaining value unusually fast before the crowd is aware of.
+            A single-page personal dashboard built with PHP and vanilla JavaScript that consolidates activity tracking, finance, inbox, habits, weather, and AI-powered insights into one clean, themeable interface. Data is stored in lightweight YAML files — no database required.
           </p>
         </div>
         <div class="project-media">
-          <img src="../../../misc/btc.png" alt="Crypto Position Tracker">
+          <img src="../../../misc/dashb-2.png" alt="Dashboard">
         </div>
       </div>
 
@@ -141,32 +141,36 @@
 
         <h3>Key Features</h3>
         <ul>
-          <li><strong>Anomaly Scoring</strong>: Two complementary scorers — a regime-change detector and a Z-score mover detector — highlight coins outside their normal patterns</li>
-          <li><strong>Automated Collection</strong>: Scheduler-driven <code>collect.php</code> pulls live data from the CoinGecko API every 15 minutes and stores atomic JSON snapshots in SQLite</li>
-          <li><strong>30-Day Backfill</strong>: One-time history seeder populates the scorer database so anomalies are detectable from day one, no waiting weeks for data</li>
-          <li><strong>AI Coin Enrichment</strong>: <code>enrich_coins.php</code> fetches CoinGecko descriptions and uses an LLM to generate ≤6-word summaries and AI-relevance badges</li>
-          <li><strong>Clean Dashboard UI</strong>: Browser-based single-page interface renders ranked coin cards with score indicators and enrichment badges in real time via AJAX</li>
-          <li><strong>Configurable Constants</strong>: All key thresholds and parameters live in <code>config.yml</code> for easy tuning without touching code</li>
+          <li><strong>Widget System</strong>: Modular, composable widgets covering activity, finance, inbox, habits, weather, quick links, and more — all rendered server-side in PHP</li>
+          <li><strong>AI Daily Briefing</strong>: Claude AI integration delivers a personalised daily summary based on your current tasks, focus queue, and activity data</li>
+          <li><strong>AI Chat</strong>: Built-in conversational interface powered by Claude for on-demand assistance directly within the dashboard</li>
+          <li><strong>Finance Overview</strong>: Accounts, transactions, fixed costs, and charts for a complete financial snapshot at a glance</li>
+          <li><strong>Activity &amp; Focus Tracking</strong>: Active tasks, vision summary, focus queue, and a focus timer to keep you on track</li>
+          <li><strong>Theming</strong>: Multiple built-in themes (default, business, …) switchable via URL parameter or user settings — with full light/dark mode support</li>
+          <li><strong>YAML Data Storage</strong>: All personal data stored in plain YAML files under <code>/data</code> — version-control friendly, no database setup needed</li>
+          <li><strong>CSRF Protection</strong>: HMAC-based CSRF token generation secures all AJAX interactions</li>
         </ul>
 
         <h3>Technical Architecture</h3>
         <ul>
-          <li><strong>Backend</strong>: PHP with SQLite (<code>data/snapsh.db</code>) storing full snapshots as single JSON columns per scorer table</li>
-          <li><strong>Scorer Design</strong>: <code>AnomalyScorer</code> factory routes to pluggable scorer implementations via <code>ScorerInterface</code></li>
-          <li><strong>Data Pipeline</strong>: CoinGecko API → <code>collect.php</code> → SQLite → scorers → <code>ajax/get_coins.php</code> → Browser UI</li>
-          <li><strong>Frontend</strong>: Vanilla JavaScript with Fetch API, no heavy frameworks</li>
-          <li><strong>Scheduling</strong>: Cron (Linux/macOS) or Windows System Scheduler running <code>collect.php</code> every 15 minutes</li>
+          <li><strong>Backend</strong>: PHP renders all static page structure on load using PHP's alternative syntax; AJAX calls are routed through <code>ajax.php</code></li>
+          <li><strong>Frontend</strong>: Vanilla JavaScript with the Fetch API handles all dynamic interactions without any heavy frameworks</li>
+          <li><strong>Widget Engine</strong>: Each widget lives in its own folder under <code>/view/widg/</code> and is resolved via a central <code>index.yml</code> registry</li>
+          <li><strong>Layout System</strong>: Reusable layouts in <code>/view/default_layouts/</code> compose widgets into full dashboard views</li>
+          <li><strong>AI Layer</strong>: Anthropic Claude API called server-side via PHP; API key kept in <code>.env</code>, never exposed to the client</li>
+          <li><strong>Configuration</strong>: App-wide settings in <code>config.yml</code>; per-user overrides in <code>/users/default/settings.yml</code></li>
         </ul>
 
         <h3>Tech Stack</h3>
         <p class="tech-stack">
-          PHP • SQLite • CoinGecko API • LLM (OpenRouter / Ollama) • YAML • Vanilla JavaScript
+          PHP • Vanilla JavaScript • YAML • Claude AI (Anthropic) • Open-Meteo • HTML/CSS • Symfony Yaml
         </p>
 
         <h3>Use Cases</h3>
         <p>
-          Quickly identify when a coin is gaining value unusually fast relative to its normal speed — useful for seeing early breakout moves across the top 100 by market cap. Filter by AI-relevance badges to focus on the subset most likely tied to AI narratives in the current market regime.
+          Start your day with a single browser tab: review your AI-generated briefing, check today's focus queue and active tasks, glance at your finances, scan your inbox, and track your habits — all without switching between apps. The dashboard adapts to your workflow through themes and a fully modular widget system.
         </p>
+
       </div>
     </div>
   </section>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/walte/local/homepage//**)",
+      "Read(//c/Users/walte/local/homepage/src//**)"
+    ]
+  }
+}
